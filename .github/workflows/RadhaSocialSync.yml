@@ -1,0 +1,44 @@
+name: RadhaSocialSync Automation
+
+on:
+  schedule:
+    # Daily run hoga (UTC time format hai, adjust accordingly. 0 5 * * * ka matlab dopahar 10:30 AM IST)
+    - cron: '0 5 * * *' 
+  workflow_dispatch: # Allows manual trigger button in GitHub Actions UI
+
+permissions:
+  contents: write # Essential permission to push history.json changes back to the repo
+
+jobs:
+  daily-post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Automation Script
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          TELEGRAM_TOKEN_SUCCESS: ${{ secrets.TELEGRAM_TOKEN_SUCCESS }}
+          TELEGRAM_TOKEN_FAIL: ${{ secrets.TELEGRAM_TOKEN_FAIL }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py
+
+      - name: Commit and Push history.json
+        # Agar code success hoga to ye step chalega aur naya data repo me save kar dega
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add history.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-updated history.json after successful post" && git push)
