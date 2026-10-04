@@ -29,16 +29,17 @@ jobs:
 
       - name: Run Automation Script
         env:
-          WEBHOOK_URL: ${{ secrets.RADHA_WEBHOOK_URL }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }} # Agar aapne naam change kiya tha, toh yahan update kar lena
           TELEGRAM_TOKEN_SUCCESS: ${{ secrets.TELEGRAM_TOKEN_SUCCESS }}
           TELEGRAM_TOKEN_FAIL: ${{ secrets.TELEGRAM_TOKEN_FAIL }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python main.py
+        run: |
+          cd RadhaSocialSync
+          python main.py
 
       - name: Commit and Push history.json
-        # Agar code success hoga to ye step chalega aur naya data repo me save kar dega
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add history.json
+          git add RadhaSocialSync/history.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-updated history.json after successful post" && git push)
