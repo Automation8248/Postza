@@ -9,7 +9,7 @@ PROJECT_NAME = "RadhaSocialSync"
 AUTOMATION_NAME = "Daily Social Poster"
 
 # ================= SECRETS (From GitHub ENV) =================
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL")
+WEBHOOK_URL = os.environ.get("RADHA_WEBHOOK_URL")
 TELEGRAM_TOKEN_SUCCESS = os.environ.get("TELEGRAM_TOKEN_SUCCESS")
 TELEGRAM_TOKEN_FAIL = os.environ.get("TELEGRAM_TOKEN_FAIL")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
