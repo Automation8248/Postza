@@ -134,7 +134,7 @@ def read_file_lines(filename):
 
 def main():
     try:
-        if not WEBHOOK_URL:
+        if not RADHA_WEBHOOK_URL:
             raise Exception("WEBHOOK_URL GitHub Secret me set nahi hai!")
 
         history = load_history()
