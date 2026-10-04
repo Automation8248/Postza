@@ -101,7 +101,7 @@ def main():
         titles = read_file_lines('Title.txt')
         captions = read_file_lines('captions.txt')
         fb_hashtags = read_file_lines('facebook.txt')
-        yt_hashtags = read_file_lines('your.txt') # Youtube hashtags file
+        yt_hashtags = read_file_lines('youtube.txt') # Youtube hashtags file
         insta_hashtags = read_file_lines('insta.txt')
         universal_hashtags = read_file_lines('universal.txt')
 
