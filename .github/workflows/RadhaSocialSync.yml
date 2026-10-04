@@ -2,12 +2,11 @@ name: RadhaSocialSync Automation
 
 on:
   schedule:
-    # Daily run hoga (UTC time format hai, adjust accordingly. 0 5 * * * ka matlab dopahar 10:30 AM IST)
     - cron: '0 5 * * *' 
-  workflow_dispatch: # Allows manual trigger button in GitHub Actions UI
+  workflow_dispatch: 
 
 permissions:
-  contents: write # Essential permission to push history.json changes back to the repo
+  contents: write 
 
 jobs:
   daily-post:
@@ -29,7 +28,8 @@ jobs:
 
       - name: Run Automation Script
         env:
-          WEBHOOK_URL: ${{ secrets.RADHA_WEBHOOK_URL }} # Agar aapne naam change kiya tha, toh yahan update kar lena
+          # Yahan bhi RADHA_WEBHOOK_URL update kar diya gaya hai
+          RADHA_WEBHOOK_URL: ${{ secrets.RADHA_WEBHOOK_URL }}
           TELEGRAM_TOKEN_SUCCESS: ${{ secrets.TELEGRAM_TOKEN_SUCCESS }}
           TELEGRAM_TOKEN_FAIL: ${{ secrets.TELEGRAM_TOKEN_FAIL }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
