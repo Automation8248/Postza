@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Automation Script
         env:
-          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }} # Agar aapne naam change kiya tha, toh yahan update kar lena
+          WEBHOOK_URL: ${{ secrets.RADHA_WEBHOOK_URL }} # Agar aapne naam change kiya tha, toh yahan update kar lena
           TELEGRAM_TOKEN_SUCCESS: ${{ secrets.TELEGRAM_TOKEN_SUCCESS }}
           TELEGRAM_TOKEN_FAIL: ${{ secrets.TELEGRAM_TOKEN_FAIL }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
