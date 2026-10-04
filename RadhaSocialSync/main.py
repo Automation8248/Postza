@@ -9,8 +9,8 @@ PROJECT_NAME = "RadhaSocialSync"
 AUTOMATION_NAME = "Daily Social Poster"
 
 # ================= SECRETS (From GitHub ENV) =================
-# ERROR FIX: Yahan variable ka naam RADHA_WEBHOOK_URL kar diya gaya hai
-RADHA_WEBHOOK_URL = os.environ.get("RADHA_WEBHOOK_URL")
+# Yahan RADHA_WEBHOOK_URL update kar diya gaya hai
+WEBHOOK_URL = os.environ.get("RADHA_WEBHOOK_URL")
 TELEGRAM_TOKEN_SUCCESS = os.environ.get("TELEGRAM_TOKEN_SUCCESS")
 TELEGRAM_TOKEN_FAIL = os.environ.get("TELEGRAM_TOKEN_FAIL")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
@@ -45,7 +45,6 @@ def upload_to_servers(file_path):
             print(f"Trying to upload image to {name}...")
             response = upload_func()
             if response.status_code in [200, 201]:
-                # Extract URL based on specific server response format
                 if name == "Pixeldrain":
                     data = response.json()
                     if data.get("success"):
@@ -62,7 +61,6 @@ def upload_to_servers(file_path):
                         if line.startswith('http'):
                             return line.strip()
                 else:
-                    # Catbox, Litterbox, 0x0.st provide direct text URL
                     return response.text.strip()
             else:
                 print(f"{name} returned status code {response.status_code}")
@@ -72,7 +70,6 @@ def upload_to_servers(file_path):
             
     raise Exception("All fallback image servers failed to upload the image!")
 
-
 def send_telegram_msg(token, chat_id, message):
     """Telegram par message bhejne ka function"""
     if not token or not chat_id:
@@ -80,12 +77,11 @@ def send_telegram_msg(token, chat_id, message):
         return
     
     url = f"https://api.telegram.org/bot{token}/sendMessage"
-    payload = {"chat_id": chat_id, "text": message, "parse_mode": "HTML"}
+    payload = {"chat_id": chat_id, "text": message, "parse_mode": "HTML", "disable_web_page_preview": False}
     try:
         requests.post(url, json=payload)
     except Exception as e:
         print(f"Telegram notification failed: {e}")
-
 
 def load_history():
     """90 days ki history load aur clean karna"""
@@ -108,12 +104,10 @@ def load_history():
             
     return cleaned_history
 
-
 def save_history(history):
     """History save karna"""
     with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
         json.dump(history, f, indent=4)
-
 
 def get_unused_item(items_list, used_items_set):
     """Aisa item nikalna jo history me use nahi hua ho"""
@@ -123,7 +117,6 @@ def get_unused_item(items_list, used_items_set):
             return item.strip()
     return None
 
-
 def read_file_lines(filename):
     """Text file se lines read karna"""
     filepath = os.path.join(META_DIR, filename)
@@ -132,16 +125,14 @@ def read_file_lines(filename):
     with open(filepath, 'r', encoding='utf-8') as f:
         return [line.strip() for line in f.readlines() if line.strip()]
 
-
 def main():
     try:
-        # ERROR FIX: Ensure checking the correctly renamed variable
-        if not RADHA_WEBHOOK_URL:
+        # Update kiye gaye variable name ka check
+        if not WEBHOOK_URL:
             raise Exception("RADHA_WEBHOOK_URL GitHub Secret me set nahi hai!")
 
         history = load_history()
         
-        # History se used data ka set
         used_photos = {item.get('photo') for item in history}
         used_titles = {item.get('title') for item in history}
         used_captions = {item.get('caption') for item in history}
@@ -150,20 +141,90 @@ def main():
         if not os.path.exists(PHOTOS_DIR):
             raise Exception(f"'{PHOTOS_DIR}' folder nahi mila!")
             
-        all_photos = [f for f in os.listdir(PHOTOS_DIR) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
+        all_photos = [f for f in os.listdir(PHOTOS_DIR) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))]
         selected_photo = get_unused_item(all_photos, used_photos)
         
         if not selected_photo:
-            raise Exception("No new photos available! Sabhi photos The `NameError: name 'RADHA_WEBHOOK_URL' is not defined` occurs because your script attempts to evaluate the variable `RADHA_WEBHOOK_URL` on line 137, but it hasn't been created or assigned a value earlier in the code. 
+            raise Exception("No new photos available! Sabhi photos 90 days filter me hain.")
 
-Because this is running in a GitHub Actions environment (`/home/runner/work/...`), this is typically caused by forgetting to load the environment variable at the top of your script.
+        # 2. Read Meta Files
+        titles = read_file_lines('Title.txt')
+        captions = read_file_lines('captions.txt')
+        fb_hashtags = read_file_lines('facebook.txt')
+        yt_hashtags = read_file_lines('youtube.txt') 
+        insta_hashtags = read_file_lines('insta.txt')
+        universal_hashtags = read_file_lines('universal.txt')
 
-To give you the exact, final code without removing any of your existing functions or features, **please paste the contents of your `main.py` file here.** 
+        # 3. Select Unused Title and Caption
+        selected_title = get_unused_item(titles, used_titles)
+        selected_caption = get_unused_item(captions, used_captions)
 
-In the meantime, the fix will involve adding the following near the top of your `main.py` file (after your imports):
+        if not selected_title:
+            raise Exception("No new titles available in Title.txt!")
+        if not selected_caption:
+            raise Exception("No new captions available in captions.txt!")
 
-```python
-import os
+        # 4. Select Hashtags (Random pick)
+        fb_hash = random.choice(fb_hashtags) if fb_hashtags else ""
+        yt_hash = random.choice(yt_hashtags) if yt_hashtags else ""
+        insta_hash = random.choice(insta_hashtags) if insta_hashtags else ""
+        univ_hash = random.choice(universal_hashtags) if universal_hashtags else ""
 
-# Fetch the webhook URL from environment variables
-RADHA_WEBHOOK_URL = os.environ.get('RADHA_WEBHOOK_URL')
+        # 5. Upload Image to Cloud (Fallback Logic)
+        photo_path = os.path.join(PHOTOS_DIR, selected_photo)
+        image_url = upload_to_servers(photo_path)
+        print(f"Image successfully uploaded: {image_url}")
+
+        # 6. Prepare Webhook Payload
+        payload_data = {
+            "title": selected_title,
+            "caption": selected_caption,
+            "fb_hashtags": fb_hash,
+            "yt_hashtags": yt_hash,
+            "insta_hashtags": insta_hash,
+            "universal_hashtags": univ_hash,
+            "image_url": image_url
+        }
+        
+        # 7. Post to Webhook
+        response = requests.post(WEBHOOK_URL, json=payload_data)
+        
+        if response.status_code in [200, 201, 204]:
+            # SUCCESS
+            today_date = datetime.now().strftime("%Y-%m-%d")
+            history.append({
+                "photo": selected_photo,
+                "title": selected_title,
+                "caption": selected_caption,
+                "date": today_date
+            })
+            save_history(history)
+            
+            success_msg = (
+                f"✅ <b>Success!</b>\n\n"
+                f"<b>Project:</b> {PROJECT_NAME}\n"
+                f"<b>Automation:</b> {AUTOMATION_NAME}\n"
+                f"<b>Photo:</b> {selected_photo}\n"
+                f"<b>Image Link:</b> <a href='{image_url}'>View Image</a>\n"
+                f"<b>Status:</b> Successfully posted to Webhook."
+            )
+            send_telegram_msg(TELEGRAM_TOKEN_SUCCESS, TELEGRAM_CHAT_ID, success_msg)
+            print("Successful post! History updated.")
+            
+        else:
+            raise Exception(f"Webhook response failed! Status Code: {response.status_code}, Msg: {response.text}")
+
+    except Exception as e:
+        # FAILED
+        error_msg = (
+            f"❌ <b>Automation Failed!</b>\n\n"
+            f"<b>Project:</b> {PROJECT_NAME}\n"
+            f"<b>Automation:</b> {AUTOMATION_NAME}\n"
+            f"<b>Error Details:</b> {str(e)}"
+        )
+        send_telegram_msg(TELEGRAM_TOKEN_FAIL, TELEGRAM_CHAT_ID, error_msg)
+        print(f"Error occurred: {str(e)}")
+        raise e 
+
+if __name__ == "__main__":
+    main()
