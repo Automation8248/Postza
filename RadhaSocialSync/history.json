@@ -2,7 +2,13 @@
     {
         "photo": "pic1.jpg",
         "title": "Beautiful Morning Vibes",
-        "caption": "Starting the day with positive energy! ✨",
+        "caption": "Starting the day with positive energy! \u2728",
+        "date": "2026-10-04"
+    },
+    {
+        "photo": "Image_393.webp",
+        "title": "The Beauty of Finding Meaning Through Faith",
+        "caption": "Divine love makes every moment beautiful. \ud83d\udc95 Who feels the same?",
         "date": "2026-10-04"
     }
 ]
