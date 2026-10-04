@@ -148,7 +148,7 @@ def main():
         if not os.path.exists(PHOTOS_DIR):
             raise Exception(f"'{PHOTOS_DIR}' folder nahi mila!")
             
-        all_photos = [f for f in os.listdir(PHOTOS_DIR) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
+        all_photos = [f for f in os.listdir(PHOTOS_DIR) if f.lower().endswith(('.png', '.jpg', '.jpeg', 'webp'))]
         selected_photo = get_unused_item(all_photos, used_photos)
         
         if not selected_photo:
@@ -158,7 +158,7 @@ def main():
         titles = read_file_lines('Title.txt')
         captions = read_file_lines('captions.txt')
         fb_hashtags = read_file_lines('facebook.txt')
-        yt_hashtags = read_file_lines('your.txt') # Youtube hashtags file
+        yt_hashtags = read_file_lines('youtube.txt') # Youtube hashtags file
         insta_hashtags = read_file_lines('insta.txt')
         universal_hashtags = read_file_lines('universal.txt')
 
