@@ -1,6 +1,8 @@
-name: Wings of Wonders
+name: Daily WingWonder Post Automation
 
 on:
+  schedule:
+    - cron: '0 4 * * *' 
   workflow_dispatch: 
 
 jobs:
@@ -22,9 +24,14 @@ jobs:
 
       - name: Run Automation Script
         env:
+          PYTHONUNBUFFERED: 1  # ⚠️ Zaroori: Isse logs aur error turant screen par print honge
           WINGS_OF_WONDER: ${{ secrets.WINGS_OF_WONDER }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_TOKEN_SUCCESS: ${{ secrets.TELEGRAM_TOKEN_SUCCESS }}
           TELEGRAM_TOKEN_FAIL: ${{ secrets.TELEGRAM_TOKEN_FAIL }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-        run: python WingWonder/main.py
+        run: |
+          echo "Folder Structure Check Kar Rahe Hain:"
+          ls -R
+          echo "======================================"
+          python WingWonder/main.py
