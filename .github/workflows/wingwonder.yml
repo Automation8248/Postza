@@ -1,0 +1,30 @@
+name: Daily WingWonder Post Automation
+
+on:
+  workflow_dispatch: # GitHub repo mein ek button dega jisse aap kabhi bhi manually run kar sakein
+
+jobs:
+  post-image:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # ⚠️ IMPORTANT: track.json ko repository mein wapas save karne ke liye zaruri hai
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Automation Script
+        env:
+          WINGS_OF_WONDER: ${{ secrets.WINGS_OF_WONDER }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TOKEN_SUCCESS: ${{ secrets.TELEGRAM_TOKEN_SUCCESS }}
+          TELEGRAM_TOKEN_FAIL: ${{ secrets.TELEGRAM_TOKEN_FAIL }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # track.json save karne ke liye aapka GitHub token
+        run: python main.py
