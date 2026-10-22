@@ -7,22 +7,25 @@ import base64
 from datetime import datetime
 
 # === CONFIGURATION ===
-GITHUB_REPO = "Automation8248/Codvix"
-BASE_PATH = "Pixhub/Social post/Birds"
-TRACK_FILE_PATH = f"{BASE_PATH}/track.json"
+IMAGE_REPO = "Automation8248/Codvix"  
+IMAGE_BASE_PATH = "Pixhub/Social post/Birds"
+
+CURRENT_REPO = os.environ.get("GITHUB_REPOSITORY") 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+TRACK_REPO_PATH = "WingWonder/track.json"
+LOCAL_TRACK_PATH = os.path.join(SCRIPT_DIR, "track.json")
 
 WEBHOOK_URL = os.environ.get("WINGS_OF_WONDER")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 TELEGRAM_SUCCESS_TOKEN = os.environ.get("TELEGRAM_TOKEN_SUCCESS")
 TELEGRAM_FAIL_TOKEN = os.environ.get("TELEGRAM_TOKEN_FAIL")
-GITHUB_TOKEN = os.environ.get("GH_TOKEN") # Used ONLY for saving track.json
+GITHUB_TOKEN = os.environ.get("GH_TOKEN") 
 
 AUTOMATION_NAME = "Birds Image Auto-Poster"
 SOCIAL_PAGE_NAME = "Wings of Wonder"
 
-# Constraints (in days)
-IMAGE_COOLDOWN_DAYS = 547  # ~18 Months
-TEXT_COOLDOWN_DAYS = 30    # 30 Days
+IMAGE_COOLDOWN_DAYS = 547  
+TEXT_COOLDOWN_DAYS = 30    
 
 def get_headers():
     return {"User-Agent": "Mozilla/5.0"}
@@ -34,32 +37,40 @@ def send_telegram(token, message):
     payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "HTML"}
     requests.post(url, json=payload)
 
-def get_github_contents(path):
-    """Public read - No token required for public repos"""
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+def get_github_contents(repo, path):
+    url = f"https://api.github.com/repos/{repo}/contents/{path}"
     headers = {"Accept": "application/vnd.github.v3+json"}
     res = requests.get(url, headers=headers)
     res.raise_for_status()
     return res.json()
 
 def fetch_raw_text(download_url):
-    """Public read direct file"""
     res = requests.get(download_url, headers=get_headers())
     res.raise_for_status()
     return res.text.strip()
 
-def get_random_line(text_data):
-    """Helper function to pick one random line from a text file"""
-    lines = [line.strip() for line in text_data.split('\n') if line.strip()]
-    return random.choice(lines) if lines else ""
+def get_local_random_line(filename):
+    filepath = os.path.join(SCRIPT_DIR, filename)
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            lines = [line.strip() for line in f.readlines() if line.strip()]
+            return random.choice(lines) if lines else ""
+    except FileNotFoundError:
+        return ""
 
-# ================= TRACKING LOGIC =================
 def load_track_data():
-    """Fetch track.json from GitHub"""
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{TRACK_FILE_PATH}"
+    if not CURRENT_REPO: 
+        if os.path.exists(LOCAL_TRACK_PATH):
+            with open(LOCAL_TRACK_PATH, 'r') as f:
+                return json.load(f), None
+        return {"last_folder_index": -1, "images": {}, "titles": {}, "hashtags": {}}, None
+
+    url = f"https://api.github.com/repos/{CURRENT_REPO}/contents/{TRACK_REPO_PATH}"
     headers = {"Accept": "application/vnd.github.v3+json"}
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"token {GITHUB_TOKEN}"
+        
     res = requests.get(url, headers=headers)
-    
     default_data = {"last_folder_index": -1, "images": {}, "titles": {}, "hashtags": {}}
     
     if res.status_code == 200:
@@ -71,18 +82,17 @@ def load_track_data():
                 if k not in parsed_data:
                     parsed_data[k] = default_data[k]
             return parsed_data, data['sha']
-        except json.JSONDecodeError:
+        except:
             return default_data, data['sha']
-            
     return default_data, None
 
 def save_track_data(track_data, sha):
-    """Save updated track.json back to GitHub - Token REQUIRED here"""
-    if not GITHUB_TOKEN:
-        print("Warning: GH_TOKEN not found! Cannot save track.json.")
+    if not CURRENT_REPO or not GITHUB_TOKEN:
+        with open(LOCAL_TRACK_PATH, 'w') as f:
+            json.dump(track_data, f, indent=4)
         return
         
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{TRACK_FILE_PATH}"
+    url = f"https://api.github.com/repos/{CURRENT_REPO}/contents/{TRACK_REPO_PATH}"
     headers = {
         "Accept": "application/vnd.github.v3+json",
         "Authorization": f"token {GITHUB_TOKEN}"
@@ -105,7 +115,6 @@ def is_cooled_down(item, category, track_data, days):
     if (datetime.now() - last_used).days < days:
         return False
     return True
-# ==================================================
 
 def extract_url_from_response(server_name, response):
     if server_name in ["Catbox", "Litterbox", "0x0.st", "Transfer.sh", "Temp.sh", "Bashupload"]:
@@ -121,6 +130,8 @@ def extract_url_from_response(server_name, response):
 
 def upload_image_fallback(file_path):
     filename = os.path.basename(file_path)
+    
+    # 10 Servers added exactly as requested
     servers = [
         ("Catbox", lambda: requests.post("https://catbox.moe/user/api.php", data={'reqtype': 'fileupload'}, files={'fileToUpload': open(file_path, 'rb')}, headers=get_headers(), timeout=30)),
         ("Litterbox", lambda: requests.post("https://litterbox.catbox.moe/resources/internals/api.php", data={'reqtype': 'fileupload', 'time': '72h'}, files={'fileToUpload': open(file_path, 'rb')}, headers=get_headers(), timeout=30)),
@@ -139,26 +150,28 @@ def upload_image_fallback(file_path):
             print(f"Trying upload to {name}...")
             res = upload_func()
             if res.status_code in [200, 201]:
-                return extract_url_from_response(name, res)
+                final_url = extract_url_from_response(name, res)
+                return final_url
             else:
                 print(f"{name} failed with status {res.status_code}")
         except Exception as e:
             print(f"{name} failed: {e}")
             continue
-    raise Exception("All fallback servers failed.")
+            
+    raise Exception("All 10 fallback servers failed to upload the image.")
 
 def main():
-    temp_image_path = "temp_image.jpg"
+    temp_image_path = os.path.join(SCRIPT_DIR, "temp_image.jpg")
     try:
         track_data, track_sha = load_track_data()
         last_index = track_data.get('last_folder_index', -1)
 
-        contents = get_github_contents(BASE_PATH)
+        contents = get_github_contents(IMAGE_REPO, IMAGE_BASE_PATH)
         folders = sorted([item for item in contents if item['type'] == 'dir'], key=lambda x: x['name'])
         total_folders = len(folders)
         
         if total_folders == 0:
-            raise Exception("No folders found in the Birds directory.")
+            raise Exception("No folders found in Codvix Birds directory.")
 
         selected_folder = None
         selected_image_link = None
@@ -166,58 +179,26 @@ def main():
         final_hashtags = "#nature #birds"
         current_index = 0
 
-        # Loop sequentially through folders
         for i in range(total_folders):
             current_index = (last_index + 1 + i) % total_folders
             folder = folders[current_index]
             folder_path = folder['path']
-            print(f"Checking Folder (Index {current_index}): {folder['name']}")
 
-            # Fetch Text Metadata from WingWonder Folder
-            metadata_path = f"{folder_path}/WingWonder"
+            t_title = get_local_random_line("title.txt") or "Beautiful Bird!"
+            t_insta = get_local_random_line("insta.txt")
+            t_fb = get_local_random_line("facebook.txt")
+            t_yt = get_local_random_line("youtube.txt")
             
-            t_title = "Beautiful Bird!"
-            t_insta = ""
-            t_fb = ""
-            t_yt = ""
+            tags_list = [tag for tag in (t_insta, t_fb, t_yt) if tag]
+            t_hashtags = "\n".join(tags_list) if tags_list else "#nature #birds"
 
-            try:
-                metadata_contents = get_github_contents(metadata_path)
-                for item in metadata_contents:
-                    name = item['name'].lower()
-                    if name == 'title.txt':
-                        raw = fetch_raw_text(item['download_url'])
-                        t_title = get_random_line(raw) or t_title
-                    elif name == 'insta.txt':
-                        raw = fetch_raw_text(item['download_url'])
-                        t_insta = get_random_line(raw)
-                    elif name == 'facebook.txt':
-                        raw = fetch_raw_text(item['download_url'])
-                        t_fb = get_random_line(raw)
-                    elif name == 'youtube.txt':
-                        raw = fetch_raw_text(item['download_url'])
-                        t_yt = get_random_line(raw)
-                        
-                # Combine all selected hashtags
-                tags_list = [tag for tag in (t_insta, t_fb, t_yt) if tag]
-                t_hashtags = "\n".join(tags_list) if tags_list else "#nature #birds"
-                
-            except:
-                print("Metadata WingWonder folder or files not found, proceeding with default text.")
-                t_title = "Beautiful Bird!"
-                t_hashtags = "#nature #birds"
-
-            # Check text cooling time
             if not is_cooled_down(t_title, 'titles', track_data, TEXT_COOLDOWN_DAYS):
-                print(f"Title in cooling period. Skipping folder {folder['name']}.")
                 continue
             if not is_cooled_down(t_hashtags, 'hashtags', track_data, TEXT_COOLDOWN_DAYS):
-                print(f"Hashtags in cooling period. Skipping folder {folder['name']}.")
                 continue
 
-            # Fetch Links and Pick Random VALID Link
             try:
-                folder_contents = get_github_contents(folder_path)
+                folder_contents = get_github_contents(IMAGE_REPO, folder_path)
                 link_file = next((item for item in folder_contents if item['name'] == 'link.txt'), None)
                 if not link_file:
                     continue
@@ -236,27 +217,19 @@ def main():
                 
                 if selected_image_link:
                     break
-                else:
-                    print(f"All images in {folder['name']} are in cooldown (18 months).")
-
-            except Exception as e:
-                print(f"Error reading links in {folder_path}: {e}")
+            except:
+                continue
 
         if not selected_image_link:
-            raise Exception("No valid image/folder found! All images in all folders are in cooldown.")
+            raise Exception("No valid image/folder found! All images are in cooldown.")
 
-        print(f"Selected Image Link: {selected_image_link}")
-
-        # Download & Upload Image
         img_response = requests.get(selected_image_link, headers=get_headers())
         img_response.raise_for_status()
         with open(temp_image_path, 'wb') as f:
             f.write(img_response.content)
 
         hosted_image_url = upload_image_fallback(temp_image_path)
-        print(f"Image uploaded successfully: {hosted_image_url}")
 
-        # Post to Webhook with ALL selected Random Data
         webhook_payload = {
             "content": f"**{final_title}**\n\n{final_hashtags}",
             "embeds": [{"image": {"url": hosted_image_url}}]
@@ -264,19 +237,15 @@ def main():
         webhook_res = requests.post(WEBHOOK_URL, json=webhook_payload)
         webhook_res.raise_for_status()
 
-        # Update JSON State
         now_str = datetime.now().isoformat()
         track_data['last_folder_index'] = current_index
         track_data['images'][selected_image_link] = now_str
         track_data['titles'][final_title] = now_str
         track_data['hashtags'][final_hashtags] = now_str
         save_track_data(track_data, track_sha)
-        print("track.json updated successfully.")
 
-        # Success Notification
         success_msg = (
             f"✅ <b>{AUTOMATION_NAME} - Success</b>\n"
-            f"<b>Page:</b> {SOCIAL_PAGE_NAME}\n"
             f"<b>Folder:</b> {selected_folder['name']}\n"
             f"<b>Host Used:</b> <a href='{hosted_image_url}'>Link</a>"
         )
@@ -284,10 +253,8 @@ def main():
 
     except Exception as e:
         error_trace = traceback.format_exc()
-        print(f"Automation Failed: {e}")
         fail_msg = (
             f"❌ <b>{AUTOMATION_NAME} - Failed</b>\n"
-            f"<b>Page:</b> {SOCIAL_PAGE_NAME}\n"
             f"<b>Error:</b> {str(e)}\n\n"
             f"<code>{error_trace[-800:]}</code>"
         )
