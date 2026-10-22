@@ -66,11 +66,22 @@ def read_file_lines(filename):
 
 # ================= TRACKING LOGIC =================
 def load_track_data():
+    default_data = {
+        "last_folder_index": -1, 
+        "images": {}, 
+        "titles": {}, 
+        "captions": {},
+        "fb_hashtags": {},
+        "yt_hashtags": {},
+        "insta_hashtags": {},
+        "universal_hashtags": {}
+    }
+    
     if not CURRENT_REPO: 
         if os.path.exists(LOCAL_TRACK_PATH):
             with open(LOCAL_TRACK_PATH, 'r') as f:
                 return json.load(f), None
-        return {"last_folder_index": -1, "images": {}, "titles": {}, "captions": {}}, None
+        return default_data, None
 
     url = f"https://api.github.com/repos/{CURRENT_REPO}/contents/{TRACK_REPO_PATH}"
     headers = {"Accept": "application/vnd.github.v3+json"}
@@ -78,7 +89,6 @@ def load_track_data():
         headers["Authorization"] = f"token {GITHUB_TOKEN}"
         
     res = requests.get(url, headers=headers)
-    default_data = {"last_folder_index": -1, "images": {}, "titles": {}, "captions": {}}
     
     if res.status_code == 200:
         data = res.json()
@@ -144,8 +154,6 @@ def extract_url_from_response(server_name, response):
 
 def upload_to_servers(file_path):
     filename = os.path.basename(file_path)
-    
-    # 10 Servers jaisa aapne kaha tha (Koi delete nahi kiya gaya)
     servers = [
         ("Catbox", lambda: requests.post("https://catbox.moe/user/api.php", data={'reqtype': 'fileupload'}, files={'fileToUpload': open(file_path, 'rb')}, headers=get_headers(), timeout=30)),
         ("Litterbox", lambda: requests.post("https://litterbox.catbox.moe/resources/internals/api.php", data={'reqtype': 'fileupload', 'time': '72h'}, files={'fileToUpload': open(file_path, 'rb')}, headers=get_headers(), timeout=30)),
@@ -176,7 +184,7 @@ def upload_to_servers(file_path):
 
 def main():
     print("🚀 Automation Shuru Ho Raha Hai...")
-    sys.stdout.flush() # Force print to GitHub Actions logs
+    sys.stdout.flush() 
     
     photo_path = os.path.join(SCRIPT_DIR, "temp_image.jpg")
     try:
@@ -196,25 +204,22 @@ def main():
         selected_image_link = None
         current_index = 0
 
-        # Loop sequentially through folders in Codvix
+        # Folder Logic
         for i in range(total_folders):
             current_index = (last_index + 1 + i) % total_folders
             folder = folders[current_index]
             folder_path = folder['path']
             print(f"\n📂 Checking Folder: {folder['name']}")
 
-            # Fetch Links from Codvix folder
             try:
                 folder_contents = get_github_contents(IMAGE_REPO, folder_path)
                 link_file = next((item for item in folder_contents if item['name'] == 'link.txt'), None)
                 if not link_file:
-                    print("⚠️ Is folder mein link.txt nahi mila, skip kar rahe hain.")
+                    print("⚠️ link.txt nahi mila, skip kar rahe hain.")
                     continue
                 
                 links_text = fetch_raw_text(link_file['download_url'])
                 links = [l.strip() for l in links_text.split('\n') if l.strip()]
-                
-                print(f"Is folder mein {len(links)} links mile hain.")
                 random.shuffle(links)
                 
                 for link in links:
@@ -227,7 +232,7 @@ def main():
                 if selected_image_link:
                     break
             except Exception as e:
-                print(f"❌ Error link padhne mein ({folder_path}): {e}")
+                print(f"❌ Error link padhne mein: {e}")
                 continue
 
         if not selected_image_link:
@@ -242,20 +247,19 @@ def main():
         insta_hashtags = read_file_lines('insta.txt')
         universal_hashtags = read_file_lines('universal.txt')
 
-        # Select Unused Title and Caption
+        # Select Unused Text and Hashtags (Random pick + 30 Days Cooldown)
         selected_title = get_unused_item(titles, 'titles', track_data)
         selected_caption = get_unused_item(captions, 'captions', track_data)
+        
+        fb_hash = get_unused_item(fb_hashtags, 'fb_hashtags', track_data) or ""
+        yt_hash = get_unused_item(yt_hashtags, 'yt_hashtags', track_data) or ""
+        insta_hash = get_unused_item(insta_hashtags, 'insta_hashtags', track_data) or ""
+        univ_hash = get_unused_item(universal_hashtags, 'universal_hashtags', track_data) or ""
 
         if not selected_title:
             raise Exception("Title.txt mein koi naya Title nahi bacha!")
         if not selected_caption:
             raise Exception("captions.txt mein koi naya Caption nahi bacha!")
-
-        # Select Hashtags (Random pick)
-        fb_hash = random.choice(fb_hashtags) if fb_hashtags else ""
-        yt_hash = random.choice(yt_hashtags) if yt_hashtags else ""
-        insta_hash = random.choice(insta_hashtags) if insta_hashtags else ""
-        univ_hash = random.choice(universal_hashtags) if universal_hashtags else ""
 
         print("🌐 Image Download ho rahi hai...")
         img_response = requests.get(selected_image_link, headers=get_headers())
@@ -287,10 +291,18 @@ def main():
 
         print("💾 track.json update ho raha hai...")
         now_str = datetime.now().isoformat()
+        
+        # Save all data to track.json
         track_data['last_folder_index'] = current_index
         track_data['images'][selected_image_link] = now_str
         track_data['titles'][selected_title] = now_str
         track_data['captions'][selected_caption] = now_str
+        
+        # Track Hashtags too
+        if fb_hash: track_data['fb_hashtags'][fb_hash] = now_str
+        if yt_hash: track_data['yt_hashtags'][yt_hash] = now_str
+        if insta_hash: track_data['insta_hashtags'][insta_hash] = now_str
+        if univ_hash: track_data['universal_hashtags'][univ_hash] = now_str
         
         save_track_data(track_data, track_sha)
         print("✅ track.json successfully save ho gaya.")
