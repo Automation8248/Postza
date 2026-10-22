@@ -1,0 +1,34 @@
+name: WingWonder 
+
+on:
+  schedule:
+    - cron: '0 4 * * *' 
+  workflow_dispatch: 
+
+jobs:
+  post-image:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Automation Script
+        env:
+          PYTHONUNBUFFERED: 1  
+          WINGS_OF_WONDER: ${{ secrets.WINGS_OF_WONDER }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TOKEN_SUCCESS: ${{ secrets.TELEGRAM_TOKEN_SUCCESS }}
+          TELEGRAM_TOKEN_FAIL: ${{ secrets.TELEGRAM_TOKEN_FAIL }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        run: |
+          python WingWonder/main.py
