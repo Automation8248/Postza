@@ -1,0 +1,41 @@
+{
+  "facts": {
+    "bd6de0960795250c": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Whale poop helps fertilize the ocean and feeds tiny plankton.",
+      "last_used": "2026-10-28T23:53:40.266726+00:00"
+    },
+    "9720cf7e5d665a6e": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats can see in light that is about six times dimmer than what humans need.",
+      "last_used": "2026-10-28T23:53:40.266767+00:00"
+    },
+    "ba1ad2c985a16d53": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants can recognize themselves in a mirror, which shows they are self-aware.",
+      "last_used": "2026-10-28T23:53:40.266786+00:00"
+    }
+  },
+  "titles": {
+    "df38001dda4f7c08": {
+      "count": 1,
+      "text": "Only 1% People Know These 3 Facts",
+      "last_used": "2026-10-28T23:53:40.266799+00:00"
+    }
+  },
+  "hashtags": {
+    "1d7f8815983fd840": {
+      "count": 1,
+      "text": "#facts #didyouknow #shorts",
+      "last_used": "2026-10-28T23:53:40.266811+00:00"
+    }
+  },
+  "meta": {
+    "last_template": "retro_vhs",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 1
+  }
+}
