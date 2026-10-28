@@ -1,0 +1,4 @@
+requests
+Pillow
+edge-tts>=6.1.12
+gTTS
