@@ -1,0 +1,64 @@
+name: Interesting Fact Video Automation
+
+on:
+  workflow_dispatch:        # manual "Run workflow" button
+
+permissions:
+  contents: write           # track.json commit + fallback raw link ke liye
+
+concurrency:
+  group: interesting-fact   # ek time par ek hi run (track.json conflict nahi hoga)
+  cancel-in-progress: false
+
+jobs:
+  build-and-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install system packages (ffmpeg + fonts)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-core fonts-dejavu-core
+
+      - name: Install Python packages
+        run: pip install -r "Intresting Fact/requirements.txt"
+
+      - name: Run automation
+        env:
+          WEBHOOK_INTRESTING_FACT: ${{ secrets.WEBHOOK_INTRESTING_FACT }}
+        run: python -u "Intresting Fact/main.py"
+
+      # Video 3 din tak Artifacts me rahegi, uske baad GitHub khud delete kar dega
+      - name: Save video in Artifacts (3 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fact-video-${{ github.run_number }}
+          path: "Intresting Fact/output/fact_video_*.mp4"
+          retention-days: 3
+          if-no-files-found: ignore
+
+      # track.json commit (cooldown yaad rakhne ke liye) + purani fallback videos ka delete
+      - name: Commit track.json
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "Intresting Fact/track.json"
+          git add -u "Intresting Fact/output" || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "update track.json [skip ci]"
+            git pull --rebase --autostash || true
+            git push
+          fi
