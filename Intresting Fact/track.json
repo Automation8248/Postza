@@ -35,6 +35,24 @@
       "topic": "Wolves",
       "text": "An adult wolf has forty-two teeth.",
       "last_used": "2026-10-30T13:48:21.812772+00:00"
+    },
+    "605b4cc92d57b0f2": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants can feel low rumbles from far away through the ground with their feet.",
+      "last_used": "2026-10-30T20:04:08.753619+00:00"
+    },
+    "f843a3e98bc7a5e6": {
+      "count": 1,
+      "topic": "Space",
+      "text": "Footprints on the Moon can last for millions of years.",
+      "last_used": "2026-10-30T20:04:08.753651+00:00"
+    },
+    "03bebb6098c2a49a": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats sleep for about twelve to sixteen hours every single day.",
+      "last_used": "2026-10-30T20:04:08.753666+00:00"
     }
   },
   "titles": {
@@ -47,6 +65,11 @@
       "count": 1,
       "text": "Did You Know These 3 Crazy Facts?",
       "last_used": "2026-10-30T13:48:21.812785+00:00"
+    },
+    "d9bff887b1b38d2c": {
+      "count": 1,
+      "text": "3 Mind-Blowing Facts You Never Knew!",
+      "last_used": "2026-10-30T20:04:08.753679+00:00"
     }
   },
   "hashtags": {
@@ -54,11 +77,16 @@
       "count": 2,
       "text": "#facts #didyouknow #shorts",
       "last_used": "2026-10-30T13:48:21.812796+00:00"
+    },
+    "eac640e2d827271a": {
+      "count": 1,
+      "text": "#festivals #carnival #celebration #holidayhistory #parade #party",
+      "last_used": "2026-10-30T20:04:08.753691+00:00"
     }
   },
   "meta": {
-    "last_template": "royal_purple",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 2
+    "last_template": "mint_fresh",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 3
   }
 }
