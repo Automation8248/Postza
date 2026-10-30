@@ -1,13 +1,18 @@
 name: Interesting Fact Video Automation
 
 on:
+  schedule:
+    # UTC time. IST = UTC + 5:30  ->  9:00 AM, 3:00 PM, 9:00 PM IST
+    - cron: "30 3 * * *"
+    - cron: "30 9 * * *"
+    - cron: "30 15 * * *"
   workflow_dispatch:        # manual "Run workflow" button
 
 permissions:
   contents: write           # track.json commit + fallback raw link ke liye
 
 concurrency:
-  group: interesting-fact   # ek time par ek hi run (track.json conflict nahi hoga)
+  group: interesting-fact   # ek time par ek hi run (track.json conflict kam hoga)
   cancel-in-progress: false
 
 jobs:
@@ -47,18 +52,37 @@ jobs:
           retention-days: 3
           if-no-files-found: ignore
 
-      # track.json commit (cooldown yaad rakhne ke liye) + purani fallback videos ka delete
+      # track.json commit (cooldown yaad rakhne ke liye)
       - name: Commit track.json
         if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH="${GITHUB_REF_NAME}"
+
           git add "Intresting Fact/track.json"
-          git add -u "Intresting Fact/output" || true
+          # output/ me tracked file ho tabhi add -u chalao (warna pathspec error aata hai)
+          if git ls-files "Intresting Fact/output" | grep -q .; then
+            git add -u -- "Intresting Fact/output"
+          fi
+
           if git diff --cached --quiet; then
             echo "Nothing to commit"
-          else
-            git commit -m "update track.json [skip ci]"
-            git pull --rebase --autostash || true
-            git push
+            exit 0
           fi
+
+          git commit -m "update track.json [skip ci]"
+
+          # Agar beech me kisi ne repo me push kiya ho to conflict aata hai.
+          # -X theirs = is run ki track.json (latest cooldown data) jeetegi. 3 baar retry.
+          for i in 1 2 3; do
+            if git pull --rebase --autostash -X theirs origin "$BRANCH"; then
+              git push origin "HEAD:$BRANCH" && exit 0
+            else
+              git rebase --abort || true
+            fi
+            echo "retry $i ..."
+            sleep 5
+          done
+          echo "Push failed after 3 tries"
+          exit 1
