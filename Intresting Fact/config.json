@@ -1,0 +1,10 @@
+{
+  "automation_name": "Interesting Fact Automation",
+  "social_media_name": "YouTube Shorts, Instagram Reels, Facebook Reels",
+  "success_message": "Video successfully created and sent for posting!",
+  "cooldown_days": 100,
+  "output_keep_days": 3,
+  "facts_per_video": 3,
+  "voice": "auto",
+  "music_volume": 0.14
+}
