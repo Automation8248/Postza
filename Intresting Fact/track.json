@@ -89,6 +89,24 @@
       "topic": "Whales",
       "text": "The long tusk of a narwhal is actually a tooth that grows through its lip.",
       "last_used": "2026-10-31T15:32:08.498383+00:00"
+    },
+    "8836b86386a0ee9e": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Humpback whales sometimes blow a spiral net of bubbles to trap fish before they feed.",
+      "last_used": "2026-10-31T19:29:26.627341+00:00"
+    },
+    "9cee2e1d1a5618c5": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "The African elephant is the largest land animal on Earth.",
+      "last_used": "2026-10-31T19:29:26.627373+00:00"
+    },
+    "c0851d57f60c1a30": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Adult cats have around two hundred and thirty bones, while humans have only two hundred and six.",
+      "last_used": "2026-10-31T19:29:26.627389+00:00"
     }
   },
   "titles": {
@@ -103,9 +121,9 @@
       "last_used": "2026-10-31T15:32:08.498392+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 1,
+      "count": 2,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-10-30T20:04:08.753679+00:00"
+      "last_used": "2026-10-31T19:29:26.627401+00:00"
     }
   },
   "hashtags": {
@@ -128,11 +146,16 @@
       "count": 1,
       "text": "#satellites #iss #orbit #communication #spacestation #technology",
       "last_used": "2026-10-31T15:32:08.498400+00:00"
+    },
+    "4bfbf4f941819d91": {
+      "count": 1,
+      "text": "#facts #knowledge #education #didyouknow #science #amazingfacts",
+      "last_used": "2026-10-31T19:29:26.627413+00:00"
     }
   },
   "meta": {
-    "last_template": "neon_glow",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 5
+    "last_template": "royal_purple",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 6
   }
 }
