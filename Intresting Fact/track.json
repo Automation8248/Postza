@@ -53,13 +53,31 @@
       "topic": "Cats",
       "text": "Cats sleep for about twelve to sixteen hours every single day.",
       "last_used": "2026-10-30T20:04:08.753666+00:00"
+    },
+    "53ac0f9da5d74a9b": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Cuvier's beaked whale holds the record for the deepest dive of any mammal, at nearly three thousand meters.",
+      "last_used": "2026-10-31T09:57:51.197760+00:00"
+    },
+    "43a4eb33a818b096": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "An elephant's trunk has tens of thousands of muscles, so it can lift a log or pick up a single peanut.",
+      "last_used": "2026-10-31T09:57:51.197792+00:00"
+    },
+    "8b28179a9bf87dd8": {
+      "count": 1,
+      "topic": "Space",
+      "text": "Sunlight takes about eight minutes to reach the Earth.",
+      "last_used": "2026-10-31T09:57:51.197801+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 1,
+      "count": 2,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-10-28T23:53:40.266799+00:00"
+      "last_used": "2026-10-31T09:57:51.197809+00:00"
     },
     "414123dcd2f39de3": {
       "count": 1,
@@ -82,11 +100,16 @@
       "count": 1,
       "text": "#festivals #carnival #celebration #holidayhistory #parade #party",
       "last_used": "2026-10-30T20:04:08.753691+00:00"
+    },
+    "c374835b381bc54b": {
+      "count": 1,
+      "text": "#birds #ornithology #flight #eagles #feathers #naturegram",
+      "last_used": "2026-10-31T09:57:51.197815+00:00"
     }
   },
   "meta": {
-    "last_template": "mint_fresh",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 3
+    "last_template": "cool_space",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 4
   }
 }
