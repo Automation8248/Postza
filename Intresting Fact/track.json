@@ -71,6 +71,24 @@
       "topic": "Space",
       "text": "Sunlight takes about eight minutes to reach the Earth.",
       "last_used": "2026-10-31T09:57:51.197801+00:00"
+    },
+    "04f9c894acfbf174": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Wolves were brought back to Yellowstone National Park in nineteen ninety-five, and they changed the whole ecosystem.",
+      "last_used": "2026-10-31T15:32:08.498342+00:00"
+    },
+    "7faa64517d42c583": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats spend up to a third of their waking hours grooming themselves.",
+      "last_used": "2026-10-31T15:32:08.498372+00:00"
+    },
+    "32a164c0f69f6bb6": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "The long tusk of a narwhal is actually a tooth that grows through its lip.",
+      "last_used": "2026-10-31T15:32:08.498383+00:00"
     }
   },
   "titles": {
@@ -80,9 +98,9 @@
       "last_used": "2026-10-31T09:57:51.197809+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 1,
+      "count": 2,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-10-30T13:48:21.812785+00:00"
+      "last_used": "2026-10-31T15:32:08.498392+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 1,
@@ -105,11 +123,16 @@
       "count": 1,
       "text": "#birds #ornithology #flight #eagles #feathers #naturegram",
       "last_used": "2026-10-31T09:57:51.197815+00:00"
+    },
+    "2b1af04fbb4aeec9": {
+      "count": 1,
+      "text": "#satellites #iss #orbit #communication #spacestation #technology",
+      "last_used": "2026-10-31T15:32:08.498400+00:00"
     }
   },
   "meta": {
-    "last_template": "cool_space",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 4
+    "last_template": "neon_glow",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 5
   }
 }
