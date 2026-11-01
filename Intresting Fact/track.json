@@ -107,13 +107,31 @@
       "topic": "Cats",
       "text": "Adult cats have around two hundred and thirty bones, while humans have only two hundred and six.",
       "last_used": "2026-10-31T19:29:26.627389+00:00"
+    },
+    "99e272ae2374e677": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "The blue whale is the largest animal known to have ever lived on Earth.",
+      "last_used": "2026-11-01T10:50:09.877075+00:00"
+    },
+    "9130c82b0860d03f": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "An elephant's tusks are actually very long front teeth.",
+      "last_used": "2026-11-01T10:50:09.877113+00:00"
+    },
+    "7b3bebfa464b19ae": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Wolves can run at about thirty-five miles per hour for short distances.",
+      "last_used": "2026-11-01T10:50:09.877130+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 2,
+      "count": 3,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-10-31T09:57:51.197809+00:00"
+      "last_used": "2026-11-01T10:50:09.877143+00:00"
     },
     "414123dcd2f39de3": {
       "count": 2,
@@ -151,11 +169,16 @@
       "count": 1,
       "text": "#facts #knowledge #education #didyouknow #science #amazingfacts",
       "last_used": "2026-10-31T19:29:26.627413+00:00"
+    },
+    "f6b6121e76793237": {
+      "count": 1,
+      "text": "#aurora #northernlights #solarwind #nightsky #greenlight #borealis",
+      "last_used": "2026-11-01T10:50:09.877155+00:00"
     }
   },
   "meta": {
-    "last_template": "royal_purple",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 6
+    "last_template": "glitch_tech",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 7
   }
 }
