@@ -143,6 +143,24 @@
       "topic": "Elephants",
       "text": "Wild elephants sleep only about two to four hours a day.",
       "last_used": "2026-11-01T16:18:59.905216+00:00"
+    },
+    "af1ddcbc1a3c300c": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "An elephant has the largest brain of any land animal.",
+      "last_used": "2026-11-01T19:56:09.852956+00:00"
+    },
+    "614d6e06d87af131": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Whales are mammals, so they breathe air and feed their calves with milk.",
+      "last_used": "2026-11-01T19:56:09.852992+00:00"
+    },
+    "67d2747dc425136a": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats can jump up to five or six times their own body length.",
+      "last_used": "2026-11-01T19:56:09.853007+00:00"
     }
   },
   "titles": {
@@ -157,9 +175,9 @@
       "last_used": "2026-11-01T16:18:59.905229+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 2,
+      "count": 3,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-10-31T19:29:26.627401+00:00"
+      "last_used": "2026-11-01T19:56:09.853019+00:00"
     }
   },
   "hashtags": {
@@ -197,11 +215,16 @@
       "count": 1,
       "text": "#moviefacts #cinema #hollywood #behindthescenes #popculture #eastereggs",
       "last_used": "2026-11-01T16:18:59.905241+00:00"
+    },
+    "b08c318c46f40724": {
+      "count": 1,
+      "text": "#animalfacts #wildlife #nature #naturephotography #zoology #biology",
+      "last_used": "2026-11-01T19:56:09.853031+00:00"
     }
   },
   "meta": {
-    "last_template": "retro_vhs",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 8
+    "last_template": "hot_energy",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 9
   }
 }
