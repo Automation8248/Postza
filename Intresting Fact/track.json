@@ -179,6 +179,24 @@
       "topic": "Elephants",
       "text": "Elephants are pregnant for about twenty-two months, the longest pregnancy of any land mammal.",
       "last_used": "2026-11-02T11:39:42.115420+00:00"
+    },
+    "a7cf7da0236c7044": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Sperm whales have the largest brain of any animal on the planet.",
+      "last_used": "2026-11-02T19:46:51.020026+00:00"
+    },
+    "75e98a586366af49": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants flap their huge ears to cool down their blood in the hot sun.",
+      "last_used": "2026-11-02T19:46:51.020076+00:00"
+    },
+    "0a58aba3dc5b15e4": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "All pet dogs descended from ancient wolves.",
+      "last_used": "2026-11-02T19:46:51.020092+00:00"
     }
   },
   "titles": {
@@ -188,9 +206,9 @@
       "last_used": "2026-11-02T11:39:42.115429+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 3,
+      "count": 4,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-01T16:18:59.905229+00:00"
+      "last_used": "2026-11-02T19:46:51.020106+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 3,
@@ -243,11 +261,16 @@
       "count": 1,
       "text": "#plants #botany #trees #naturefacts #jungle #forest",
       "last_used": "2026-11-02T11:39:42.115438+00:00"
+    },
+    "1df15e60727c9d16": {
+      "count": 1,
+      "text": "#microbiology #bacteria #virus #cells #scienceexperiments #microscope",
+      "last_used": "2026-11-02T19:46:51.020118+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 10
+    "last_template": "hot_energy",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 11
   }
 }
