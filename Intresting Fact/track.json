@@ -161,13 +161,31 @@
       "topic": "Cats",
       "text": "Cats can jump up to five or six times their own body length.",
       "last_used": "2026-11-01T19:56:09.853007+00:00"
+    },
+    "589dc341667214b7": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Wolves have a sense of smell far better than humans.",
+      "last_used": "2026-11-02T11:39:42.115373+00:00"
+    },
+    "b047c7aa8c70fc3f": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Each cat ear has about thirty-two muscles, so it can rotate to catch tiny sounds.",
+      "last_used": "2026-11-02T11:39:42.115408+00:00"
+    },
+    "308662ff2beb0b4f": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants are pregnant for about twenty-two months, the longest pregnancy of any land mammal.",
+      "last_used": "2026-11-02T11:39:42.115420+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 3,
+      "count": 4,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-01T10:50:09.877143+00:00"
+      "last_used": "2026-11-02T11:39:42.115429+00:00"
     },
     "414123dcd2f39de3": {
       "count": 3,
@@ -220,11 +238,16 @@
       "count": 1,
       "text": "#animalfacts #wildlife #nature #naturephotography #zoology #biology",
       "last_used": "2026-11-01T19:56:09.853031+00:00"
+    },
+    "470157e91cc4274e": {
+      "count": 1,
+      "text": "#plants #botany #trees #naturefacts #jungle #forest",
+      "last_used": "2026-11-02T11:39:42.115438+00:00"
     }
   },
   "meta": {
-    "last_template": "hot_energy",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 9
+    "last_template": "noir_pop",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 10
   }
 }
