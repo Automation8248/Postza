@@ -197,6 +197,24 @@
       "topic": "Wolves",
       "text": "All pet dogs descended from ancient wolves.",
       "last_used": "2026-11-02T19:46:51.020092+00:00"
+    },
+    "2ab4406b2ea7f039": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Gray whales migrate more than ten thousand miles every year, one of the longest journeys of any mammal.",
+      "last_used": "2026-11-02T23:14:50.184011+00:00"
+    },
+    "d139e37590437a49": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "A cat purrs at a frequency of about twenty-five to one hundred and fifty hertz.",
+      "last_used": "2026-11-02T23:14:50.184044+00:00"
+    },
+    "4b5969f4f27aa741": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants appear to show grief, and they sometimes gather around the bones of their dead relatives.",
+      "last_used": "2026-11-02T23:14:50.184062+00:00"
     }
   },
   "titles": {
@@ -211,9 +229,9 @@
       "last_used": "2026-11-02T19:46:51.020106+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 3,
+      "count": 4,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-01T19:56:09.853019+00:00"
+      "last_used": "2026-11-02T23:14:50.184074+00:00"
     }
   },
   "hashtags": {
@@ -266,11 +284,16 @@
       "count": 1,
       "text": "#microbiology #bacteria #virus #cells #scienceexperiments #microscope",
       "last_used": "2026-11-02T19:46:51.020118+00:00"
+    },
+    "77af77ce74e4ab15": {
+      "count": 1,
+      "text": "#volcanoes #lava #eruption #magma #pompeii #geologyrocks",
+      "last_used": "2026-11-02T23:14:50.184086+00:00"
     }
   },
   "meta": {
-    "last_template": "hot_energy",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 11
+    "last_template": "royal_purple",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 12
   }
 }
