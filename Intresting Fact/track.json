@@ -251,6 +251,24 @@
       "topic": "Cats",
       "text": "A cat's whiskers help it sense nearby objects and judge whether it can fit through a gap.",
       "last_used": "2026-11-03T17:35:12.084993+00:00"
+    },
+    "595a16c51acc9d04": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "The oldest known pet cat remains were found in Cyprus and are about nine thousand five hundred years old.",
+      "last_used": "2026-11-03T21:26:33.650133+00:00"
+    },
+    "ce55507a7de97f7d": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "A wolf pack is usually a family, made of parents and their young.",
+      "last_used": "2026-11-03T21:26:33.650165+00:00"
+    },
+    "b445c441e001c0ff": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Humpback whales sing long, complex songs that can travel for many miles underwater.",
+      "last_used": "2026-11-03T21:26:33.650176+00:00"
     }
   },
   "titles": {
@@ -265,9 +283,9 @@
       "last_used": "2026-11-03T17:35:12.085002+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 4,
+      "count": 5,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-02T23:14:50.184074+00:00"
+      "last_used": "2026-11-03T21:26:33.650184+00:00"
     }
   },
   "hashtags": {
@@ -335,11 +353,16 @@
       "count": 1,
       "text": "#techfacts #futuretech #innovation #ai #gadgets #digital",
       "last_used": "2026-11-03T17:35:12.085009+00:00"
+    },
+    "8894ca737420bf92": {
+      "count": 1,
+      "text": "#fear #phobia #adrenaline #survivalinstinct #scary #horror",
+      "last_used": "2026-11-03T21:26:33.650192+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 14
+    "last_template": "royal_purple",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 15
   }
 }
