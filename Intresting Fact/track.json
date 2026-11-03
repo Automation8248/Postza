@@ -215,13 +215,31 @@
       "topic": "Elephants",
       "text": "Elephants appear to show grief, and they sometimes gather around the bones of their dead relatives.",
       "last_used": "2026-11-02T23:14:50.184062+00:00"
+    },
+    "3cc178e915142839": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants spend most of the day eating and can munch hundreds of pounds of plants every day.",
+      "last_used": "2026-11-03T11:18:34.944532+00:00"
+    },
+    "494cd0b387749e58": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Every wolf has its own unique howl.",
+      "last_used": "2026-11-03T11:18:34.944562+00:00"
+    },
+    "43f63fe463bd6681": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "A cat's nose print is unique, just like a human fingerprint.",
+      "last_used": "2026-11-03T11:18:34.944571+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 4,
+      "count": 5,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-02T11:39:42.115429+00:00"
+      "last_used": "2026-11-03T11:18:34.944578+00:00"
     },
     "414123dcd2f39de3": {
       "count": 4,
@@ -289,11 +307,16 @@
       "count": 1,
       "text": "#volcanoes #lava #eruption #magma #pompeii #geologyrocks",
       "last_used": "2026-11-02T23:14:50.184086+00:00"
+    },
+    "f0a5c0e9440a64f7": {
+      "count": 1,
+      "text": "#castles #knights #medieval #armor #swords #fortress",
+      "last_used": "2026-11-03T11:18:34.944585+00:00"
     }
   },
   "meta": {
-    "last_template": "royal_purple",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 12
+    "last_template": "glitch_tech",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 13
   }
 }
