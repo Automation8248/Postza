@@ -1,13 +1,15 @@
 name: Lucas Webhook Video Automation
 
 on:
-  workflow_dispatch: # Button se manually run karne ke liye
+  schedule:
+    - cron: '0 14 * * *'
+  workflow_dispatch:
 
 jobs:
   run-automation:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Important: Repo me files update/delete karne ki permission
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -26,16 +28,11 @@ jobs:
           LUCAS_WEBHOOK: ${{ secrets.LUCAS_WEBHOOK }}
           TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
           FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python main.py
+        run: python "Lucas Hart/main.py"
 
       - name: Commit & Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # '-A' ensures ki delete hui videos aur captions bhi track ho jayein
           git add -A
-          
-          # Agar koi changes hue hain toh push karega, nahi toh error nahi dega
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: processed video, cleaned up captions & 30-day old data" && git push)
