@@ -1,9 +1,11 @@
 {
-    "current_video": 2,
+    "current_video": 3,
     "cooling_images": {
-        "https://drive.google.com/uc?export=download&id=10aP_iW0pEcf_6Yr6K0sWf-A0KT14bflB": "2026-11-04"
+        "https://drive.google.com/uc?export=download&id=10aP_iW0pEcf_6Yr6K0sWf-A0KT14bflB": "2026-11-04",
+        "https://drive.google.com/uc?export=download&id=1Dzzbp1yWu7pAulmBTyKHFlosD-dELN8J": "2026-11-04"
     },
     "cooling_audios": {
-        "https://cdn.pixabay.com/audio/2026/07/18/audio_8623fbf38c.mp3": "2026-11-04"
+        "https://cdn.pixabay.com/audio/2026/07/18/audio_8623fbf38c.mp3": "2026-11-04",
+        "https://cdn.pixabay.com/audio/2026/09/25/audio_87665dce2a.mp3": "2026-11-04"
     }
 }
