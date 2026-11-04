@@ -269,13 +269,31 @@
       "topic": "Whales",
       "text": "Humpback whales sing long, complex songs that can travel for many miles underwater.",
       "last_used": "2026-11-03T21:26:33.650176+00:00"
+    },
+    "c9e9ec5d79880515": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "The tongue of a blue whale can weigh as much as an adult elephant.",
+      "last_used": "2026-11-04T11:29:22.947675+00:00"
+    },
+    "ca227f6a9e6fd510": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Wolf pups are born deaf and blind, and they open their eyes after about two weeks.",
+      "last_used": "2026-11-04T11:29:22.947705+00:00"
+    },
+    "86c551cc43ce59d0": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants cannot jump, but they are surprisingly good swimmers.",
+      "last_used": "2026-11-04T11:29:22.947715+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 5,
+      "count": 6,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-03T11:18:34.944578+00:00"
+      "last_used": "2026-11-04T11:29:22.947724+00:00"
     },
     "414123dcd2f39de3": {
       "count": 5,
@@ -358,11 +376,16 @@
       "count": 1,
       "text": "#fear #phobia #adrenaline #survivalinstinct #scary #horror",
       "last_used": "2026-11-03T21:26:33.650192+00:00"
+    },
+    "2c549358b92da72b": {
+      "count": 1,
+      "text": "#mythology #legends #folklore #ancientgods #stories #historymystery",
+      "last_used": "2026-11-04T11:29:22.947732+00:00"
     }
   },
   "meta": {
-    "last_template": "royal_purple",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 15
+    "last_template": "retro_vhs",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 16
   }
 }
