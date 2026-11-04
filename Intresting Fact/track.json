@@ -287,6 +287,24 @@
       "topic": "Elephants",
       "text": "Elephants cannot jump, but they are surprisingly good swimmers.",
       "last_used": "2026-11-04T11:29:22.947715+00:00"
+    },
+    "42723e56eaa6e773": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Baby elephants suck on their trunks, just like human babies suck on their thumbs.",
+      "last_used": "2026-11-04T17:37:13.489596+00:00"
+    },
+    "b138188db9c81da1": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "A group of cats is called a clowder.",
+      "last_used": "2026-11-04T17:37:13.489621+00:00"
+    },
+    "06634caa6190476d": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Blue whale calls can reach about one hundred eighty-eight decibels, among the loudest sounds made by any animal.",
+      "last_used": "2026-11-04T17:37:13.489645+00:00"
     }
   },
   "titles": {
@@ -296,9 +314,9 @@
       "last_used": "2026-11-04T11:29:22.947724+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 5,
+      "count": 6,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-03T17:35:12.085002+00:00"
+      "last_used": "2026-11-04T17:37:13.489658+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 5,
@@ -381,11 +399,16 @@
       "count": 1,
       "text": "#mythology #legends #folklore #ancientgods #stories #historymystery",
       "last_used": "2026-11-04T11:29:22.947732+00:00"
+    },
+    "3cce6de258230f68": {
+      "count": 1,
+      "text": "#pollution #plasticfree #saveouroceans #eco #cleanplanet #greenliving",
+      "last_used": "2026-11-04T17:37:13.489669+00:00"
     }
   },
   "meta": {
-    "last_template": "retro_vhs",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 16
+    "last_template": "hot_energy",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 17
   }
 }
