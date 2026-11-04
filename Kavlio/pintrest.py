@@ -18,6 +18,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TITLE_FILE = os.path.join(BASE_DIR, "title.txt")
 DESC_FILE = os.path.join(BASE_DIR, "discription.txt")
 URL_FILE = os.path.join(BASE_DIR, "post.txt")
+EBOOK_FILE = os.path.join(BASE_DIR, "ebook.txt") # New Ebook file
 TRACK_FILE = os.path.join(BASE_DIR, "track.json")
 
 def send_telegram_error(error_msg):
@@ -73,9 +74,13 @@ def main():
         titles = load_lines(TITLE_FILE)
         descriptions = load_lines(DESC_FILE)
         urls = load_lines(URL_FILE)
+        ebooks = load_lines(EBOOK_FILE) # Load ebooks
         
         if not titles or not descriptions or not urls:
             raise ValueError("title.txt, discription.txt, or post.txt file is empty or missing.")
+            
+        if not ebooks:
+            raise ValueError("ebook.txt file is empty or missing.")
 
         track_data = load_track_data()
         now = datetime.now()
@@ -99,10 +104,13 @@ def main():
         if not available_urls:
             raise Exception("No available URLs. All URLs are in 90-day cooling.")
 
-        # Pick randomly from available items
+        # Pick randomly from available items (with cooling)
         selected_title = random.choice(available_titles)
         selected_desc = random.choice(available_descs)
         selected_url = random.choice(available_urls)
+        
+        # Pick randomly from ebook items (NO COOLING - picks from full list every time)
+        selected_ebook = random.choice(ebooks)
 
         # Webhook Payload
         if not WEBHOOK_URL:
@@ -111,7 +119,8 @@ def main():
         payload = {
             "title": selected_title,
             "description": selected_desc,
-            "url": selected_url
+            "url": selected_url,
+            "ebook": selected_ebook
         }
         
         # Send to webhook
@@ -119,13 +128,14 @@ def main():
         response.raise_for_status()
 
         # Update tracking JSON with current time (restarts the 90 days)
+        # Note: We do NOT track selected_ebook here so it never gets a cooling period
         iso_now = now.isoformat()
         track_data["titles"][selected_title] = iso_now
         track_data["descriptions"][selected_desc] = iso_now
         track_data["urls"][selected_url] = iso_now
 
         save_track_data(track_data)
-        print("✅ Successfully posted to webhook and updated track.json!")
+        print(f"✅ Successfully posted to webhook! Selected Ebook URL: {selected_ebook}")
 
     except Exception as e:
         error_message = str(e)
