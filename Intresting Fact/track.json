@@ -305,6 +305,24 @@
       "topic": "Whales",
       "text": "Blue whale calls can reach about one hundred eighty-eight decibels, among the loudest sounds made by any animal.",
       "last_used": "2026-11-04T17:37:13.489645+00:00"
+    },
+    "f1e0694503c88663": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "A wolf can travel more than twenty miles in a single day.",
+      "last_used": "2026-11-04T21:27:27.635467+00:00"
+    },
+    "0da4d8b7cf5c7ea1": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats cannot taste sweetness, because they lack the receptor for it.",
+      "last_used": "2026-11-04T21:27:27.635502+00:00"
+    },
+    "41a6acee506fe6e9": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Bowhead whales can live for more than two hundred years.",
+      "last_used": "2026-11-04T21:27:27.635519+00:00"
     }
   },
   "titles": {
@@ -319,9 +337,9 @@
       "last_used": "2026-11-04T17:37:13.489658+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 5,
+      "count": 6,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-03T21:26:33.650184+00:00"
+      "last_used": "2026-11-04T21:27:27.635538+00:00"
     }
   },
   "hashtags": {
@@ -404,11 +422,16 @@
       "count": 1,
       "text": "#pollution #plasticfree #saveouroceans #eco #cleanplanet #greenliving",
       "last_used": "2026-11-04T17:37:13.489669+00:00"
+    },
+    "41998b8206c6440f": {
+      "count": 1,
+      "text": "#pirates #sailing #ships #treasure #oceans #seahistory",
+      "last_used": "2026-11-04T21:27:27.635550+00:00"
     }
   },
   "meta": {
-    "last_template": "hot_energy",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 17
+    "last_template": "royal_purple",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 18
   }
 }
