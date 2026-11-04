@@ -1,37 +1,39 @@
-name: Lucas Webhook Video Automation
+name: Lucas Hart Video Automation
 
 on:
-  schedule:
-    - cron: '0 14 * * *'
   workflow_dispatch:
 
 jobs:
-  run-automation:
+  generate_video:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Install System Dependencies (FFmpeg, ImageMagick & Arial Font)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg imagemagick
+          # Arial font install karne ke liye Microsoft EULA ko auto-accept karna
+          echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+          sudo apt-get install -y ttf-mscorefonts-installer
+          sudo fc-cache -f -v
+          # Fix ImageMagick policy for MoviePy TextClip in Ubuntu
+          sudo sed -i 's/none/read,write/g' /etc/ImageMagick-6/policy.xml
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
-        run: pip install requests
-
-      - name: Run Python Automation
+      - name: Install Python Dependencies & Run Script
         env:
-          LUCAS_WEBHOOK: ${{ secrets.LUCAS_WEBHOOK }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
-          FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python main.py
-
-      - name: Commit & Push Changes (History, Quotes, Cleanups)
+          TELEGRAM_FAILD_ID: ${{ secrets.TELEGRAM_FAILD_ID }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Add all modifications, new files, and DELETIONS
-          git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: appended history, updated captions, cleaned 30-day old data" && git push)
+          cd "Video Generator/Lucas Hart"
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python main.py
