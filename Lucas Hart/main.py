@@ -9,16 +9,17 @@ from datetime import datetime, timedelta
 WEBHOOK_URL = os.environ.get("LUCAS_WEBHOOK")
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_FAILD_TOKEN")
 CHAT_ID = os.environ.get("FAILED_CHAT_ID")
-GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY") # For raw video URL construction
+
+# Hardcoded Repo Details (Environment variable removed)
+GITHUB_REPO = "Automation8248/Postza" 
 BRANCH = "main"
 
-# Updated Names as requested
-AUTOMATION_NAME = "postza" # Repo Name
+AUTOMATION_NAME = "postza"
 SOCIAL_MEDIA_NAME = "Lucas Hart"
-TELEGRAM_THREAD_ID = 2  # Telegram Thread ID for alerts
+TELEGRAM_THREAD_ID = 2
 
-# Folder and File Paths
-BASE_DIR = "Lucas Hart"
+# Base Directory is now the folder where this script is located (Lucas Hart)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 VIDEO_DIR = os.path.join(BASE_DIR, "video")
 HISTORY_FILE = os.path.join(BASE_DIR, "history.json")
 CAPTION_FILE = os.path.join(BASE_DIR, "caption.txt")
@@ -29,7 +30,6 @@ HASHTAG_FILE = os.path.join(BASE_DIR, "hastag.txt")
 VALID_VIDEO_EXT = ('.mp4', '.webm', '.avi', '.mov', '.mkv')
 
 def send_telegram_alert(error_message):
-    """Sends a detailed error message to the specific Telegram Thread."""
     if not TELEGRAM_TOKEN or not CHAT_ID:
         return
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
@@ -66,59 +66,50 @@ def save_history(history_data):
 
 def main():
     try:
-        if not os.path.exists(BASE_DIR):
-            raise FileNotFoundError(f"Base folder '{BASE_DIR}' does not exist.")
+        if not os.path.exists(VIDEO_DIR):
+            raise FileNotFoundError("The 'video' folder does not exist inside Lucas Hart folder.")
 
-        # 1. Load Data
         titles = read_file(TITLE_FILE)
         hashtags = read_file(HASHTAG_FILE)
         captions = read_file(CAPTION_FILE)
         history = load_history()
-        
         now = datetime.now()
         
-        # 2. Extract Data for Rules
         used_videos = [item['video'] for item in history]
         
-        # Find hashtags used in the last 4 days
+        # 4-Day Hashtag Rule
         recent_hashtags = []
         for entry in history:
             entry_date = datetime.fromisoformat(entry['timestamp'])
-            if now - entry_date <= timedelta(days=4):
-                if 'hashtag' in entry:
-                    recent_hashtags.append(entry['hashtag'])
+            if now - entry_date <= timedelta(days=4) and 'hashtag' in entry:
+                recent_hashtags.append(entry['hashtag'])
 
-        # 3. Filter Valid Selections
-        # Filter Videos
+        # Filters
         all_videos = [f for f in os.listdir(VIDEO_DIR) if f.lower().endswith(VALID_VIDEO_EXT)]
         available_videos = [v for v in all_videos if v not in used_videos]
         if not available_videos:
-            raise ValueError("No new videos found in 'video' folder! All videos have been used.")
+            raise ValueError("No new videos found in 'video' folder!")
             
-        # Filter Captions
         if not captions:
-            raise ValueError("caption.txt is empty! Please add more captions.")
+            raise ValueError("caption.txt is empty!")
             
-        # Filter Hashtags (must not be used in last 4 days)
         available_hashtags = [h for h in hashtags if h not in recent_hashtags]
         if not available_hashtags:
-            raise ValueError("No available hashtags! All hashtags have been used in the last 4 days.")
+            raise ValueError("All hashtags have been used in the last 4 days.")
             
-        # Filter Titles
         if not titles:
             raise ValueError("title.txt is missing or empty.")
 
-        # 4. Make Random Selections
+        # Selections
         selected_video = random.choice(available_videos)
         selected_caption = random.choice(captions)
         selected_title = random.choice(titles)
         selected_hashtag = random.choice(available_hashtags)
 
-        # 5. Format Custom Post Text & Build Webhook Payload
         formatted_post_text = f"{selected_title}\n\n✨ {selected_caption}\n\n{selected_hashtag}"
         
-        # Build Raw GitHub URL for the video
-        video_raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{BRANCH}/{BASE_DIR}/video/{selected_video}".replace(" ", "%20")
+        # Raw GitHub URL (using hardcoded GITHUB_REPO)
+        video_raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{BRANCH}/Lucas%20Hart/video/{selected_video}".replace(" ", "%20")
         
         payload = {
             "formatted_text": formatted_post_text,
@@ -127,7 +118,7 @@ def main():
             "caption": selected_caption,
             "video_url": video_raw_url,
             "social_media_name": SOCIAL_MEDIA_NAME,
-            "automation_name": AUTOMATION_NAME, # Will send 'postza'
+            "automation_name": AUTOMATION_NAME,
             "successful_message": "Video successfully processed."
         }
         
@@ -135,14 +126,13 @@ def main():
         response = requests.post(WEBHOOK_URL, json=payload, timeout=15)
         response.raise_for_status()
 
-        # 6. Post-Success File Operations
-        # Remove selected caption from caption.txt immediately
+        # Update caption.txt
         captions.remove(selected_caption)
         with open(CAPTION_FILE, 'w', encoding='utf-8') as f:
             for cap in captions:
                 f.write(cap + "\n")
 
-        # Append to active history
+        # Update History
         new_entry = {
             "video": selected_video,
             "caption": selected_caption,
@@ -151,12 +141,11 @@ def main():
         }
         history.append(new_entry)
         
-        # 7. Perform 30-Day Cleanup
+        # 30-Day Cleanup
         valid_history = []
         for entry in history:
             entry_date = datetime.fromisoformat(entry['timestamp'])
             if now - entry_date > timedelta(days=30):
-                # Delete video from folder after 30 days
                 vid_path = os.path.join(VIDEO_DIR, entry['video'])
                 if os.path.exists(vid_path):
                     os.remove(vid_path)
@@ -164,14 +153,11 @@ def main():
             else:
                 valid_history.append(entry)
 
-        # Update quotes.txt (Always matches exactly what is in valid 30-day history)
         with open(QUOTES_FILE, 'w', encoding='utf-8') as f:
             for entry in valid_history:
                 f.write(entry['caption'] + "\n")
 
-        # Save cleaned up history.json
         save_history(valid_history)
-        
         print("Success! Webhook sent, used caption removed, history saved, and cleanup complete.")
 
     except Exception as e:
