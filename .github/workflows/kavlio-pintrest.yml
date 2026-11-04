@@ -23,7 +23,7 @@ jobs:
           KAVLIO_WEBHOOK: ${{ secrets.KAVLIO_WEBHOOK }}
           TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
           FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
-        run: python Kavlio/main.py
+        run: python Kavlio/pintrest.py
         
       - name: Save track.json Changes
         run: |
