@@ -323,13 +323,31 @@
       "topic": "Whales",
       "text": "Bowhead whales can live for more than two hundred years.",
       "last_used": "2026-11-04T21:27:27.635519+00:00"
+    },
+    "6e8ac880971b6149": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Killer whales, also called orcas, are actually the largest members of the dolphin family.",
+      "last_used": "2026-11-05T11:28:43.766845+00:00"
+    },
+    "32b6f6fb4aa9843c": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats have a field of view of about two hundred degrees.",
+      "last_used": "2026-11-05T11:28:43.766881+00:00"
+    },
+    "bcd15678033f5bdb": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Wolves are the largest members of the dog family.",
+      "last_used": "2026-11-05T11:28:43.766893+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 6,
+      "count": 7,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-04T11:29:22.947724+00:00"
+      "last_used": "2026-11-05T11:28:43.766905+00:00"
     },
     "414123dcd2f39de3": {
       "count": 6,
@@ -427,11 +445,16 @@
       "count": 1,
       "text": "#pirates #sailing #ships #treasure #oceans #seahistory",
       "last_used": "2026-11-04T21:27:27.635550+00:00"
+    },
+    "068c30251baa8f54": {
+      "count": 1,
+      "text": "#lakes #baikal #deepwater #fishing #scenic #natureview",
+      "last_used": "2026-11-05T11:28:43.766915+00:00"
     }
   },
   "meta": {
-    "last_template": "royal_purple",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 18
+    "last_template": "cinematic_gold",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 19
   }
 }
