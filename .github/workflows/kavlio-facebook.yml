@@ -1,0 +1,51 @@
+name: Kavlio Facebook Automation
+
+on:
+  workflow_dispatch: # Manual trigger ka button enable karne ke liye
+
+jobs:
+  run-automation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # facbook.json ko wapas repo mein save karne ki permission
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Facebook Automation Script
+        env:
+          KAVLIO_WEBHOOK: ${{ secrets.KAVLIO_WEBHOOK }}
+          TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
+          FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
+        # Script repo ke root se run hogi, isliye folder/script_name define kiya hai
+        run: python Kavlio/facebook.py
+
+      - name: Commit and Push Updated JSON State
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Sirf facbook.json update hua hai toh use add karke commit karega
+          git add Kavlio/facbook.json
+          
+          # Agar koi change nahi hua (jaise error aa gaya ho), toh commit fail na ho isliye ye check hai
+          git diff --quiet && git diff --staged --quiet || git commit -m "Updated cooling time in facbook.json"
+          
+          # Changes ko repo mein push karna
+          git push
