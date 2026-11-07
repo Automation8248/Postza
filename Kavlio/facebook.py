@@ -123,52 +123,14 @@ def create_video(img_path, audio_path):
     return output_video
 
 def upload_video_with_fallback(video_path):
-    """10 servers ka loop jo ek fail hone par next try karega."""
-    filename = os.path.basename(video_path)
-    timeout_sec = 60
+    """Sirf 4 servers par upload karne ka try karega with human delay loop."""
+    timeout_sec = 120 # Upload ke liye thoda zyada timeout taaki fail na ho
 
     def upload_catbox():
         with open(video_path, 'rb') as f:
             r = requests.post('https://catbox.moe/user/api.php', data={'reqtype': 'fileupload'}, files={'fileToUpload': f}, timeout=timeout_sec)
         r.raise_for_status()
         return r.text.strip()
-
-    def upload_envs():
-        with open(video_path, 'rb') as f:
-            r = requests.post('https://envs.sh', files={'file': f}, timeout=timeout_sec)
-        r.raise_for_status()
-        return r.text.strip()
-
-    def upload_0x0():
-        with open(video_path, 'rb') as f:
-            r = requests.post('https://0x0.st', files={'file': f}, timeout=timeout_sec)
-        r.raise_for_status()
-        return r.text.strip()
-
-    def upload_ttm():
-        with open(video_path, 'rb') as f:
-            r = requests.post('https://ttm.sh', files={'file': f}, timeout=timeout_sec)
-        r.raise_for_status()
-        return r.text.strip()
-
-    def upload_transfer_sh():
-        with open(video_path, 'rb') as f:
-            r = requests.put(f'https://transfer.sh/{filename}', data=f, timeout=timeout_sec)
-        r.raise_for_status()
-        return r.text.strip()
-
-    def upload_pomf():
-        with open(video_path, 'rb') as f:
-            r = requests.post('https://pomf.lain.la/upload.php', files={'files[]': f}, timeout=timeout_sec)
-        r.raise_for_status()
-        return r.json()['files'][0]['url']
-
-    def upload_tmpfiles():
-        with open(video_path, 'rb') as f:
-            r = requests.post('https://tmpfiles.org/api/v1/upload', files={'file': f}, timeout=timeout_sec)
-        r.raise_for_status()
-        url = r.json()['data']['url']
-        return url.replace('tmpfiles.org/', 'tmpfiles.org/dl/')
 
     def upload_litterbox():
         with open(video_path, 'rb') as f:
@@ -182,37 +144,50 @@ def upload_video_with_fallback(video_path):
         r.raise_for_status()
         return r.json()['files'][0]['url']
 
-    def upload_fileio():
+    def upload_0x0():
         with open(video_path, 'rb') as f:
-            r = requests.post('https://file.io', files={'file': f}, timeout=timeout_sec)
+            r = requests.post('https://0x0.st', files={'file': f}, timeout=timeout_sec)
         r.raise_for_status()
-        return r.json()['link']
+        return r.text.strip()
 
     servers = [
         ("catbox.moe", upload_catbox),
-        ("envs.sh", upload_envs),
-        ("0x0.st", upload_0x0),
-        ("pomf.lain.la", upload_pomf),
-        ("ttm.sh", upload_ttm),
-        ("transfer.sh", upload_transfer_sh),
-        ("tmpfiles.org", upload_tmpfiles),
         ("litterbox.catbox.moe", upload_litterbox),
         ("uguu.se", upload_uguu),
-        ("file.io", upload_fileio)
+        ("0x0.st", upload_0x0)
     ]
 
-    for server_name, upload_func in servers:
-        try:
-            print(f"Uploading to {server_name}...")
-            video_url = upload_func()
-            if video_url and video_url.startswith("http"):
-                print(f"✅ Upload successful on {server_name}: {video_url}")
-                return video_url
-        except Exception as e:
-            print(f"❌ Failed on {server_name}: {e}")
-            continue
+    max_attempts = 3
+    
+    for attempt in range(max_attempts):
+        print(f"\n--- Upload Attempt {attempt + 1} of {max_attempts} ---")
+        
+        # Delay logic based on attempt number
+        if attempt == 1:
+            delay = random.randint(20, 40)
+            print(f"Human Delay: Waiting for {delay} seconds before retrying...")
+            time.sleep(delay)
+        elif attempt == 2:
+            delay = random.randint(60, 120)
+            print(f"Human Delay: Waiting for a longer {delay} seconds before final retry...")
+            time.sleep(delay)
 
-    raise Exception("Sabhi 10 video upload servers fail ho gaye!")
+        for server_name, upload_func in servers:
+            try:
+                # Chota sa human delay har server switch ke beech (2-5 seconds)
+                if attempt > 0:
+                    time.sleep(random.randint(2, 5))
+                    
+                print(f"Uploading to {server_name}...")
+                video_url = upload_func()
+                if video_url and video_url.startswith("http"):
+                    print(f"✅ Upload successful on {server_name}: {video_url}")
+                    return video_url
+            except Exception as e:
+                print(f"❌ Failed on {server_name}: {e}")
+                continue
+
+    raise Exception(f"Sabhi {len(servers)} servers par {max_attempts} baar try karne ke baad bhi upload fail ho gaya!")
 
 def post_to_webhook(video_url, title, description, ebook_link):
     """Webhook par Video URL, Title, Description aur eBook link post karna."""
@@ -220,7 +195,6 @@ def post_to_webhook(video_url, title, description, ebook_link):
     if not webhook_url:
         raise ValueError("KAVLIO_FACBOOK_WEBHOOK environment variable set nahi hai.")
 
-    # Data mein ab ebook_link bhi add kar diya gaya hai
     data = {
         'title': title,
         'description': description,
@@ -260,7 +234,7 @@ def main():
         print("Creating Video...")
         video_path = create_video(img_path, audio_path)
 
-        # 5. Upload Video to Server with Fallback (10 Servers loop)
+        # 5. Upload Video to Server with Fallback (4 Servers loop with delay)
         print("Uploading Video to Servers...")
         video_url = upload_video_with_fallback(video_path)
 
@@ -268,7 +242,7 @@ def main():
         print("Posting Data to Webhook...")
         post_to_webhook(video_url, title, description, ebook_link)
 
-        # 7. Update State & Save (Cooldown Start) - Ebook is not saved here
+        # 7. Update State & Save (Cooldown Start)
         current_time = time.time()
         state["img"][img_url] = current_time
         state["audio"][audio_url] = current_time
