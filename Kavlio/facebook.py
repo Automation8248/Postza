@@ -9,7 +9,7 @@ import traceback
 # Configuration
 FOLDER_NAME = "Kavlio"
 STATE_FILE = os.path.join(FOLDER_NAME, "facbook.json")
-COOLDOWN_DAYS = 60 # 60 days cooling period
+COOLDOWN_DAYS = 60 # 60 days cooling period baaki files ke liye
 VIDEO_DURATION = 10 # Video duration in seconds
 
 def load_state():
@@ -79,6 +79,20 @@ def get_random_item(filename, category, state):
 
     return random.choice(valid_items)
 
+def get_random_line_no_cooldown(filename):
+    """Bina kisi cooling time ke random line nikalna (ebook.txt ke liye)."""
+    filepath = os.path.join(FOLDER_NAME, filename)
+    if not os.path.exists(filepath):
+        raise FileNotFoundError(f"{filepath} file not found!")
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        items = [line.strip() for line in f if line.strip()]
+
+    if not items:
+        raise Exception(f"{filename} khali hai! Koi link nahi mili.")
+
+    return random.choice(items)
+
 def download_file(url, extension):
     """URL se file download karna (Image/Audio)."""
     temp_filename = f"temp_{int(time.time())}{extension}"
@@ -113,7 +127,6 @@ def upload_video_with_fallback(video_path):
     filename = os.path.basename(video_path)
     timeout_sec = 60
 
-    # 10 File Hosting Servers ki strategies
     def upload_catbox():
         with open(video_path, 'rb') as f:
             r = requests.post('https://catbox.moe/user/api.php', data={'reqtype': 'fileupload'}, files={'fileToUpload': f}, timeout=timeout_sec)
@@ -155,7 +168,7 @@ def upload_video_with_fallback(video_path):
             r = requests.post('https://tmpfiles.org/api/v1/upload', files={'file': f}, timeout=timeout_sec)
         r.raise_for_status()
         url = r.json()['data']['url']
-        return url.replace('tmpfiles.org/', 'tmpfiles.org/dl/') # Convert to direct download link
+        return url.replace('tmpfiles.org/', 'tmpfiles.org/dl/')
 
     def upload_litterbox():
         with open(video_path, 'rb') as f:
@@ -201,17 +214,18 @@ def upload_video_with_fallback(video_path):
 
     raise Exception("Sabhi 10 video upload servers fail ho gaye!")
 
-def post_to_webhook(video_url, title, description):
-    """Webhook par Video URL, Title aur Description post karna."""
+def post_to_webhook(video_url, title, description, ebook_link):
+    """Webhook par Video URL, Title, Description aur eBook link post karna."""
     webhook_url = os.getenv("KAVLIO_FACBOOK_WEBHOOK")
     if not webhook_url:
         raise ValueError("KAVLIO_FACBOOK_WEBHOOK environment variable set nahi hai.")
 
-    # Ab hum file ki jagah direct URL bhej rahe hain
+    # Data mein ab ebook_link bhi add kar diya gaya hai
     data = {
         'title': title,
         'description': description,
-        'video_url': video_url
+        'video_url': video_url,
+        'ebook_link': ebook_link
     }
     
     response = requests.post(webhook_url, data=data)
@@ -225,32 +239,36 @@ def main():
         print("Starting Automation...")
         state = load_state()
 
-        # 1. Get Random Valid Items
+        # 1. Get Random Valid Items (with Cooldown)
         img_url = get_random_item("post.txt", "img", state)
         audio_url = get_random_item("audio.txt", "audio", state)
         title = get_random_item("title.txt", "title", state)
         description = get_random_item("discription.txt", "description", state)
         
+        # 2. Get Random eBook Link (NO Cooldown)
+        ebook_link = get_random_line_no_cooldown("ebook.txt")
+        
         print("Selected items for processing.")
         print(f"Title: {title}")
+        print(f"eBook Link: {ebook_link}")
 
-        # 2. Download Image and Audio
+        # 3. Download Image and Audio
         img_path = download_file(img_url, ".jpg")
         audio_path = download_file(audio_url, ".mp3")
 
-        # 3. Create Video (Merge & Trim)
+        # 4. Create Video (Merge & Trim)
         print("Creating Video...")
         video_path = create_video(img_path, audio_path)
 
-        # 4. Upload Video to Server with Fallback (10 Servers loop)
+        # 5. Upload Video to Server with Fallback (10 Servers loop)
         print("Uploading Video to Servers...")
         video_url = upload_video_with_fallback(video_path)
 
-        # 5. Post to Webhook (URL version)
-        print("Posting Video URL to Webhook...")
-        post_to_webhook(video_url, title, description)
+        # 6. Post to Webhook (URL version) + eBook link
+        print("Posting Data to Webhook...")
+        post_to_webhook(video_url, title, description, ebook_link)
 
-        # 6. Update State & Save (Cooldown Start)
+        # 7. Update State & Save (Cooldown Start) - Ebook is not saved here
         current_time = time.time()
         state["img"][img_url] = current_time
         state["audio"][audio_url] = current_time
@@ -266,7 +284,7 @@ def main():
         print(error_details)
         send_telegram_error(error_details)
     finally:
-        # 7. Cleanup temporary files chahe error aaye ya na aaye
+        # 8. Cleanup temporary files chahe error aaye ya na aaye
         for path in [img_path, audio_path, video_path]:
             if path and os.path.exists(path):
                 os.remove(path)
