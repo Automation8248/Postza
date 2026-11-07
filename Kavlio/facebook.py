@@ -9,7 +9,7 @@ import traceback
 # Configuration
 FOLDER_NAME = "Kavlio"
 STATE_FILE = os.path.join(FOLDER_NAME, "facbook.json")
-COOLDOWN_DAYS = 60 # 60 days ke baad item dubara use ho sakta hai
+COOLDOWN_DAYS = 60 # 60 days cooling period
 VIDEO_DURATION = 10 # Video duration in seconds
 
 def load_state():
@@ -28,10 +28,10 @@ def save_state(state):
         json.dump(state, f, indent=4)
 
 def send_telegram_error(error_message):
-    """Telegram par error message send karne ka function."""
+    """Telegram par error message send karne ka function (Thread ID: 8)."""
     token = os.getenv("TELEGRAM_FAILD_TOKEN")
     chat_id = os.getenv("FAILED_CHAT_ID")
-    repo_name = os.getenv("GITHUB_REPOSITORY", "Unknown_Repo") # GitHub Actions ke liye
+    repo_name = os.getenv("GITHUB_REPOSITORY", "Unknown_Repo")
     
     if not token or not chat_id:
         print("Telegram tokens missing, cannot send error log.")
@@ -47,7 +47,7 @@ def send_telegram_error(error_message):
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     payload = {
         "chat_id": chat_id,
-        "message_thread_id": 8,
+        "message_thread_id": 8,  # Thread ID 8 ka use
         "text": text,
         "parse_mode": "Markdown"
     }
@@ -71,7 +71,6 @@ def get_random_item(filename, category, state):
 
     for item in items:
         last_used = state[category].get(item, 0)
-        # Agar item ka last_used time + cooldown time se abhi ka time bada hai, toh item valid hai
         if (current_time - last_used) >= cooldown_seconds:
             valid_items.append(item)
 
@@ -93,13 +92,9 @@ def download_file(url, extension):
         raise Exception(f"Failed to download from {url} (Status: {response.status_code})")
 
 def create_video(img_path, audio_path):
-    """FFmpeg ka use karke Image aur Audio ko merge karke 10 sec ka video banana."""
+    """FFmpeg ka use karke Image aur Audio ko merge karke video banana."""
     output_video = f"final_output_{int(time.time())}.mp4"
     
-    # FFmpeg command:
-    # -loop 1: image ko loop karta hai
-    # -t 10: 10 seconds tak video banayega (agar audio jyada hai toh yahi trim ho jayega)
-    # -vf "scale=...": H.264 format mein width/height even (2 se divisible) honi chahiye
     ffmpeg_cmd = [
         "ffmpeg", "-y", "-loop", "1", "-i", img_path, "-i", audio_path,
         "-c:v", "libx264", "-tune", "stillimage", "-c:a", "aac", "-b:a", "192k",
@@ -113,28 +108,119 @@ def create_video(img_path, audio_path):
         
     return output_video
 
-def post_to_webhook(video_path, title, description):
-    """Webhook par Video, Title aur Description post karna."""
-    # Yahan Variable ka naam update kiya gaya hai
+def upload_video_with_fallback(video_path):
+    """10 servers ka loop jo ek fail hone par next try karega."""
+    filename = os.path.basename(video_path)
+    timeout_sec = 60
+
+    # 10 File Hosting Servers ki strategies
+    def upload_catbox():
+        with open(video_path, 'rb') as f:
+            r = requests.post('https://catbox.moe/user/api.php', data={'reqtype': 'fileupload'}, files={'fileToUpload': f}, timeout=timeout_sec)
+        r.raise_for_status()
+        return r.text.strip()
+
+    def upload_envs():
+        with open(video_path, 'rb') as f:
+            r = requests.post('https://envs.sh', files={'file': f}, timeout=timeout_sec)
+        r.raise_for_status()
+        return r.text.strip()
+
+    def upload_0x0():
+        with open(video_path, 'rb') as f:
+            r = requests.post('https://0x0.st', files={'file': f}, timeout=timeout_sec)
+        r.raise_for_status()
+        return r.text.strip()
+
+    def upload_ttm():
+        with open(video_path, 'rb') as f:
+            r = requests.post('https://ttm.sh', files={'file': f}, timeout=timeout_sec)
+        r.raise_for_status()
+        return r.text.strip()
+
+    def upload_transfer_sh():
+        with open(video_path, 'rb') as f:
+            r = requests.put(f'https://transfer.sh/{filename}', data=f, timeout=timeout_sec)
+        r.raise_for_status()
+        return r.text.strip()
+
+    def upload_pomf():
+        with open(video_path, 'rb') as f:
+            r = requests.post('https://pomf.lain.la/upload.php', files={'files[]': f}, timeout=timeout_sec)
+        r.raise_for_status()
+        return r.json()['files'][0]['url']
+
+    def upload_tmpfiles():
+        with open(video_path, 'rb') as f:
+            r = requests.post('https://tmpfiles.org/api/v1/upload', files={'file': f}, timeout=timeout_sec)
+        r.raise_for_status()
+        url = r.json()['data']['url']
+        return url.replace('tmpfiles.org/', 'tmpfiles.org/dl/') # Convert to direct download link
+
+    def upload_litterbox():
+        with open(video_path, 'rb') as f:
+            r = requests.post('https://litterbox.catbox.moe/resources/internals/api.php', data={'reqtype': 'fileupload', 'time': '72h'}, files={'fileToUpload': f}, timeout=timeout_sec)
+        r.raise_for_status()
+        return r.text.strip()
+
+    def upload_uguu():
+        with open(video_path, 'rb') as f:
+            r = requests.post('https://uguu.se/upload.php', files={'files[]': f}, timeout=timeout_sec)
+        r.raise_for_status()
+        return r.json()['files'][0]['url']
+
+    def upload_fileio():
+        with open(video_path, 'rb') as f:
+            r = requests.post('https://file.io', files={'file': f}, timeout=timeout_sec)
+        r.raise_for_status()
+        return r.json()['link']
+
+    servers = [
+        ("catbox.moe", upload_catbox),
+        ("envs.sh", upload_envs),
+        ("0x0.st", upload_0x0),
+        ("pomf.lain.la", upload_pomf),
+        ("ttm.sh", upload_ttm),
+        ("transfer.sh", upload_transfer_sh),
+        ("tmpfiles.org", upload_tmpfiles),
+        ("litterbox.catbox.moe", upload_litterbox),
+        ("uguu.se", upload_uguu),
+        ("file.io", upload_fileio)
+    ]
+
+    for server_name, upload_func in servers:
+        try:
+            print(f"Uploading to {server_name}...")
+            video_url = upload_func()
+            if video_url and video_url.startswith("http"):
+                print(f"✅ Upload successful on {server_name}: {video_url}")
+                return video_url
+        except Exception as e:
+            print(f"❌ Failed on {server_name}: {e}")
+            continue
+
+    raise Exception("Sabhi 10 video upload servers fail ho gaye!")
+
+def post_to_webhook(video_url, title, description):
+    """Webhook par Video URL, Title aur Description post karna."""
     webhook_url = os.getenv("KAVLIO_FACBOOK_WEBHOOK")
     if not webhook_url:
         raise ValueError("KAVLIO_FACBOOK_WEBHOOK environment variable set nahi hai.")
 
-    with open(video_path, 'rb') as video_file:
-        files = {
-            'file': (os.path.basename(video_path), video_file, 'video/mp4')
-        }
-        data = {
-            'title': title,
-            'description': description
-        }
-        
-        response = requests.post(webhook_url, files=files, data=data)
-        
-        if response.status_code not in (200, 201, 204):
-            raise Exception(f"Webhook post failed! Status: {response.status_code}, Response: {response.text}")
+    # Ab hum file ki jagah direct URL bhej rahe hain
+    data = {
+        'title': title,
+        'description': description,
+        'video_url': video_url
+    }
+    
+    response = requests.post(webhook_url, data=data)
+    
+    if response.status_code not in (200, 201, 204):
+        raise Exception(f"Webhook post failed! Status: {response.status_code}, Response: {response.text}")
 
 def main():
+    img_path = audio_path = video_path = None
     try:
         print("Starting Automation...")
         state = load_state()
@@ -156,11 +242,15 @@ def main():
         print("Creating Video...")
         video_path = create_video(img_path, audio_path)
 
-        # 4. Post to Webhook
-        print("Posting to Webhook...")
-        post_to_webhook(video_path, title, description)
+        # 4. Upload Video to Server with Fallback (10 Servers loop)
+        print("Uploading Video to Servers...")
+        video_url = upload_video_with_fallback(video_path)
 
-        # 5. Update State & Save (Cooldown Start)
+        # 5. Post to Webhook (URL version)
+        print("Posting Video URL to Webhook...")
+        post_to_webhook(video_url, title, description)
+
+        # 6. Update State & Save (Cooldown Start)
         current_time = time.time()
         state["img"][img_url] = current_time
         state["audio"][audio_url] = current_time
@@ -168,18 +258,18 @@ def main():
         state["description"][description] = current_time
         
         save_state(state)
-        print("Post successful. State saved & Cooldown updated!")
-
-        # 6. Cleanup temporary files
-        os.remove(img_path)
-        os.remove(audio_path)
-        os.remove(video_path)
+        print("✅ Post successful. State saved & Cooldown updated!")
 
     except Exception as e:
         error_details = traceback.format_exc()
         print("Error occurred!")
         print(error_details)
         send_telegram_error(error_details)
+    finally:
+        # 7. Cleanup temporary files chahe error aaye ya na aaye
+        for path in [img_path, audio_path, video_path]:
+            if path and os.path.exists(path):
+                os.remove(path)
 
 if __name__ == "__main__":
     main()
