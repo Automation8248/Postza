@@ -16,7 +16,7 @@ BRANCH = "main"
 
 AUTOMATION_NAME = "postza"
 SOCIAL_MEDIA_NAME = "Lucas Hart"
-TELEGRAM_THREAD_ID = 2
+TELEGRAM_THREAD_ID = 8
 
 # Base Directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
