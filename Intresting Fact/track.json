@@ -359,6 +359,24 @@
       "topic": "Cats",
       "text": "Kittens have 26 baby teeth.",
       "last_used": "2026-11-08T10:43:56.917363+00:00"
+    },
+    "1fb5671b550087e2": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "The earliest whale ancestors resembled small deer-like animals.",
+      "last_used": "2026-11-08T16:16:03.464690+00:00"
+    },
+    "0199e4bbc95daa38": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats can be affected by feline leukemia virus.",
+      "last_used": "2026-11-08T16:16:03.464725+00:00"
+    },
+    "331a510f9f359037": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The first police dog program began in Ghent, Belgium in the 1890s.",
+      "last_used": "2026-11-08T16:16:03.464746+00:00"
     }
   },
   "titles": {
@@ -373,9 +391,9 @@
       "last_used": "2026-11-08T10:43:56.917378+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 6,
+      "count": 7,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-04T21:27:27.635538+00:00"
+      "last_used": "2026-11-08T16:16:03.464760+00:00"
     }
   },
   "hashtags": {
@@ -473,18 +491,28 @@
       "count": 1,
       "text": "#forests #rainforest #amazon #junglelife #ecosystem #wild",
       "last_used": "2026-11-08T10:43:56.917390+00:00"
+    },
+    "b9b10db8d9e710c0": {
+      "count": 1,
+      "text": "#writing #alphabet #calligraphy #fonts #typography #symbols",
+      "last_used": "2026-11-08T16:16:03.464775+00:00"
     }
   },
   "meta": {
-    "last_template": "sunset_vibes",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 20
+    "last_template": "noir_pop",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 21
   },
   "music": {
     "d51d90d36da968c8": {
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/04/11/audio_888e64798e.mp3",
       "last_used": "2026-11-08T10:43:56.917402+00:00"
+    },
+    "75b1550990b24da1": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/10/16/audio_c25db4b6a0.mp3",
+      "last_used": "2026-11-08T16:16:03.464786+00:00"
     }
   }
 }
