@@ -1,6 +1,8 @@
 name: Nature Therapy Auto Post
 
 on:
+  schedule:
+    - cron: '0 5 * * *' 
   workflow_dispatch:
 
 permissions:
@@ -25,7 +27,7 @@ jobs:
 
       - name: Run Nature Therapy Automation
         env:
-          NATURE_WEBHOOK: ${{ secrets.NATURE_WEBHOOK }}
+          NATURE_THERAPY_WEBHOOK: ${{ secrets.NATURE_THERAPY_WEBHOOK }}
           TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
           FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
         run: |
