@@ -10,15 +10,17 @@ Folder (sab kuch "Intresting Fact" ke andar):
   hashtag.txt   <- 1 line = 1 hashtag set
   track.json    <- facts/titles/hashtags 100-day cooldown
   config.json   <- names, message, voice settings
-  music/  output/  fonts/
+  music.txt     <- 1 line = 1 direct music URL (random, 100-day cooldown)
+  output/  fonts/
 
 Features:
   * English human neural voice (edge-tts), energetic tone
   * hook.txt se random hook -> shocking voice -> impact sound -> phir 3 facts
   * "hmm / aww / oh / wow ..." par natural pause, "..." par pause, [pause] / [pause 1.5] tag
   * 10 templates (transition + filter + zoom + caption style)
-  * Music: lamba -> trim, chhota -> crossfade merge
-  * Upload fallback chain -> GitHub raw link
+  * Music: music.txt se random direct link -> download -> lamba trim / chhota crossfade merge
+  * Fail hone par Telegram message (FAILED_CHAT_ID, TELEGRAM_FAILD_TOKEN, thread 8)
+  * Upload: catbox -> litterbox -> uguu -> 0x0, fail par human delay ke saath 3 rounds -> GitHub raw
   * Webhook: WEBHOOK_INTRESTING_FACT
   * output/ me video, 3 din baad auto delete
 """
@@ -48,7 +50,8 @@ OUTPUT_DIR = BASE / "output"
 TMP_DIR = BASE / "_tmp"
 TRACK_FILE = BASE / "track.json"
 CONFIG_FILE = BASE / "config.json"
-MUSIC_DIR = BASE / "music"
+MUSIC_FILE = BASE / "music.txt"
+FAIL_MARK = BASE / ".failed_notified"
 FONT_DIR = BASE / "fonts"
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -79,6 +82,7 @@ DEFAULT_CONFIG = {
     "hook_gap": 0.55,                # hook ke baad fact start hone se pehle ruk
     "hook_sfx": True,
     "music_volume": 0.14,
+    "telegram_thread_id": 8,
     "transition_duration": 0.5,
 }
 
@@ -245,7 +249,7 @@ def load_track():
             data = json.loads(TRACK_FILE.read_text("utf-8"))
         except Exception:
             log("track.json corrupt -> fresh start")
-    for k in ("facts", "titles", "hashtags"):
+    for k in ("facts", "titles", "hashtags", "music"):
         data.setdefault(k, {})
     data.setdefault("meta", {})
     return data
@@ -322,6 +326,46 @@ def pick_hook(track):
     last = track["meta"].get("last_hook")
     pool = [h for h in hooks if h != last] or hooks
     return random.choice(pool)
+
+
+def pick_music(track, days, dest_stem):
+    """music.txt se random direct link (100-day cooldown) -> download.
+    Return (path, url) ya (None, None)."""
+    links = read_lines(MUSIC_FILE)
+    if not links:
+        log("music.txt khali/missing -> bina music ke video")
+        return None, None
+    fresh = [u for u in links if not in_cooldown(track["music"].get(uid(u)), days)]
+    random.shuffle(fresh)
+    cooling = sorted((u for u in links if u not in fresh),
+                     key=lambda u: track["music"].get(uid(u), {}).get("last_used", ""))
+    # pehle cooldown se bahar wale; sab fail/khatam ho jayein to sabse purana use hua music
+    avail = fresh + cooling
+    if not fresh:
+        log("WARNING: saare music cooldown me hain -> sabse purana use hoga")
+    for url in avail:
+        try:
+            r = requests.get(url, timeout=60, headers={"User-Agent": UA}, stream=True)
+            r.raise_for_status()
+            ext = os.path.splitext(url.split("?")[0])[1].lower()
+            ext = ext if ext in (".mp3", ".m4a", ".wav", ".ogg", ".aac") else ".mp3"
+            path = Path(f"{dest_stem}{ext}")
+            size = 0
+            with open(path, "wb") as f:
+                for chunk in r.iter_content(1024 * 256):
+                    size += len(chunk)
+                    if size > 80 * 1024 * 1024:
+                        raise ValueError("music file too big")
+                    f.write(chunk)
+            if size < 20000:
+                raise ValueError("music file too small")
+            media_duration(path)                      # valid audio hai ya nahi
+            log(f"music downloaded: {url[:70]} ({size/1e6:.1f} MB)")
+            return path, url
+        except Exception as e:
+            log(f"  music fail ({url[:60]}): {e}")
+    log("koi music download nahi hua -> bina music ke video")
+    return None, None
 
 
 def cover_and_blur(img):
@@ -804,18 +848,19 @@ def up_0x0(p):
     return _clean(r.text)
 
 
-def up_tmpfiles(p):
-    with open(p, "rb") as f:
-        r = requests.post("https://tmpfiles.org/api/v1/upload",
-                          files={"file": (p.name, f, "video/mp4")},
-                          headers={"User-Agent": UA}, timeout=300)
-    r.raise_for_status()
-    url = _clean(r.json()["data"]["url"])
-    return url.replace("tmpfiles.org/", "tmpfiles.org/dl/", 1)
-
-
 UPLOAD_SERVERS = [("catbox.moe", up_catbox), ("litterbox.catbox.moe", up_litterbox),
-                  ("uguu.se", up_uguu), ("0x0.st", up_0x0), ("tmpfiles.org", up_tmpfiles)]
+                  ("uguu.se", up_uguu), ("0x0.st", up_0x0)]
+
+# (round se pehle wait sec, servers ke beech wait sec) -> human jaisa delay
+UPLOAD_ROUNDS = [((0, 0), (0, 0)), ((20, 35), (6, 12)), ((60, 90), (12, 25))]
+
+
+def human_sleep(lo, hi, why):
+    if hi <= 0:
+        return
+    d = random.uniform(lo, hi)
+    log(f"[wait] {why}: {d:.0f}s")
+    time.sleep(d)
 
 
 def github_raw_fallback(path):
@@ -835,17 +880,23 @@ def github_raw_fallback(path):
 
 
 def upload_video(path):
-    for name, fn in UPLOAD_SERVERS:
-        for attempt in (1, 2):
+    """Round 1: catbox -> litterbox -> uguu -> 0x0. Sab fail to human delay ke baad
+    round 2, phir aur zyada delay ke baad round 3. Sab fail to GitHub raw link."""
+    for rnd, (before, between) in enumerate(UPLOAD_ROUNDS, 1):
+        if rnd > 1:
+            log(f"[upload] saare servers fail -> round {rnd} (human delay)")
+            human_sleep(*before, f"round {rnd} se pehle")
+        for k, (name, fn) in enumerate(UPLOAD_SERVERS):
+            if k > 0 and between[1] > 0:
+                human_sleep(*between, "agle server se pehle")
             try:
-                log(f"[upload] {name} (try {attempt})")
+                log(f"[upload] round {rnd}: {name}")
                 url = fn(path)
                 log(f"[upload] OK -> {url}")
                 return url, name
             except Exception as e:
                 log(f"[upload] {name} failed: {e}")
-                time.sleep(2)
-    log("[upload] sab servers fail -> GitHub raw link")
+    log("[upload] 3 rounds ke baad bhi fail -> GitHub raw link")
     return github_raw_fallback(path), "github-raw"
 
 
@@ -975,12 +1026,8 @@ def main():
         render_segment(img_paths[i], lst, Ls[i], zooms[i], tpl, out)
         seg_files.append(out)
 
-    tracks = sorted(list(MUSIC_DIR.glob("*.mp3")) + list(MUSIC_DIR.glob("*.m4a"))
-                    + list(MUSIC_DIR.glob("*.wav"))) if MUSIC_DIR.exists() else []
-    music = random.choice(tracks) if tracks else None
-    log("music:", music.name if music else "none (music/ folder me mp3 daalo)")
-    if music:
-        music = prepare_music(music, total, TMP_DIR / "music_fit.wav")
+    music_path, music_url = pick_music(track, days, TMP_DIR / "music_src")
+    music = prepare_music(music_path, total, TMP_DIR / "music_fit.wav") if music_path else None
     sfx = None
     if cfg["hook_sfx"]:
         sfx = TMP_DIR / "impact.wav"
@@ -998,6 +1045,8 @@ def main():
         mark_used(track["facts"], f["text"], topic=f["topic"])
     mark_used(track["titles"], title)
     mark_used(track["hashtags"], hashtag)
+    if music_url:
+        mark_used(track["music"], music_url)
     track["meta"]["last_template"] = tpl["name"]
     track["meta"]["last_hook"] = hook
     track["meta"]["total_videos"] = track["meta"].get("total_videos", 0) + 1
@@ -1016,6 +1065,7 @@ def main():
         "template": tpl["name"],
         "voice": voice,
         "hook": hook,
+        "music_url": music_url,
         "topics": [f["topic"] for f in facts],
         "facts": [f["text"] for f in facts],
         "created_at": now_utc().isoformat(),
@@ -1026,5 +1076,61 @@ def main():
     return 0 if ok or not os.getenv("WEBHOOK_INTRESTING_FACT") else 1
 
 
+# --------------------------------------------------------------------------
+# Telegram failure alert  (secrets: FAILED_CHAT_ID, TELEGRAM_FAILD_TOKEN)
+# --------------------------------------------------------------------------
+def notify_failure(reason):
+    token = os.getenv("TELEGRAM_FAILD_TOKEN") or os.getenv("TELEGRAM_FAILED_TOKEN")
+    chat_id = os.getenv("FAILED_CHAT_ID")
+    if not token or not chat_id:
+        log("Telegram secrets set nahi hain -> alert skip")
+        return False
+    cfg = load_config()
+    repo = os.getenv("GITHUB_REPOSITORY", "local-run")
+    run_id = os.getenv("GITHUB_RUN_ID")
+    run_url = f"https://github.com/{repo}/actions/runs/{run_id}" if run_id else "-"
+    text = (f"\u274c AUTOMATION FAILED\n\n"
+            f"Automation: {cfg['automation_name']}\n"
+            f"Social media: {cfg['social_media_name']}\n"
+            f"Repo: {repo}\n"
+            f"Run: {run_url}\n\n"
+            f"Reason: {str(reason)[-1500:]}")
+    payload = {"chat_id": chat_id, "text": text[:3800], "disable_web_page_preview": True}
+    if cfg.get("telegram_thread_id"):
+        payload["message_thread_id"] = int(cfg["telegram_thread_id"])
+    for i in range(1, 4):
+        try:
+            r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                              json=payload, timeout=30)
+            if r.status_code == 200:
+                log("[telegram] failure alert sent")
+                FAIL_MARK.write_text("sent")
+                return True
+            log("[telegram] status", r.status_code, r.text[:200])
+        except Exception as e:
+            log("[telegram] error", e)
+        time.sleep(3 * i)
+    return False
+
+
+def safe_main():
+    FAIL_MARK.unlink(missing_ok=True)
+    try:
+        rc = main()
+        if rc:
+            notify_failure("Video ban gayi lekin webhook par post fail ho gaya "
+                           "(WEBHOOK_INTRESTING_FACT check karo).")
+        return rc
+    except SystemExit as e:
+        if e.code not in (0, None):
+            notify_failure(e.code)
+        raise
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        notify_failure(f"{type(e).__name__}: {e}")
+        return 1
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(safe_main())
