@@ -5,7 +5,7 @@ import requests
 import traceback
 from datetime import datetime, timedelta
 
-# Environment Variables (Updated Secret Name)
+# Environment Variables
 WEBHOOK_URL = os.environ.get("NATURE_THERAPY_WEBHOOK")
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_FAILD_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("FAILED_CHAT_ID")
@@ -48,7 +48,6 @@ def send_telegram_alert(error_msg):
 def load_data(filepath):
     """Loads lines from a text file, ignoring empty lines."""
     if not os.path.exists(filepath):
-        # Adding helpful details to the error so it's easier to debug
         raise FileNotFoundError(f"Missing file: {filepath} - Please check if the file exists and the spelling/capitalization is exact.")
     with open(filepath, "r", encoding="utf-8") as f:
         return [line.strip() for line in f if line.strip()]
@@ -79,6 +78,19 @@ def filter_available(items, track_dict):
         available.append(item)
     return available
 
+def is_valid_image_url(url):
+    """Checks if the image URL is valid and returning a 200 OK status."""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+        # stream=True ensures we only fetch headers, not download the full image, saving bandwidth/time
+        response = requests.get(url, headers=headers, stream=True, timeout=10)
+        if response.status_code == 200:
+            return True
+        return False
+    except Exception as e:
+        print(f"Error checking URL {url}: {e}")
+        return False
+
 def main():
     try:
         # Load raw data
@@ -102,10 +114,26 @@ def main():
         if not available_hashtags:
             raise ValueError("No available hashtags found. All hashtags are in cooling period.")
             
-        # Select randomly
-        selected_image = random.choice(available_images)
+        # Select randomly for Title and Hashtag
         selected_title = random.choice(available_titles)
         selected_hashtag = random.choice(available_hashtags)
+        
+        # Select and Validate Image URL
+        random.shuffle(available_images) # Shuffle list to pick randomly
+        selected_image = None
+        
+        for img_url in available_images:
+            print(f"Checking URL: {img_url}")
+            if is_valid_image_url(img_url):
+                selected_image = img_url
+                print(f"Valid URL found: {selected_image}")
+                break
+            else:
+                print(f"Invalid or broken URL skipped: {img_url}")
+                
+        # If loop finishes and no valid image is found
+        if not selected_image:
+            raise ValueError("No working image URLs found in the available list. All checked URLs returned errors.")
         
         # Send to Webhook
         if not WEBHOOK_URL:
@@ -117,6 +145,7 @@ def main():
             "image_url": selected_image
         }
         
+        print("Sending to webhook...")
         response = requests.post(WEBHOOK_URL, json=webhook_payload)
         response.raise_for_status() # Raises exception if webhook fails (e.g., 404, 500)
         
