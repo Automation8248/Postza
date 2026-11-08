@@ -5,20 +5,20 @@ import sys
 import json
 from datetime import datetime, timedelta
 
-# Environment Variables
-WEBHOOK_URL = os.environ.get("LUCAS_WEBHOOK")
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_FAILD_TOKEN")
-CHAT_ID = os.environ.get("FAILED_CHAT_ID")
+# Environment Variables (Added .strip() to fix %0A spacing issues)
+WEBHOOK_URL = os.environ.get("LUCAS_WEBHOOK", "").strip()
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_FAILD_TOKEN", "").strip()
+CHAT_ID = os.environ.get("FAILED_CHAT_ID", "").strip()
 
-# Hardcoded Repo Details (Environment variable removed)
+# Hardcoded Repo Details 
 GITHUB_REPO = "Automation8248/Postza" 
 BRANCH = "main"
 
 AUTOMATION_NAME = "postza"
 SOCIAL_MEDIA_NAME = "Lucas Hart"
-TELEGRAM_THREAD_ID = 8
+TELEGRAM_THREAD_ID = 2
 
-# Base Directory is now the folder where this script is located (Lucas Hart)
+# Base Directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 VIDEO_DIR = os.path.join(BASE_DIR, "video")
 HISTORY_FILE = os.path.join(BASE_DIR, "history.json")
@@ -27,7 +27,8 @@ QUOTES_FILE = os.path.join(BASE_DIR, "quotes.txt")
 TITLE_FILE = os.path.join(BASE_DIR, "title.txt")
 HASHTAG_FILE = os.path.join(BASE_DIR, "hastag.txt")
 
-VALID_VIDEO_EXT = ('.mp4', '.webm', '.avi', '.mov', '.mkv')
+# STRICT FILTER: Only these extensions will be picked up and deleted. (Added .webp)
+VALID_VIDEO_EXT = ('.mp4', '.webm', '.webp', '.avi', '.mov', '.mkv')
 
 def send_telegram_alert(error_message):
     if not TELEGRAM_TOKEN or not CHAT_ID:
@@ -84,11 +85,12 @@ def main():
             if now - entry_date <= timedelta(days=4) and 'hashtag' in entry:
                 recent_hashtags.append(entry['hashtag'])
 
-        # Filters
+        # Filters - Picks UP ONLY files ending with valid extensions
         all_videos = [f for f in os.listdir(VIDEO_DIR) if f.lower().endswith(VALID_VIDEO_EXT)]
         available_videos = [v for v in all_videos if v not in used_videos]
+        
         if not available_videos:
-            raise ValueError("No new videos found in 'video' folder!")
+            raise ValueError("No new videos found in 'video' folder! (txt and other files are ignored)")
             
         if not captions:
             raise ValueError("caption.txt is empty!")
@@ -108,7 +110,7 @@ def main():
 
         formatted_post_text = f"{selected_title}\n\n✨ {selected_caption}\n\n{selected_hashtag}"
         
-        # Raw GitHub URL (using hardcoded GITHUB_REPO)
+        # Raw GitHub URL
         video_raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{BRANCH}/Lucas%20Hart/video/{selected_video}".replace(" ", "%20")
         
         payload = {
@@ -141,15 +143,19 @@ def main():
         }
         history.append(new_entry)
         
-        # 30-Day Cleanup
+        # 30-Day Cleanup (STRICT DELETE)
         valid_history = []
         for entry in history:
             entry_date = datetime.fromisoformat(entry['timestamp'])
             if now - entry_date > timedelta(days=30):
                 vid_path = os.path.join(VIDEO_DIR, entry['video'])
-                if os.path.exists(vid_path):
+                
+                # Double Safety: Check if file exists AND ends with valid video extension before deleting
+                if os.path.exists(vid_path) and entry['video'].lower().endswith(VALID_VIDEO_EXT):
                     os.remove(vid_path)
                     print(f"Deleted 30-day old video: {entry['video']}")
+                elif os.path.exists(vid_path):
+                    print(f"Skipped deleting {entry['video']} as it is not a valid video extension.")
             else:
                 valid_history.append(entry)
 
