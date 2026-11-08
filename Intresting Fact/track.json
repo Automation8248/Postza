@@ -377,13 +377,31 @@
       "topic": "Dogs",
       "text": "The first police dog program began in Ghent, Belgium in the 1890s.",
       "last_used": "2026-11-08T16:16:03.464746+00:00"
+    },
+    "fad6bd27619f6e3d": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Baleen whales produce low-frequency sounds.",
+      "last_used": "2026-11-08T19:53:15.204973+00:00"
+    },
+    "bc74105a6a7b3bd4": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats can become pregnant as early as 4 months old.",
+      "last_used": "2026-11-08T19:53:15.204999+00:00"
+    },
+    "2dece7aa4b9b1f49": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The Papillon's name means \"butterfly\" in French due to its ears.",
+      "last_used": "2026-11-08T19:53:15.205009+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 7,
+      "count": 8,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-05T11:28:43.766905+00:00"
+      "last_used": "2026-11-08T19:53:15.205019+00:00"
     },
     "414123dcd2f39de3": {
       "count": 7,
@@ -496,12 +514,17 @@
       "count": 1,
       "text": "#writing #alphabet #calligraphy #fonts #typography #symbols",
       "last_used": "2026-11-08T16:16:03.464775+00:00"
+    },
+    "0a3ce10262c43817": {
+      "count": 1,
+      "text": "#superstitions #luck #badluck #blackcat #friday13 #folklore",
+      "last_used": "2026-11-08T19:53:15.205026+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 21
+    "last_template": "hot_energy",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 22
   },
   "music": {
     "d51d90d36da968c8": {
@@ -513,6 +536,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/10/16/audio_c25db4b6a0.mp3",
       "last_used": "2026-11-08T16:16:03.464786+00:00"
+    },
+    "b678204f25130828": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/01/09/audio_dbefbfac51.mp3",
+      "last_used": "2026-11-08T19:53:15.205030+00:00"
     }
   }
 }
