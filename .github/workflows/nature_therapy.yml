@@ -1,8 +1,6 @@
 name: Nature Therapy Auto Post
 
 on:
-  schedule:
-    - cron: '0 5 * * *' 
   workflow_dispatch:
 
 permissions:
