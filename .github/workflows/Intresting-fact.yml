@@ -40,6 +40,8 @@ jobs:
       - name: Run automation
         env:
           WEBHOOK_INTRESTING_FACT: ${{ secrets.WEBHOOK_INTRESTING_FACT }}
+          FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
+          TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
         run: python -u "Intresting Fact/main.py"
 
       # Video 3 din tak Artifacts me rahegi, uske baad GitHub khud delete kar dega
@@ -86,3 +88,25 @@ jobs:
           done
           echo "Push failed after 3 tries"
           exit 1
+
+      # Python ke bahar ka fail (install/ffmpeg etc.) ho to bhi Telegram alert
+      - name: Telegram alert (workflow level failure)
+        if: failure()
+        env:
+          FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
+          TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
+        run: |
+          if [ -f "Intresting Fact/.failed_notified" ]; then
+            echo "Alert already sent by script"; exit 0
+          fi
+          if [ -z "$TELEGRAM_FAILD_TOKEN" ] || [ -z "$FAILED_CHAT_ID" ]; then
+            echo "Telegram secrets missing"; exit 0
+          fi
+          NAME=$(python3 -c "import json;print(json.load(open('Intresting Fact/config.json')).get('automation_name',''))" 2>/dev/null)
+          SOCIAL=$(python3 -c "import json;print(json.load(open('Intresting Fact/config.json')).get('social_media_name',''))" 2>/dev/null)
+          THREAD=$(python3 -c "import json;print(json.load(open('Intresting Fact/config.json')).get('telegram_thread_id',8))" 2>/dev/null)
+          TEXT=$(printf "AUTOMATION FAILED\n\nAutomation: %s\nSocial media: %s\nRepo: %s\nRun: %s/%s/actions/runs/%s\n\nReason: workflow step failed (install/ffmpeg/commit). Logs check karo." "$NAME" "$SOCIAL" "$GITHUB_REPOSITORY" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_FAILD_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${FAILED_CHAT_ID}" \
+            --data-urlencode "message_thread_id=${THREAD}" \
+            --data-urlencode "text=${TEXT}" > /dev/null
