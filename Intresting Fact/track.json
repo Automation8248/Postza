@@ -413,6 +413,24 @@
       "topic": "Cats",
       "text": "Cats make a trilling sound to greet each other.",
       "last_used": "2026-11-09T12:01:01.795072+00:00"
+    },
+    "5ca67de358e028b4": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants can eat the fruit of the marula tree.",
+      "last_used": "2026-11-09T20:00:16.150094+00:00"
+    },
+    "007d5634e3bbc9ee": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Humpbacks have been seen protecting other animals from killer whales.",
+      "last_used": "2026-11-09T20:00:16.150134+00:00"
+    },
+    "245d3600f270842f": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Larry is the chief mouser of 10 Downing Street.",
+      "last_used": "2026-11-09T20:00:16.150144+00:00"
     }
   },
   "titles": {
@@ -427,9 +445,9 @@
       "last_used": "2026-11-09T12:01:01.795085+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 7,
+      "count": 8,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-08T16:16:03.464760+00:00"
+      "last_used": "2026-11-09T20:00:16.150150+00:00"
     }
   },
   "hashtags": {
@@ -542,12 +560,17 @@
       "count": 1,
       "text": "#deserts #sahara #sanddunes #survival #camel #oasis",
       "last_used": "2026-11-09T12:01:01.795095+00:00"
+    },
+    "3b105cb7d617b553": {
+      "count": 1,
+      "text": "#codebreaking #cryptography #enigma #puzzles #riddles #logic",
+      "last_used": "2026-11-09T20:00:16.150157+00:00"
     }
   },
   "meta": {
-    "last_template": "mint_fresh",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 23
+    "last_template": "retro_vhs",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 24
   },
   "music": {
     "d51d90d36da968c8": {
@@ -569,6 +592,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2024/09/23/audio_da3d8aa437.mp3",
       "last_used": "2026-11-09T12:01:01.795103+00:00"
+    },
+    "08ac0ad7e605f939": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/06/11/audio_9713011c5b.mp3",
+      "last_used": "2026-11-09T20:00:16.150162+00:00"
     }
   }
 }
