@@ -431,13 +431,31 @@
       "topic": "Cats",
       "text": "Larry is the chief mouser of 10 Downing Street.",
       "last_used": "2026-11-09T20:00:16.150144+00:00"
+    },
+    "45bf45952134199e": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Sperm whales have the loudest sound of any animal.",
+      "last_used": "2026-11-09T23:51:53.544691+00:00"
+    },
+    "8aa80299b863f107": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "The international ivory trade was banned in 1989.",
+      "last_used": "2026-11-09T23:51:53.544725+00:00"
+    },
+    "940245d9caeaf711": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Neutering can reduce certain health risks and roaming behavior.",
+      "last_used": "2026-11-09T23:51:53.544742+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 8,
+      "count": 9,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-08T19:53:15.205019+00:00"
+      "last_used": "2026-11-09T23:51:53.544757+00:00"
     },
     "414123dcd2f39de3": {
       "count": 8,
@@ -565,12 +583,17 @@
       "count": 1,
       "text": "#codebreaking #cryptography #enigma #puzzles #riddles #logic",
       "last_used": "2026-11-09T20:00:16.150157+00:00"
+    },
+    "3bcedb0c971796d8": {
+      "count": 1,
+      "text": "#blackholes #singularity #hawking #gravity #spacetravel #astrophysics",
+      "last_used": "2026-11-09T23:51:53.544774+00:00"
     }
   },
   "meta": {
-    "last_template": "retro_vhs",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 24
+    "last_template": "neon_glow",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 25
   },
   "music": {
     "d51d90d36da968c8": {
@@ -597,6 +620,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/06/11/audio_9713011c5b.mp3",
       "last_used": "2026-11-09T20:00:16.150162+00:00"
+    },
+    "74f20b3c8523d788": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2022/04/25/audio_26f23ffc26.mp3",
+      "last_used": "2026-11-09T23:51:53.544785+00:00"
     }
   }
 }
