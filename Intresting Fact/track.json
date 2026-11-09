@@ -395,6 +395,24 @@
       "topic": "Dogs",
       "text": "The Papillon's name means \"butterfly\" in French due to its ears.",
       "last_used": "2026-11-08T19:53:15.205009+00:00"
+    },
+    "ad0ebb79992c3d93": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Tourism based on elephant watching supports local economies.",
+      "last_used": "2026-11-09T12:01:01.795029+00:00"
+    },
+    "c3d9496ddb270615": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Small dogs have faster heart rates than large dogs.",
+      "last_used": "2026-11-09T12:01:01.795059+00:00"
+    },
+    "435710e7712b64d9": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats make a trilling sound to greet each other.",
+      "last_used": "2026-11-09T12:01:01.795072+00:00"
     }
   },
   "titles": {
@@ -404,9 +422,9 @@
       "last_used": "2026-11-08T19:53:15.205019+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 7,
+      "count": 8,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-08T10:43:56.917378+00:00"
+      "last_used": "2026-11-09T12:01:01.795085+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 7,
@@ -519,12 +537,17 @@
       "count": 1,
       "text": "#superstitions #luck #badluck #blackcat #friday13 #folklore",
       "last_used": "2026-11-08T19:53:15.205026+00:00"
+    },
+    "cc84b0514883166c": {
+      "count": 1,
+      "text": "#deserts #sahara #sanddunes #survival #camel #oasis",
+      "last_used": "2026-11-09T12:01:01.795095+00:00"
     }
   },
   "meta": {
-    "last_template": "hot_energy",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 22
+    "last_template": "mint_fresh",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 23
   },
   "music": {
     "d51d90d36da968c8": {
@@ -541,6 +564,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/01/09/audio_dbefbfac51.mp3",
       "last_used": "2026-11-08T19:53:15.205030+00:00"
+    },
+    "9bbf0f64b1da6cfb": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2024/09/23/audio_da3d8aa437.mp3",
+      "last_used": "2026-11-09T12:01:01.795103+00:00"
     }
   }
 }
