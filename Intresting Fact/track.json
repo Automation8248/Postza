@@ -467,6 +467,24 @@
       "topic": "Whales",
       "text": "Each whale species has a distinct blow shape.",
       "last_used": "2026-11-10T11:39:24.051879+00:00"
+    },
+    "50268b5623152390": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Female orcas go through menopause.",
+      "last_used": "2026-11-10T17:15:45.548868+00:00"
+    },
+    "881de3effd79901c": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The Irish Wolfhound is among the tallest dog breeds.",
+      "last_used": "2026-11-10T17:15:45.548899+00:00"
+    },
+    "586ff1726983d16f": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats can get hairballs from swallowing fur during grooming.",
+      "last_used": "2026-11-10T17:15:45.548907+00:00"
     }
   },
   "titles": {
@@ -481,9 +499,9 @@
       "last_used": "2026-11-10T11:39:24.051892+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 8,
+      "count": 9,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-09T20:00:16.150150+00:00"
+      "last_used": "2026-11-10T17:15:45.548914+00:00"
     }
   },
   "hashtags": {
@@ -611,12 +629,17 @@
       "count": 1,
       "text": "#recycling #waste #zerowaste #environment #pollution #cleanearth",
       "last_used": "2026-11-10T11:39:24.051903+00:00"
+    },
+    "1fc386738e6982eb": {
+      "count": 1,
+      "text": "#language #words #etymology #culture #communication #literature",
+      "last_used": "2026-11-10T17:15:45.548920+00:00"
     }
   },
   "meta": {
-    "last_template": "cinematic_gold",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 26
+    "last_template": "royal_purple",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 27
   },
   "music": {
     "d51d90d36da968c8": {
@@ -653,6 +676,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/06/21/audio_be3c448ee8.mp3",
       "last_used": "2026-11-10T11:39:24.051913+00:00"
+    },
+    "50df1be3714153a7": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/09/21/audio_8a8bac6b73.mp3",
+      "last_used": "2026-11-10T17:15:45.548926+00:00"
     }
   }
 }
