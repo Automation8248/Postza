@@ -449,6 +449,24 @@
       "topic": "Dogs",
       "text": "Neutering can reduce certain health risks and roaming behavior.",
       "last_used": "2026-11-09T23:51:53.544742+00:00"
+    },
+    "57f881c5594d02d1": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "High-rise syndrome describes injuries cats get from falling from high places.",
+      "last_used": "2026-11-10T11:39:24.051834+00:00"
+    },
+    "452e1bc760d5c6ee": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephant sanctuaries provide care for rescued animals.",
+      "last_used": "2026-11-10T11:39:24.051865+00:00"
+    },
+    "b6242bdc2fe8729c": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Each whale species has a distinct blow shape.",
+      "last_used": "2026-11-10T11:39:24.051879+00:00"
     }
   },
   "titles": {
@@ -458,9 +476,9 @@
       "last_used": "2026-11-09T23:51:53.544757+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 8,
+      "count": 9,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-09T12:01:01.795085+00:00"
+      "last_used": "2026-11-10T11:39:24.051892+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 8,
@@ -588,12 +606,17 @@
       "count": 1,
       "text": "#blackholes #singularity #hawking #gravity #spacetravel #astrophysics",
       "last_used": "2026-11-09T23:51:53.544774+00:00"
+    },
+    "ce201355dcd1e27f": {
+      "count": 1,
+      "text": "#recycling #waste #zerowaste #environment #pollution #cleanearth",
+      "last_used": "2026-11-10T11:39:24.051903+00:00"
     }
   },
   "meta": {
-    "last_template": "neon_glow",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 25
+    "last_template": "cinematic_gold",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 26
   },
   "music": {
     "d51d90d36da968c8": {
@@ -625,6 +648,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2022/04/25/audio_26f23ffc26.mp3",
       "last_used": "2026-11-09T23:51:53.544785+00:00"
+    },
+    "5a26fc6bb3e4c6c8": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/06/21/audio_be3c448ee8.mp3",
+      "last_used": "2026-11-10T11:39:24.051913+00:00"
     }
   }
 }
