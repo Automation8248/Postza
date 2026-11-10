@@ -485,13 +485,31 @@
       "topic": "Cats",
       "text": "Cats can get hairballs from swallowing fur during grooming.",
       "last_used": "2026-11-10T17:15:45.548907+00:00"
+    },
+    "ece9ea5c91ee1bcf": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Dogs are the most popular pet in many countries.",
+      "last_used": "2026-11-10T21:24:37.113570+00:00"
+    },
+    "a3228941246366c7": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants have a strong sense of family.",
+      "last_used": "2026-11-10T21:24:37.113607+00:00"
+    },
+    "1f3ccf9790bf152e": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "A cat showing its belly may be relaxed, not necessarily asking for a rub.",
+      "last_used": "2026-11-10T21:24:37.113627+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 9,
+      "count": 10,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-09T23:51:53.544757+00:00"
+      "last_used": "2026-11-10T21:24:37.113642+00:00"
     },
     "414123dcd2f39de3": {
       "count": 9,
@@ -634,12 +652,17 @@
       "count": 1,
       "text": "#language #words #etymology #culture #communication #literature",
       "last_used": "2026-11-10T17:15:45.548920+00:00"
+    },
+    "74048cea3edc0c86": {
+      "count": 1,
+      "text": "#worldwar #military #weapons #vehicles #soldier #historybuff",
+      "last_used": "2026-11-10T21:24:37.113655+00:00"
     }
   },
   "meta": {
-    "last_template": "royal_purple",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 27
+    "last_template": "cool_space",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 28
   },
   "music": {
     "d51d90d36da968c8": {
@@ -681,6 +704,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/09/21/audio_8a8bac6b73.mp3",
       "last_used": "2026-11-10T17:15:45.548926+00:00"
+    },
+    "cf3776e98bbda0d4": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/03/06/audio_e98e7e964d.mp3",
+      "last_used": "2026-11-10T21:24:37.113667+00:00"
     }
   }
 }
