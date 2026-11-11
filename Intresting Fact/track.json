@@ -503,6 +503,24 @@
       "topic": "Cats",
       "text": "A cat showing its belly may be relaxed, not necessarily asking for a rub.",
       "last_used": "2026-11-10T21:24:37.113627+00:00"
+    },
+    "7b8a3f108036bf8b": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants communicate with low-frequency rumbles.",
+      "last_used": "2026-11-11T11:24:41.054136+00:00"
+    },
+    "94b74139ab684658": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Blue whales live up to 80 to 90 years.",
+      "last_used": "2026-11-11T11:24:41.054164+00:00"
+    },
+    "99488cb03e68fe8e": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The Whippet is a fast racing dog resembling a small Greyhound.",
+      "last_used": "2026-11-11T11:24:41.054189+00:00"
     }
   },
   "titles": {
@@ -512,9 +530,9 @@
       "last_used": "2026-11-10T21:24:37.113642+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 9,
+      "count": 10,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-10T11:39:24.051892+00:00"
+      "last_used": "2026-11-11T11:24:41.054204+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 9,
@@ -657,12 +675,17 @@
       "count": 1,
       "text": "#worldwar #military #weapons #vehicles #soldier #historybuff",
       "last_used": "2026-11-10T21:24:37.113655+00:00"
+    },
+    "9206351b12d3fb91": {
+      "count": 1,
+      "text": "#samurai #ninja #japanhistory #warriors #swords #bushido",
+      "last_used": "2026-11-11T11:24:41.054216+00:00"
     }
   },
   "meta": {
-    "last_template": "cool_space",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 28
+    "last_template": "noir_pop",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 29
   },
   "music": {
     "d51d90d36da968c8": {
@@ -709,6 +732,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/03/06/audio_e98e7e964d.mp3",
       "last_used": "2026-11-10T21:24:37.113667+00:00"
+    },
+    "9dee46929910f107": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/08/20/audio_f4435c1142.mp3",
+      "last_used": "2026-11-11T11:24:41.054223+00:00"
     }
   }
 }
