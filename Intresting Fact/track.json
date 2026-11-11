@@ -521,6 +521,24 @@
       "topic": "Dogs",
       "text": "The Whippet is a fast racing dog resembling a small Greyhound.",
       "last_used": "2026-11-11T11:24:41.054189+00:00"
+    },
+    "c50905ea3f641ffd": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Humpback flukes have unique patterns like fingerprints.",
+      "last_used": "2026-11-11T17:25:53.374627+00:00"
+    },
+    "e13b7afd64533dde": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Puppies begin to walk at about 2 to 3 weeks.",
+      "last_used": "2026-11-11T17:25:53.374658+00:00"
+    },
+    "1f02b6dbbf8c7797": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants are loved by people around the world.",
+      "last_used": "2026-11-11T17:25:53.374669+00:00"
     }
   },
   "titles": {
@@ -535,9 +553,9 @@
       "last_used": "2026-11-11T11:24:41.054204+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 9,
+      "count": 10,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-10T17:15:45.548914+00:00"
+      "last_used": "2026-11-11T17:25:53.374680+00:00"
     }
   },
   "hashtags": {
@@ -680,12 +698,17 @@
       "count": 1,
       "text": "#samurai #ninja #japanhistory #warriors #swords #bushido",
       "last_used": "2026-11-11T11:24:41.054216+00:00"
+    },
+    "8e3fbdbecec35c16": {
+      "count": 1,
+      "text": "#inventions #creators #genius #discovery #machinery #engineering",
+      "last_used": "2026-11-11T17:25:53.374691+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 29
+    "last_template": "royal_purple",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 30
   },
   "music": {
     "d51d90d36da968c8": {
@@ -737,6 +760,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/08/20/audio_f4435c1142.mp3",
       "last_used": "2026-11-11T11:24:41.054223+00:00"
+    },
+    "1496c36d9d39f437": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2024/12/19/audio_a186e35631.mp3",
+      "last_used": "2026-11-11T17:25:53.374700+00:00"
     }
   }
 }
