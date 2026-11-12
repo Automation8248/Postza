@@ -557,6 +557,24 @@
       "topic": "Dogs",
       "text": "The \"dog days of summer\" are named for the rising of Sirius.",
       "last_used": "2026-11-11T22:07:41.918189+00:00"
+    },
+    "11ec0f686f2cb99d": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "A great whale can store tons of carbon.",
+      "last_used": "2026-11-12T11:44:56.094586+00:00"
+    },
+    "8852776f7e86f173": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "About 70 to 80 percent of cats react to catnip.",
+      "last_used": "2026-11-12T11:44:56.094608+00:00"
+    },
+    "4c4e8f9b700010b1": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Beehive fences can keep elephants away from crops.",
+      "last_used": "2026-11-12T11:44:56.094620+00:00"
     }
   },
   "titles": {
@@ -566,9 +584,9 @@
       "last_used": "2026-11-11T22:07:41.918195+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 10,
+      "count": 11,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-11T11:24:41.054204+00:00"
+      "last_used": "2026-11-12T11:44:56.094629+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 10,
@@ -726,12 +744,17 @@
       "count": 1,
       "text": "#drones #quadcopter #aerialphotography #remotepilot #techtools #surveillance",
       "last_used": "2026-11-11T22:07:41.918200+00:00"
+    },
+    "80bf7674e8a8475d": {
+      "count": 1,
+      "text": "#flight #aviation #airplanes #drones #aerodynamics #sky",
+      "last_used": "2026-11-12T11:44:56.094637+00:00"
     }
   },
   "meta": {
-    "last_template": "cool_space",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 31
+    "last_template": "hot_energy",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 32
   },
   "music": {
     "d51d90d36da968c8": {
@@ -793,6 +816,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/02/21/audio_fb516ddce7.mp3",
       "last_used": "2026-11-11T22:07:41.918204+00:00"
+    },
+    "13d7c28c4acfc712": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2024/10/03/audio_ed8944b40e.mp3",
+      "last_used": "2026-11-12T11:44:56.094644+00:00"
     }
   }
 }
