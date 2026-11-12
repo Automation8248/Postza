@@ -575,6 +575,24 @@
       "topic": "Elephants",
       "text": "Beehive fences can keep elephants away from crops.",
       "last_used": "2026-11-12T11:44:56.094620+00:00"
+    },
+    "c101212e0ba0b586": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Dogs can be trained to sniff out low blood sugar in diabetics.",
+      "last_used": "2026-11-12T17:45:02.570071+00:00"
+    },
+    "f3d0abdfecf64784": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats flatten their ears when upset.",
+      "last_used": "2026-11-12T17:45:02.570100+00:00"
+    },
+    "e919de0d1a879658": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Free Willy is a film about an orca.",
+      "last_used": "2026-11-12T17:45:02.570113+00:00"
     }
   },
   "titles": {
@@ -589,9 +607,9 @@
       "last_used": "2026-11-12T11:44:56.094629+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 10,
+      "count": 11,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-11T17:25:53.374680+00:00"
+      "last_used": "2026-11-12T17:45:02.570126+00:00"
     }
   },
   "hashtags": {
@@ -749,12 +767,17 @@
       "count": 1,
       "text": "#flight #aviation #airplanes #drones #aerodynamics #sky",
       "last_used": "2026-11-12T11:44:56.094637+00:00"
+    },
+    "1239dc96033702d1": {
+      "count": 1,
+      "text": "#historyfacts #ancienthistory #mystery #past #archeology #heritage",
+      "last_used": "2026-11-12T17:45:02.570136+00:00"
     }
   },
   "meta": {
-    "last_template": "hot_energy",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 32
+    "last_template": "glitch_tech",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 33
   },
   "music": {
     "d51d90d36da968c8": {
@@ -821,6 +844,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2024/10/03/audio_ed8944b40e.mp3",
       "last_used": "2026-11-12T11:44:56.094644+00:00"
+    },
+    "7897c711f561bb36": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/08/05/audio_a0d1f6c092.mp3",
+      "last_used": "2026-11-12T17:45:02.570145+00:00"
     }
   }
 }
