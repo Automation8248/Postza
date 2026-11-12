@@ -593,13 +593,31 @@
       "topic": "Whales",
       "text": "Free Willy is a film about an orca.",
       "last_used": "2026-11-12T17:45:02.570113+00:00"
+    },
+    "c6ac2e5ece750cb5": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Narwhals are called the unicorns of the sea.",
+      "last_used": "2026-11-12T21:55:31.631480+00:00"
+    },
+    "899b21dca4ee0a99": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats have been to space; France sent a cat named Felicette in 1963.",
+      "last_used": "2026-11-12T21:55:31.631511+00:00"
+    },
+    "59be02476e0eac27": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Dogs use body language more than barks to communicate.",
+      "last_used": "2026-11-12T21:55:31.631523+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 11,
+      "count": 12,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-11T22:07:41.918195+00:00"
+      "last_used": "2026-11-12T21:55:31.631533+00:00"
     },
     "414123dcd2f39de3": {
       "count": 11,
@@ -772,12 +790,17 @@
       "count": 1,
       "text": "#historyfacts #ancienthistory #mystery #past #archeology #heritage",
       "last_used": "2026-11-12T17:45:02.570136+00:00"
+    },
+    "eebae1b47322fd0e": {
+      "count": 1,
+      "text": "#culture #traditions #global #tribes #people #worldheritage",
+      "last_used": "2026-11-12T21:55:31.631542+00:00"
     }
   },
   "meta": {
-    "last_template": "glitch_tech",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 33
+    "last_template": "cinematic_gold",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 34
   },
   "music": {
     "d51d90d36da968c8": {
@@ -849,6 +872,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/08/05/audio_a0d1f6c092.mp3",
       "last_used": "2026-11-12T17:45:02.570145+00:00"
+    },
+    "f961a3123e65d51e": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2024/02/27/audio_e7cc2f7bd0.mp3",
+      "last_used": "2026-11-12T21:55:31.631550+00:00"
     }
   }
 }
