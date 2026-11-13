@@ -629,6 +629,24 @@
       "topic": "Elephants",
       "text": "Elmer is a patchwork elephant in children's books.",
       "last_used": "2026-11-13T11:27:49.731265+00:00"
+    },
+    "fb246e36c9469664": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Whale watching is a major tourism industry.",
+      "last_used": "2026-11-13T17:22:27.863865+00:00"
+    },
+    "e3a1372d5cf1391a": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats groom each other as a sign of social bonding.",
+      "last_used": "2026-11-13T17:22:27.863902+00:00"
+    },
+    "56d3e1aae75c6d9c": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Dogs scratch the ground after pooping to spread scent.",
+      "last_used": "2026-11-13T17:22:27.863920+00:00"
     }
   },
   "titles": {
@@ -643,9 +661,9 @@
       "last_used": "2026-11-13T11:27:49.731277+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 11,
+      "count": 12,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-12T17:45:02.570126+00:00"
+      "last_used": "2026-11-13T17:22:27.863935+00:00"
     }
   },
   "hashtags": {
@@ -818,12 +836,17 @@
       "count": 1,
       "text": "#artfacts #paintings #davinci #picasso #museums #masterpiece",
       "last_used": "2026-11-13T11:27:49.731289+00:00"
+    },
+    "d8ecc19c1463ff43": {
+      "count": 1,
+      "text": "#renewableenergy #solarpower #windenergy #sustainability #climatechange #future",
+      "last_used": "2026-11-13T17:22:27.863953+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 35
+    "last_template": "neon_glow",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 36
   },
   "music": {
     "d51d90d36da968c8": {
@@ -905,6 +928,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/09/20/audio_d3c48e62cf.mp3",
       "last_used": "2026-11-13T11:27:49.731298+00:00"
+    },
+    "e0e90e83621b5719": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/10/16/audio_1710204a91.mp3",
+      "last_used": "2026-11-13T17:22:27.863965+00:00"
     }
   }
 }
