@@ -611,6 +611,24 @@
       "topic": "Dogs",
       "text": "Dogs use body language more than barks to communicate.",
       "last_used": "2026-11-12T21:55:31.631523+00:00"
+    },
+    "420f0bc99e87eea4": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Scooby-Doo is a cartoon Great Dane.",
+      "last_used": "2026-11-13T11:27:49.731219+00:00"
+    },
+    "5a5679cfc4a09a4c": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "The Himalayan is a cross between Persian and Siamese traits.",
+      "last_used": "2026-11-13T11:27:49.731250+00:00"
+    },
+    "ab1faa1c8517d1b5": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elmer is a patchwork elephant in children's books.",
+      "last_used": "2026-11-13T11:27:49.731265+00:00"
     }
   },
   "titles": {
@@ -620,9 +638,9 @@
       "last_used": "2026-11-12T21:55:31.631533+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 11,
+      "count": 12,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-12T11:44:56.094629+00:00"
+      "last_used": "2026-11-13T11:27:49.731277+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 11,
@@ -795,12 +813,17 @@
       "count": 1,
       "text": "#culture #traditions #global #tribes #people #worldheritage",
       "last_used": "2026-11-12T21:55:31.631542+00:00"
+    },
+    "fa77c0a1bc021182": {
+      "count": 1,
+      "text": "#artfacts #paintings #davinci #picasso #museums #masterpiece",
+      "last_used": "2026-11-13T11:27:49.731289+00:00"
     }
   },
   "meta": {
-    "last_template": "cinematic_gold",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 34
+    "last_template": "noir_pop",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 35
   },
   "music": {
     "d51d90d36da968c8": {
@@ -877,6 +900,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2024/02/27/audio_e7cc2f7bd0.mp3",
       "last_used": "2026-11-12T21:55:31.631550+00:00"
+    },
+    "b1dde57a2be64310": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/09/20/audio_d3c48e62cf.mp3",
+      "last_used": "2026-11-13T11:27:49.731298+00:00"
     }
   }
 }
