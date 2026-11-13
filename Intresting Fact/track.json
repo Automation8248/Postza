@@ -647,13 +647,31 @@
       "topic": "Dogs",
       "text": "Dogs scratch the ground after pooping to spread scent.",
       "last_used": "2026-11-13T17:22:27.863920+00:00"
+    },
+    "56e87224d2497aa0": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats can see ultraviolet light.",
+      "last_used": "2026-11-13T21:31:07.947707+00:00"
+    },
+    "f9691d115f301588": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Jumbo was a famous elephant who toured with P. T. Barnum.",
+      "last_used": "2026-11-13T21:31:07.947733+00:00"
+    },
+    "5666b14ae9141128": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Dogs sweat mainly through their paw pads.",
+      "last_used": "2026-11-13T21:31:07.947741+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 12,
+      "count": 13,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-12T21:55:31.631533+00:00"
+      "last_used": "2026-11-13T21:31:07.947748+00:00"
     },
     "414123dcd2f39de3": {
       "count": 12,
@@ -841,12 +859,17 @@
       "count": 1,
       "text": "#renewableenergy #solarpower #windenergy #sustainability #climatechange #future",
       "last_used": "2026-11-13T17:22:27.863953+00:00"
+    },
+    "1788f0738e3fb2b8": {
+      "count": 1,
+      "text": "#rivers #amazonriver #waterfall #niagara #freshwater #hydrology",
+      "last_used": "2026-11-13T21:31:07.947754+00:00"
     }
   },
   "meta": {
-    "last_template": "neon_glow",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 36
+    "last_template": "glitch_tech",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 37
   },
   "music": {
     "d51d90d36da968c8": {
@@ -933,6 +956,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/10/16/audio_1710204a91.mp3",
       "last_used": "2026-11-13T17:22:27.863965+00:00"
+    },
+    "e29b1b5ff4c82eb0": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/01/18/audio_7477717f31.mp3",
+      "last_used": "2026-11-13T21:31:07.947760+00:00"
     }
   }
 }
