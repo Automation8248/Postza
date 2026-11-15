@@ -737,6 +737,24 @@
       "topic": "Cats",
       "text": "Milk can give cats an upset stomach.",
       "last_used": "2026-11-15T11:26:14.661985+00:00"
+    },
+    "756c16d0f0e58269": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The Alaskan Malamute is larger and stronger than a Husky.",
+      "last_used": "2026-11-15T16:32:54.488215+00:00"
+    },
+    "93905f36e6f2024a": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats prefer to eliminate in a clean litter box.",
+      "last_used": "2026-11-15T16:32:54.488248+00:00"
+    },
+    "4d16d597838945dd": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Moeritherium looked like a pig-sized tapir.",
+      "last_used": "2026-11-15T16:32:54.488260+00:00"
     }
   },
   "titles": {
@@ -751,9 +769,9 @@
       "last_used": "2026-11-15T11:26:14.661992+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 13,
+      "count": 14,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-14T16:01:16.535275+00:00"
+      "last_used": "2026-11-15T16:32:54.488271+00:00"
     }
   },
   "hashtags": {
@@ -956,12 +974,17 @@
       "count": 1,
       "text": "#sustainability #gogreen #zerowaste #ecofriendly #renewable #future",
       "last_used": "2026-11-15T11:26:14.661999+00:00"
+    },
+    "5e299a9e1acbf14f": {
+      "count": 1,
+      "text": "#laughter #comedy #humor #scienceoflaughter #endorphins #happy",
+      "last_used": "2026-11-15T16:32:54.488282+00:00"
     }
   },
   "meta": {
-    "last_template": "neon_glow",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 41
+    "last_template": "hot_energy",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 42
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1073,6 +1096,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/11/18/audio_fcf6741d9d.mp3",
       "last_used": "2026-11-15T11:26:14.662004+00:00"
+    },
+    "8dec6b491050cc65": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/07/12/audio_73b9206f92.mp3",
+      "last_used": "2026-11-15T16:32:54.488291+00:00"
     }
   }
 }
