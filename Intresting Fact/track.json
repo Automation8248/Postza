@@ -719,6 +719,24 @@
       "topic": "Whales",
       "text": "Some whales have cultures passed down through generations.",
       "last_used": "2026-11-14T20:02:06.538323+00:00"
+    },
+    "f87ec61ba0312424": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Different orca ecotypes eat different prey.",
+      "last_used": "2026-11-15T11:26:14.661955+00:00"
+    },
+    "741cb622828c1074": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Dogs may be able to smell fear through sweat chemicals.",
+      "last_used": "2026-11-15T11:26:14.661979+00:00"
+    },
+    "1ddfa65e7979af57": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Milk can give cats an upset stomach.",
+      "last_used": "2026-11-15T11:26:14.661985+00:00"
     }
   },
   "titles": {
@@ -728,9 +746,9 @@
       "last_used": "2026-11-14T20:02:06.538332+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 13,
+      "count": 14,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-14T10:51:24.955830+00:00"
+      "last_used": "2026-11-15T11:26:14.661992+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 13,
@@ -933,12 +951,17 @@
       "count": 1,
       "text": "#crystals #geology #rocks #volcano #gems #earthscience",
       "last_used": "2026-11-14T20:02:06.538340+00:00"
+    },
+    "c82d73a1cbef342f": {
+      "count": 1,
+      "text": "#sustainability #gogreen #zerowaste #ecofriendly #renewable #future",
+      "last_used": "2026-11-15T11:26:14.661999+00:00"
     }
   },
   "meta": {
-    "last_template": "hot_energy",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 40
+    "last_template": "neon_glow",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 41
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1045,6 +1068,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/02/11/audio_c3ccf7b5d8.mp3",
       "last_used": "2026-11-14T20:02:06.538347+00:00"
+    },
+    "5b558ad004663b57": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/11/18/audio_fcf6741d9d.mp3",
+      "last_used": "2026-11-15T11:26:14.662004+00:00"
     }
   }
 }
