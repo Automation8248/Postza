@@ -755,13 +755,31 @@
       "topic": "Elephants",
       "text": "Moeritherium looked like a pig-sized tapir.",
       "last_used": "2026-11-15T16:32:54.488260+00:00"
+    },
+    "f827a8d90795e38d": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "The Marine Mammal Protection Act was passed in the US in 1972.",
+      "last_used": "2026-11-15T20:30:09.950589+00:00"
+    },
+    "37078d2af9660be9": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Orange tabby cats are about 80 percent male.",
+      "last_used": "2026-11-15T20:30:09.950614+00:00"
+    },
+    "f75e672aa79c80ef": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The scientific name of the domestic dog is Canis lupus familiaris.",
+      "last_used": "2026-11-15T20:30:09.950624+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 14,
+      "count": 15,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-14T20:02:06.538332+00:00"
+      "last_used": "2026-11-15T20:30:09.950634+00:00"
     },
     "414123dcd2f39de3": {
       "count": 14,
@@ -979,12 +997,17 @@
       "count": 1,
       "text": "#laughter #comedy #humor #scienceoflaughter #endorphins #happy",
       "last_used": "2026-11-15T16:32:54.488282+00:00"
+    },
+    "f7e0718fd6dbec28": {
+      "count": 1,
+      "text": "#glaciers #icebergs #antarctica #arctic #polar #climate",
+      "last_used": "2026-11-15T20:30:09.950642+00:00"
     }
   },
   "meta": {
-    "last_template": "hot_energy",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 42
+    "last_template": "neon_glow",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 43
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1101,6 +1124,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/07/12/audio_73b9206f92.mp3",
       "last_used": "2026-11-15T16:32:54.488291+00:00"
+    },
+    "7755f5b2326c36df": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/03/21/audio_688ca5a0e6.mp3",
+      "last_used": "2026-11-15T20:30:09.950647+00:00"
     }
   }
 }
