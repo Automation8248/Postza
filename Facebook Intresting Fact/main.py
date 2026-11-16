@@ -3,6 +3,7 @@ import json
 import random
 import requests
 import traceback
+from urllib.parse import quote
 from datetime import datetime, timedelta
 
 # Secrets from Environment Variables
@@ -43,9 +44,7 @@ def send_telegram_alert(error_message):
     }
     
     try:
-        response = requests.post(url, json=payload)
-        if response.status_code != 200:
-            print(f"Telegram alert failed: {response.text}")
+        requests.post(url, json=payload)
     except Exception as e:
         print(f"Telegram request failed: {e}")
 
@@ -94,21 +93,31 @@ def get_random_video():
     if not videos:
         raise ValueError(f"'{VIDEO_FOLDER}' me koi valid video (.mp4, etc.) nahi mili.")
         
-    return os.path.join(VIDEO_FOLDER, random.choice(videos))
+    # Return selected filename and full path
+    selected_filename = random.choice(videos)
+    return selected_filename, os.path.join(VIDEO_FOLDER, selected_filename)
 
-def post_to_webhook(video_path, title, hashtag):
+def post_to_webhook(video_filename, title, hashtag):
     if not WEBHOOK_URL:
         raise ValueError("FACEBOOK_INTRESTING_FACT_WEBHOOK environment variable set nahi hai.")
 
-    message_content = f"{title}\n\n{hashtag}"
-    payload = {"content": message_content}
+    # GitHub Raw link generate karna (username: Automation8248, repo: Postza, branch: main)
+    # quote() function space ko %20 me convert kar dega (e.g. Facebook%20Intresting%20Fact)
+    repo_path = f"Facebook Intresting Fact/Videos/{video_filename}"
+    raw_video_url = f"https://raw.githubusercontent.com/Automation8248/Postza/main/{quote(repo_path)}"
+
+    # JSON Payload (Sabhi keys alag-alag hain)
+    payload = {
+        "video_url": raw_video_url,
+        "title": title,
+        "hashtag": hashtag
+    }
     
-    with open(video_path, 'rb') as f:
-        files = {'file': (os.path.basename(video_path), f, 'application/octet-stream')}
-        response = requests.post(WEBHOOK_URL, data=payload, files=files)
-        
-        if response.status_code not in [200, 204]:
-            raise Exception(f"Webhook failed with status {response.status_code}: {response.text}")
+    # JSON bhejne ke liye request.post me `json=payload` use karte hain
+    response = requests.post(WEBHOOK_URL, json=payload)
+    
+    if response.status_code not in [200, 204]:
+        raise Exception(f"Webhook failed with status {response.status_code}: {response.text}")
 
 def main():
     try:
@@ -124,17 +133,20 @@ def main():
 
         selected_title = random.choice(available_titles)
         selected_hashtag = random.choice(available_hashtags)
-        selected_video_path = get_random_video()
+        video_filename, selected_video_path = get_random_video()
         
-        print(f"Posting Video: {selected_video_path}")
-        post_to_webhook(selected_video_path, selected_title, selected_hashtag)
+        print(f"Sending JSON to Webhook for video: {video_filename}")
         
-        # Success hone ke baad track save aur video delete karein
+        # Webhook par data bhejein
+        post_to_webhook(video_filename, selected_title, selected_hashtag)
+        
+        # Success hone ke baad track save karein aur local video file delete karein
         current_time_str = datetime.now().isoformat()
         tracking_data["titles"][selected_title] = current_time_str
         tracking_data["hashtags"][selected_hashtag] = current_time_str
         save_tracking_data(tracking_data)
         
+        # Video file ko repo folder se uda dein taaki next commit me GitHub se bhi delete ho jaye
         os.remove(selected_video_path)
         print(f"Successfully posted aur video delete ho gayi: {selected_video_path}")
 
