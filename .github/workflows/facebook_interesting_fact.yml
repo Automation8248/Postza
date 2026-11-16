@@ -1,0 +1,48 @@
+name: Facebook Interesting Fact Automation
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  run-automation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Requirements
+        run: pip install requests
+
+      - name: Run Automation Script
+        env:
+          FACEBOOK_INTRESTING_FACT_WEBHOOK: ${{ secrets.FACEBOOK_INTRESTING_FACT_WEBHOOK }}
+          TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
+          FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
+        # Script ab folder ke andar hai, toh us directory me jaakar run karna hoga
+        run: |
+          cd "Facebook Intresting Fact"
+          python main.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Files ka path repo ke root se track karna padta hai
+          git add "Facebook Intresting Fact/track.json"
+          git add -u "Facebook Intresting Fact/Videos/"
+          
+          git commit -m "Auto-update: track.json updated & posted video deleted" || echo "No changes to commit"
+          
+          git pull --rebase origin main
+          git push
