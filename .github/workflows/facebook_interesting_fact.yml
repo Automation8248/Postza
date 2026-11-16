@@ -1,0 +1,52 @@
+name: Facebook Interesting Fact Automation
+
+on:
+  workflow_dispatch: # Sirf manual run hone ke liye
+
+jobs:
+  run-automation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Repo me commit aur push karne ke liye (video delete & track.json update)
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Pura git history fetch karega rebase ke liye
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Requirements
+        run: pip install requests
+
+      - name: Run Automation Script
+        env:
+          FACEBOOK_INTRESTING_FACT_WEBHOOK: ${{ secrets.FACEBOOK_INTRESTING_FACT_WEBHOOK }}
+          TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
+          FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
+        run: python main.py
+
+      - name: Commit and Push Changes
+        # Agar script fail hui toh commit skip ho jayega (Kyunki webhook successful nahi hua)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # track.json file me changes track karne ke liye
+          git add "Facebook Intresting Fact/track.json"
+          
+          # Delete hui video repo se hatane ke liye (-u ka matlab updated/deleted files)
+          git add -u "Facebook Intresting Fact/Videos/"
+          
+          # Agar koi changes hain tabhi commit karega
+          git commit -m "Auto-update: track.json updated & posted video deleted" || echo "No changes to commit"
+          
+          # Merge conflicts solve karne ke liye
+          git pull --rebase origin main
+          
+          # Code wapis postza repo me push karega
+          git push
