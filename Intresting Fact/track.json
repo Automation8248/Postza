@@ -773,6 +773,24 @@
       "topic": "Dogs",
       "text": "The scientific name of the domestic dog is Canis lupus familiaris.",
       "last_used": "2026-11-15T20:30:09.950624+00:00"
+    },
+    "b9618650d62c2aa1": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Sperm whales have teeth only on the lower jaw.",
+      "last_used": "2026-11-16T11:57:22.919505+00:00"
+    },
+    "2adb123b8211f640": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Bloodhounds have an exceptionally strong sense of smell.",
+      "last_used": "2026-11-16T11:57:22.919537+00:00"
+    },
+    "2467c84fd09c1df2": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats can run up to about 48 km/h in short bursts.",
+      "last_used": "2026-11-16T11:57:22.919545+00:00"
     }
   },
   "titles": {
@@ -782,9 +800,9 @@
       "last_used": "2026-11-15T20:30:09.950634+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 14,
+      "count": 15,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-15T11:26:14.661992+00:00"
+      "last_used": "2026-11-16T11:57:22.919553+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 14,
@@ -1002,12 +1020,17 @@
       "count": 1,
       "text": "#glaciers #icebergs #antarctica #arctic #polar #climate",
       "last_used": "2026-11-15T20:30:09.950642+00:00"
+    },
+    "4c5b864ac9f4e4f6": {
+      "count": 1,
+      "text": "#height #mountains #everest #skyscrapers #climbing #peaks",
+      "last_used": "2026-11-16T11:57:22.919560+00:00"
     }
   },
   "meta": {
-    "last_template": "neon_glow",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 43
+    "last_template": "glitch_tech",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 44
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1129,6 +1152,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/03/21/audio_688ca5a0e6.mp3",
       "last_used": "2026-11-15T20:30:09.950647+00:00"
+    },
+    "4db63e0bca022710": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/07/21/audio_99db7ae7aa.mp3",
+      "last_used": "2026-11-16T11:57:22.919569+00:00"
     }
   }
 }
