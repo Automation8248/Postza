@@ -791,6 +791,24 @@
       "topic": "Cats",
       "text": "Cats can run up to about 48 km/h in short bursts.",
       "last_used": "2026-11-16T11:57:22.919545+00:00"
+    },
+    "835076157d5e4766": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Female whales usually mature at about 5 to 10 years.",
+      "last_used": "2026-11-16T19:48:56.583637+00:00"
+    },
+    "858e828e912af199": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Livestock guardian dogs protect flocks from predators.",
+      "last_used": "2026-11-16T19:48:56.583666+00:00"
+    },
+    "3ed96b72b6688aff": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats dream during REM sleep like humans.",
+      "last_used": "2026-11-16T19:48:56.583675+00:00"
     }
   },
   "titles": {
@@ -805,9 +823,9 @@
       "last_used": "2026-11-16T11:57:22.919553+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 14,
+      "count": 15,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-15T16:32:54.488271+00:00"
+      "last_used": "2026-11-16T19:48:56.583710+00:00"
     }
   },
   "hashtags": {
@@ -1025,12 +1043,17 @@
       "count": 1,
       "text": "#height #mountains #everest #skyscrapers #climbing #peaks",
       "last_used": "2026-11-16T11:57:22.919560+00:00"
+    },
+    "345e1ad7282dd29c": {
+      "count": 1,
+      "text": "#rainbows #optics #light #prism #colors #spectrum",
+      "last_used": "2026-11-16T19:48:56.583718+00:00"
     }
   },
   "meta": {
-    "last_template": "glitch_tech",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 44
+    "last_template": "noir_pop",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 45
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1157,6 +1180,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/07/21/audio_99db7ae7aa.mp3",
       "last_used": "2026-11-16T11:57:22.919569+00:00"
+    },
+    "9495e6aa4a86b8bc": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/01/26/audio_f562bfcb32.mp3",
+      "last_used": "2026-11-16T19:48:56.583723+00:00"
     }
   }
 }
