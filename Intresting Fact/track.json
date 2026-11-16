@@ -809,13 +809,31 @@
       "topic": "Cats",
       "text": "Cats dream during REM sleep like humans.",
       "last_used": "2026-11-16T19:48:56.583675+00:00"
+    },
+    "84e17e3630fe46a1": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "The Egyptians shaved their eyebrows to mourn a dead cat.",
+      "last_used": "2026-11-16T23:49:22.340934+00:00"
+    },
+    "0832902706d3c008": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Forest elephants spread seeds of large-fruited trees.",
+      "last_used": "2026-11-16T23:49:22.340964+00:00"
+    },
+    "175f1a1dfd06b863": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Sei whales are fast swimmers.",
+      "last_used": "2026-11-16T23:49:22.340975+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 15,
+      "count": 16,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-15T20:30:09.950634+00:00"
+      "last_used": "2026-11-16T23:49:22.340987+00:00"
     },
     "414123dcd2f39de3": {
       "count": 15,
@@ -1048,12 +1066,17 @@
       "count": 1,
       "text": "#rainbows #optics #light #prism #colors #spectrum",
       "last_used": "2026-11-16T19:48:56.583718+00:00"
+    },
+    "9a7b8ba1dfb30136": {
+      "count": 1,
+      "text": "#islands #volcanic #coralreef #tropical #paradise #isolation",
+      "last_used": "2026-11-16T23:49:22.340998+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 45
+    "last_template": "royal_purple",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 46
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1185,6 +1208,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/01/26/audio_f562bfcb32.mp3",
       "last_used": "2026-11-16T19:48:56.583723+00:00"
+    },
+    "427421d92788a1bd": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2024/01/04/audio_896a3bc8f7.mp3",
+      "last_used": "2026-11-16T23:49:22.341008+00:00"
     }
   }
 }
