@@ -845,6 +845,24 @@
       "topic": "Elephants",
       "text": "Female Asian elephants may have small tusks called tushes.",
       "last_used": "2026-11-17T12:23:19.771403+00:00"
+    },
+    "67d21cd6d0e6a5d2": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Plankton absorbs carbon dioxide.",
+      "last_used": "2026-11-17T18:45:54.574510+00:00"
+    },
+    "55be89d0163625ac": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The Corgi was bred to herd cattle.",
+      "last_used": "2026-11-17T18:45:54.574536+00:00"
+    },
+    "935bae517b55abf9": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "The domestic cat descends from the African wildcat.",
+      "last_used": "2026-11-17T18:45:54.574544+00:00"
     }
   },
   "titles": {
@@ -859,9 +877,9 @@
       "last_used": "2026-11-17T12:23:19.771411+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 15,
+      "count": 16,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-16T19:48:56.583710+00:00"
+      "last_used": "2026-11-17T18:45:54.574553+00:00"
     }
   },
   "hashtags": {
@@ -1094,12 +1112,17 @@
       "count": 1,
       "text": "#meteors #comets #asteroids #shootingstar #crater #spacejunk",
       "last_used": "2026-11-17T12:23:19.771418+00:00"
+    },
+    "14ec97fdcd0c870f": {
+      "count": 1,
+      "text": "#sciencefacts #spacefacts #universe #astronomy #nasa #physics",
+      "last_used": "2026-11-17T18:45:54.574562+00:00"
     }
   },
   "meta": {
-    "last_template": "retro_vhs",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 47
+    "last_template": "glitch_tech",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 48
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1241,6 +1264,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/07/08/audio_b646b70c6d.mp3",
       "last_used": "2026-11-17T12:23:19.771423+00:00"
+    },
+    "dd69fdfa01328e44": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/08/17/audio_8dee6f98ef.mp3",
+      "last_used": "2026-11-17T18:45:54.574568+00:00"
     }
   }
 }
