@@ -863,13 +863,31 @@
       "topic": "Cats",
       "text": "The domestic cat descends from the African wildcat.",
       "last_used": "2026-11-17T18:45:54.574544+00:00"
+    },
+    "9ec8def494156788": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "The Birman has white \"gloves\" on its paws.",
+      "last_used": "2026-11-17T23:04:22.237517+00:00"
+    },
+    "ea3c2a80360d105b": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The Bernese Mountain Dog is a gentle giant from Switzerland.",
+      "last_used": "2026-11-17T23:04:22.237544+00:00"
+    },
+    "9071cf1550a37605": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Whales have no external ears, just tiny openings.",
+      "last_used": "2026-11-17T23:04:22.237552+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 16,
+      "count": 17,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-16T23:49:22.340987+00:00"
+      "last_used": "2026-11-17T23:04:22.237561+00:00"
     },
     "414123dcd2f39de3": {
       "count": 16,
@@ -1117,12 +1135,17 @@
       "count": 1,
       "text": "#sciencefacts #spacefacts #universe #astronomy #nasa #physics",
       "last_used": "2026-11-17T18:45:54.574562+00:00"
+    },
+    "543c6213e1e1691a": {
+      "count": 1,
+      "text": "#psychology #behavior #humanmind #mentalhealth #feelings #emotions",
+      "last_used": "2026-11-17T23:04:22.237569+00:00"
     }
   },
   "meta": {
-    "last_template": "glitch_tech",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 48
+    "last_template": "sunset_vibes",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 49
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1269,6 +1292,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/08/17/audio_8dee6f98ef.mp3",
       "last_used": "2026-11-17T18:45:54.574568+00:00"
+    },
+    "b08beb007d79cfbc": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/06/30/audio_d326f19fc3.mp3",
+      "last_used": "2026-11-17T23:04:22.237576+00:00"
     }
   }
 }
