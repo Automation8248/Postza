@@ -827,6 +827,24 @@
       "topic": "Whales",
       "text": "Sei whales are fast swimmers.",
       "last_used": "2026-11-16T23:49:22.340975+00:00"
+    },
+    "31ab0f272e588991": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Whale eyes are on the sides of their heads.",
+      "last_used": "2026-11-17T12:23:19.771370+00:00"
+    },
+    "3a91b92adeffc831": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Humans have 206 bones.",
+      "last_used": "2026-11-17T12:23:19.771395+00:00"
+    },
+    "5653d929a6b816f6": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Female Asian elephants may have small tusks called tushes.",
+      "last_used": "2026-11-17T12:23:19.771403+00:00"
     }
   },
   "titles": {
@@ -836,9 +854,9 @@
       "last_used": "2026-11-16T23:49:22.340987+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 15,
+      "count": 16,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-16T11:57:22.919553+00:00"
+      "last_used": "2026-11-17T12:23:19.771411+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 15,
@@ -1071,12 +1089,17 @@
       "count": 1,
       "text": "#islands #volcanic #coralreef #tropical #paradise #isolation",
       "last_used": "2026-11-16T23:49:22.340998+00:00"
+    },
+    "d82db70862a970ec": {
+      "count": 1,
+      "text": "#meteors #comets #asteroids #shootingstar #crater #spacejunk",
+      "last_used": "2026-11-17T12:23:19.771418+00:00"
     }
   },
   "meta": {
-    "last_template": "royal_purple",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 46
+    "last_template": "retro_vhs",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 47
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1213,6 +1236,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2024/01/04/audio_896a3bc8f7.mp3",
       "last_used": "2026-11-16T23:49:22.341008+00:00"
+    },
+    "5bae32cce96d9bf1": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/07/08/audio_b646b70c6d.mp3",
+      "last_used": "2026-11-17T12:23:19.771423+00:00"
     }
   }
 }
