@@ -881,6 +881,24 @@
       "topic": "Whales",
       "text": "Whales have no external ears, just tiny openings.",
       "last_used": "2026-11-17T23:04:22.237552+00:00"
+    },
+    "47ade7e2e4539fcb": {
+      "count": 1,
+      "topic": "Snakes",
+      "text": "Snake mothers rarely care for young.",
+      "last_used": "2026-11-18T12:21:15.810319+00:00"
+    },
+    "9a7825cd75ac5e9a": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "The Kerala festival Thrissur Pooram features decorated elephants.",
+      "last_used": "2026-11-18T12:21:15.810346+00:00"
+    },
+    "07d21dbc4fbeeed4": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats have a unique meow used mostly to talk to humans.",
+      "last_used": "2026-11-18T12:21:15.810354+00:00"
     }
   },
   "titles": {
@@ -890,9 +908,9 @@
       "last_used": "2026-11-17T23:04:22.237561+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 16,
+      "count": 17,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-17T12:23:19.771411+00:00"
+      "last_used": "2026-11-18T12:21:15.810362+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 16,
@@ -1140,12 +1158,17 @@
       "count": 1,
       "text": "#psychology #behavior #humanmind #mentalhealth #feelings #emotions",
       "last_used": "2026-11-17T23:04:22.237569+00:00"
+    },
+    "6948768bdfcdbef7": {
+      "count": 1,
+      "text": "#foodfacts #nutrition #cookinghistory #didyouknowfood #yummy #diet",
+      "last_used": "2026-11-18T12:21:15.810368+00:00"
     }
   },
   "meta": {
-    "last_template": "sunset_vibes",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 49
+    "last_template": "neon_glow",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 50
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1297,6 +1320,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/06/30/audio_d326f19fc3.mp3",
       "last_used": "2026-11-17T23:04:22.237576+00:00"
+    },
+    "5e6179a3bf50db03": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/10/21/audio_ada5e33f85.mp3",
+      "last_used": "2026-11-18T12:21:15.810375+00:00"
     }
   }
 }
