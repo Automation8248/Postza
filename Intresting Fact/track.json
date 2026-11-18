@@ -917,13 +917,31 @@
       "topic": "Elephants",
       "text": "Elephants fear bees.",
       "last_used": "2026-11-18T18:21:52.999068+00:00"
+    },
+    "beb14653897422a0": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "There are an estimated 10,000 to 25,000 blue whales today.",
+      "last_used": "2026-11-18T22:43:01.507117+00:00"
+    },
+    "46ccafff6aef05da": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Flyball is a relay race sport for dogs.",
+      "last_used": "2026-11-18T22:43:01.507143+00:00"
+    },
+    "d6ee2022557b3b92": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants can show joy in greeting rituals.",
+      "last_used": "2026-11-18T22:43:01.507154+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 17,
+      "count": 18,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-17T23:04:22.237561+00:00"
+      "last_used": "2026-11-18T22:43:01.507161+00:00"
     },
     "414123dcd2f39de3": {
       "count": 17,
@@ -1186,12 +1204,17 @@
       "count": 1,
       "text": "#spies #espionage #coldwar #secretagent #surveillance #intelligence",
       "last_used": "2026-11-18T18:21:52.999081+00:00"
+    },
+    "0ea83fc9229f3c8d": {
+      "count": 1,
+      "text": "#caves #spelunking #stalactites #underground #bats #darkness",
+      "last_used": "2026-11-18T22:43:01.507167+00:00"
     }
   },
   "meta": {
-    "last_template": "cinematic_gold",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 51
+    "last_template": "hot_energy",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 52
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1353,6 +1376,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/09/02/audio_9cf49f5523.mp3",
       "last_used": "2026-11-18T18:21:52.999086+00:00"
+    },
+    "056651a1bb1c61e1": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/09/04/audio_5e6ba1daa7.mp3",
+      "last_used": "2026-11-18T22:43:01.507172+00:00"
     }
   }
 }
