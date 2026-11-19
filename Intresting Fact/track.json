@@ -953,6 +953,24 @@
       "topic": "Whales",
       "text": "Blue whales were hunted nearly to extinction in the 20th century.",
       "last_used": "2026-11-19T18:35:05.585379+00:00"
+    },
+    "5fe6fa8ca1737e4e": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The Chinese Crested is often hairless with tufts on head, feet, and tail.",
+      "last_used": "2026-11-19T22:44:33.076737+00:00"
+    },
+    "7b3a6ffc0f03b812": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephant feet have a cushion that absorbs weight.",
+      "last_used": "2026-11-19T22:44:33.076762+00:00"
+    },
+    "79c5461c7b874d57": {
+      "count": 1,
+      "topic": "Snakes",
+      "text": "Most pythons are nonvenomous.",
+      "last_used": "2026-11-19T22:44:33.076769+00:00"
     }
   },
   "titles": {
@@ -967,9 +985,9 @@
       "last_used": "2026-11-19T18:35:05.585394+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 17,
+      "count": 18,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-18T18:21:52.999074+00:00"
+      "last_used": "2026-11-19T22:44:33.076775+00:00"
     }
   },
   "hashtags": {
@@ -1232,12 +1250,17 @@
       "count": 1,
       "text": "#habits #routine #productivity #discipline #focus #success",
       "last_used": "2026-11-19T18:35:05.585403+00:00"
+    },
+    "fa447ec430e4a38f": {
+      "count": 1,
+      "text": "#evolution #darwin #fossils #survival #adaptation #species",
+      "last_used": "2026-11-19T22:44:33.076781+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 53
+    "last_template": "royal_purple",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 54
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1409,6 +1432,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/06/04/audio_4a675a0e9d.mp3",
       "last_used": "2026-11-19T18:35:05.585410+00:00"
+    },
+    "9fd39ebe96650ec2": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/08/21/audio_fa071ce419.mp3",
+      "last_used": "2026-11-19T22:44:33.076786+00:00"
     }
   }
 }
