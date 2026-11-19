@@ -935,6 +935,24 @@
       "topic": "Elephants",
       "text": "Elephants can show joy in greeting rituals.",
       "last_used": "2026-11-18T22:43:01.507154+00:00"
+    },
+    "c8ba3d06079dc9a6": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The Leonberger is a giant breed from Germany.",
+      "last_used": "2026-11-19T18:35:05.585348+00:00"
+    },
+    "efba898c2e5e4599": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Europe has about 20,000 to 30,000 wolves.",
+      "last_used": "2026-11-19T18:35:05.585370+00:00"
+    },
+    "86817a1982a94347": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Blue whales were hunted nearly to extinction in the 20th century.",
+      "last_used": "2026-11-19T18:35:05.585379+00:00"
     }
   },
   "titles": {
@@ -944,9 +962,9 @@
       "last_used": "2026-11-18T22:43:01.507161+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 17,
+      "count": 18,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-18T12:21:15.810362+00:00"
+      "last_used": "2026-11-19T18:35:05.585394+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 17,
@@ -1209,12 +1227,17 @@
       "count": 1,
       "text": "#caves #spelunking #stalactites #underground #bats #darkness",
       "last_used": "2026-11-18T22:43:01.507167+00:00"
+    },
+    "7d5156d310ee7794": {
+      "count": 1,
+      "text": "#habits #routine #productivity #discipline #focus #success",
+      "last_used": "2026-11-19T18:35:05.585403+00:00"
     }
   },
   "meta": {
-    "last_template": "hot_energy",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 52
+    "last_template": "noir_pop",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 53
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1381,6 +1404,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/09/04/audio_5e6ba1daa7.mp3",
       "last_used": "2026-11-18T22:43:01.507172+00:00"
+    },
+    "8484f33066ca0f87": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/06/04/audio_4a675a0e9d.mp3",
+      "last_used": "2026-11-19T18:35:05.585410+00:00"
     }
   }
 }
