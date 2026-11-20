@@ -19,12 +19,13 @@ TRACK_FILE = os.path.join(BASE_DIR, 'track.json')
 TITLE_FILE = os.path.join(BASE_DIR, 'title.txt')
 HASHTAG_FILE = os.path.join(BASE_DIR, 'hastag.txt')
 
+
 def send_telegram_alert(error_msg):
     """Sends a failure alert to the specified Telegram thread."""
     if not TELEGRAM_TOKEN or not CHAT_ID:
         print("Telegram credentials missing. Skipping alert.")
         return
-    
+
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     text = (
         f"🚨 *Automation Failed*\n"
@@ -44,29 +45,37 @@ def send_telegram_alert(error_msg):
     except Exception as e:
         print(f"Telegram alert failed to send: {e}")
 
+
 def load_tracking():
-    """Loads track.json data or initializes if empty."""
+    """Loads track.json data and safely initializes missing keys."""
+    data = {}
     if os.path.exists(TRACK_FILE):
         with open(TRACK_FILE, 'r', encoding='utf-8') as f:
             try:
-                return json.load(f)
+                loaded = json.load(f)
+                if isinstance(loaded, dict):
+                    data = loaded
             except json.JSONDecodeError:
-                return {"titles": {}, "hashtags": {}, "images": {}}
-    return {"titles": {}, "hashtags": {}, "images": {}}
+                data = {}
+    data.setdefault("titles", {})
+    data.setdefault("hashtags", {})
+    data.setdefault("images", {})
+    return data
+
 
 def save_tracking(data):
     """Saves updated data to track.json."""
     with open(TRACK_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4)
 
+
 def is_cooled_down(item, tracking_dict):
-    """Checks if an item is completely new or has passed the 120-day cooldown."""
+    """Checks if an item is new or has passed the 120-day cooldown."""
     if item not in tracking_dict:
         return True
     last_used = datetime.fromisoformat(tracking_dict[item])
-    if datetime.now() - last_used >= timedelta(days=COOLDOWN_DAYS):
-        return True
-    return False
+    return (datetime.now() - last_used) >= timedelta(days=COOLDOWN_DAYS)
+
 
 def read_file_lines(filepath):
     """Reads lines from a text file, filtering out blanks."""
@@ -75,35 +84,35 @@ def read_file_lines(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         return [line.strip() for line in f if line.strip()]
 
+
 def get_random_image_link(tracking_data):
     """Fetches a random image link from a randomly selected folder in the Codvix repo."""
     repo_api_url = "https://api.github.com/repos/Automation8248/Codvix/contents/Pixhub/Social%20post/Flowers"
-    
+
     response = requests.get(repo_api_url)
     if response.status_code != 200:
         raise Exception(f"Failed to list GitHub folders. API Response: {response.text}")
-    
+
     folders = [item['name'] for item in response.json() if item['type'] == 'dir']
     if not folders:
         raise Exception("No folders found in the Flowers directory.")
-    
-    # Shuffle folders to randomly search for an available link
+
     random.shuffle(folders)
-    
+
     for folder in folders:
-        # Encode folder name for URL (handles spaces)
         folder_encoded = urllib.parse.quote(folder)
         link_url = f"https://raw.githubusercontent.com/Automation8248/Codvix/main/Pixhub/Social%20post/Flowers/{folder_encoded}/link.txt"
-        
+
         link_resp = requests.get(link_url)
         if link_resp.status_code == 200:
             links = [line.strip() for line in link_resp.text.split('\n') if line.strip()]
             valid_links = [l for l in links if is_cooled_down(l, tracking_data['images'])]
-            
+
             if valid_links:
                 return random.choice(valid_links), folder
 
     raise Exception("No available image links found across all folders (all are currently in 120-day cooldown).")
+
 
 def main():
     try:
@@ -154,7 +163,8 @@ def main():
         error_msg = str(e)
         print(f"Error: {traceback.format_exc()}")
         send_telegram_alert(error_msg)
-        raise  # Fails the GitHub Action deliberately after sending Telegram message
+        raise
+
 
 if __name__ == "__main__":
     main()
