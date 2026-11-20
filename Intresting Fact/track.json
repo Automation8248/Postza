@@ -971,13 +971,31 @@
       "topic": "Snakes",
       "text": "Most pythons are nonvenomous.",
       "last_used": "2026-11-19T22:44:33.076769+00:00"
+    },
+    "199aa4b70e00dd53": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Dock diving is a sport where dogs leap into water.",
+      "last_used": "2026-11-20T12:04:08.459624+00:00"
+    },
+    "7257f1e5246a2ee6": {
+      "count": 1,
+      "topic": "Snakes",
+      "text": "Najash is an early snake with hind legs.",
+      "last_used": "2026-11-20T12:04:08.459653+00:00"
+    },
+    "4b104b506002aa9a": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Rendezvous sites are open meadows where pups wait while adults hunt.",
+      "last_used": "2026-11-20T12:04:08.459662+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 18,
+      "count": 19,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-18T22:43:01.507161+00:00"
+      "last_used": "2026-11-20T12:04:08.459669+00:00"
     },
     "414123dcd2f39de3": {
       "count": 18,
@@ -1255,12 +1273,17 @@
       "count": 1,
       "text": "#evolution #darwin #fossils #survival #adaptation #species",
       "last_used": "2026-11-19T22:44:33.076781+00:00"
+    },
+    "a8662d2517e77f5e": {
+      "count": 1,
+      "text": "#constellations #zodiac #astrology #nightsky #stars #mythology",
+      "last_used": "2026-11-20T12:04:08.459676+00:00"
     }
   },
   "meta": {
-    "last_template": "royal_purple",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 54
+    "last_template": "sunset_vibes",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 55
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1437,6 +1460,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/08/21/audio_fa071ce419.mp3",
       "last_used": "2026-11-19T22:44:33.076786+00:00"
+    },
+    "c56042091edf659a": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/06/25/audio_903ada7e31.mp3",
+      "last_used": "2026-11-20T12:04:08.459681+00:00"
     }
   }
 }
