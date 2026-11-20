@@ -147,7 +147,7 @@ def main():
         }
 
         wh_response = requests.post(WEBHOOK_URL, json=payload)
-        if wh_response.status_code not in (200, 201, 204):
+        if not wh_response.ok:
             raise Exception(f"Webhook failed! Status: {wh_response.status_code} - {wh_response.text}")
 
         # 5. Update Tracking & Reset Cooldown
