@@ -989,6 +989,24 @@
       "topic": "Wolves",
       "text": "Rendezvous sites are open meadows where pups wait while adults hunt.",
       "last_used": "2026-11-20T12:04:08.459662+00:00"
+    },
+    "77cc498686626cf0": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats are now one of the most popular pets in the world.",
+      "last_used": "2026-11-20T17:59:12.819542+00:00"
+    },
+    "791627d41a3e7226": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants use their trunk to greet each other, like a handshake.",
+      "last_used": "2026-11-20T17:59:12.819566+00:00"
+    },
+    "20cdadb2d2c3e559": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "A whale's tail is called a fluke.",
+      "last_used": "2026-11-20T17:59:12.819572+00:00"
     }
   },
   "titles": {
@@ -998,9 +1016,9 @@
       "last_used": "2026-11-20T12:04:08.459669+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 18,
+      "count": 19,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-19T18:35:05.585394+00:00"
+      "last_used": "2026-11-20T17:59:12.819578+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 18,
@@ -1278,12 +1296,17 @@
       "count": 1,
       "text": "#constellations #zodiac #astrology #nightsky #stars #mythology",
       "last_used": "2026-11-20T12:04:08.459676+00:00"
+    },
+    "1be7383a9ecbd1e8": {
+      "count": 1,
+      "text": "#speed #velocity #racing #fastest #machines #records",
+      "last_used": "2026-11-20T17:59:12.819582+00:00"
     }
   },
   "meta": {
-    "last_template": "sunset_vibes",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 55
+    "last_template": "hot_energy",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 56
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1465,6 +1488,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/06/25/audio_903ada7e31.mp3",
       "last_used": "2026-11-20T12:04:08.459681+00:00"
+    },
+    "bebfe4298ccf1c08": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/07/29/audio_f6262f3be5.mp3",
+      "last_used": "2026-11-20T17:59:12.819587+00:00"
     }
   }
 }
