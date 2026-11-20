@@ -1,0 +1,36 @@
+name: BloomBite Webhook Poster
+
+on:
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  post-and-track:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Postza Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Requirements
+        run: pip install requests
+
+      - name: Run BloomBite Automation
+        env:
+          BLOOMBITE_WEBHOOK: ${{ secrets.BLOOMBITE_WEBHOOK }}
+          TELEGRAM_FAILD_TOKEN: ${{ secrets.TELEGRAM_FAILD_TOKEN }}
+          FAILED_CHAT_ID: ${{ secrets.FAILED_CHAT_ID }}
+        run: python BloomBite/main.py
+
+      - name: Commit and Push track.json state
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add BloomBite/track.json
+          
+          # Check if there are changes, commit, handle standard fetch/rebase flow to avoid rejections
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(BloomBite): update track.json 120-day cooldown" && git pull --rebase origin main && git push)
