@@ -1007,6 +1007,24 @@
       "topic": "Whales",
       "text": "A whale's tail is called a fluke.",
       "last_used": "2026-11-20T17:59:12.819572+00:00"
+    },
+    "7b2b1459274c8cf7": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The English Mastiff is among the heaviest dog breeds.",
+      "last_used": "2026-11-20T22:19:08.821176+00:00"
+    },
+    "c9368474b3472cad": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "A cat's nose print is unique, like a human fingerprint.",
+      "last_used": "2026-11-20T22:19:08.821206+00:00"
+    },
+    "64541b2beccd03d7": {
+      "count": 1,
+      "topic": "Snakes",
+      "text": "Snakes sense vibrations through their jawbones.",
+      "last_used": "2026-11-20T22:19:08.821213+00:00"
     }
   },
   "titles": {
@@ -1021,9 +1039,9 @@
       "last_used": "2026-11-20T17:59:12.819578+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 18,
+      "count": 19,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-19T22:44:33.076775+00:00"
+      "last_used": "2026-11-20T22:19:08.821227+00:00"
     }
   },
   "hashtags": {
@@ -1301,12 +1319,17 @@
       "count": 1,
       "text": "#speed #velocity #racing #fastest #machines #records",
       "last_used": "2026-11-20T17:59:12.819582+00:00"
+    },
+    "0a4d93628240c925": {
+      "count": 1,
+      "text": "#dinosaur #prehistoric #fossils #paleontology #extinct #monsters",
+      "last_used": "2026-11-20T22:19:08.821233+00:00"
     }
   },
   "meta": {
-    "last_template": "hot_energy",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 56
+    "last_template": "sunset_vibes",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 57
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1493,6 +1516,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/07/29/audio_f6262f3be5.mp3",
       "last_used": "2026-11-20T17:59:12.819587+00:00"
+    },
+    "030488f65d56f51c": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/01/30/audio_c0cf62ff92.mp3",
+      "last_used": "2026-11-20T22:19:08.821240+00:00"
     }
   }
 }
