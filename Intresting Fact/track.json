@@ -1061,6 +1061,24 @@
       "topic": "Cats",
       "text": "Maine Coons can weigh up to 11 kg.",
       "last_used": "2026-11-21T16:58:06.506773+00:00"
+    },
+    "93e68827bb0ca1d8": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Moeritherium was an early ancestor of elephants.",
+      "last_used": "2026-11-21T20:59:41.074860+00:00"
+    },
+    "3a42f11055ea8a26": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "The Thai Ridgeback is a rare breed with a ridge of fur.",
+      "last_used": "2026-11-21T20:59:41.074890+00:00"
+    },
+    "997a6c455b35ad3f": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Black cats are considered lucky in some cultures, unlucky in others.",
+      "last_used": "2026-11-21T20:59:41.074902+00:00"
     }
   },
   "titles": {
@@ -1075,9 +1093,9 @@
       "last_used": "2026-11-21T16:58:06.506787+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 19,
+      "count": 20,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-20T22:19:08.821227+00:00"
+      "last_used": "2026-11-21T20:59:41.074910+00:00"
     }
   },
   "hashtags": {
@@ -1370,12 +1388,17 @@
       "count": 1,
       "text": "#earthfacts #geography #naturelovers #worldfacts #places #travel",
       "last_used": "2026-11-21T16:58:06.506800+00:00"
+    },
+    "267bccec82fbfa01": {
+      "count": 1,
+      "text": "#gadgetlife #smarttech #wearables #smarthome #unboxing #techreview",
+      "last_used": "2026-11-21T20:59:41.074918+00:00"
     }
   },
   "meta": {
-    "last_template": "neon_glow",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 59
+    "last_template": "noir_pop",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 60
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1577,6 +1600,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/01/09/audio_3e5e867dca.mp3",
       "last_used": "2026-11-21T16:58:06.506811+00:00"
+    },
+    "c75dc205348aa0b3": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/09/04/audio_69888221cd.mp3",
+      "last_used": "2026-11-21T20:59:41.074926+00:00"
     }
   }
 }
