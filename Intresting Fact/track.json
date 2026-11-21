@@ -1025,13 +1025,31 @@
       "topic": "Snakes",
       "text": "Snakes sense vibrations through their jawbones.",
       "last_used": "2026-11-20T22:19:08.821213+00:00"
+    },
+    "2d532f1b3640b5cc": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Whales can go months without eating during migration.",
+      "last_used": "2026-11-21T11:39:27.801216+00:00"
+    },
+    "03964e428123eeff": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "The Russian Blue has a dense silvery blue coat.",
+      "last_used": "2026-11-21T11:39:27.801245+00:00"
+    },
+    "c955a0d9807865d4": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephants use tools such as sticks to scratch themselves.",
+      "last_used": "2026-11-21T11:39:27.801261+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 19,
+      "count": 20,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-20T12:04:08.459669+00:00"
+      "last_used": "2026-11-21T11:39:27.801274+00:00"
     },
     "414123dcd2f39de3": {
       "count": 19,
@@ -1324,12 +1342,17 @@
       "count": 1,
       "text": "#dinosaur #prehistoric #fossils #paleontology #extinct #monsters",
       "last_used": "2026-11-20T22:19:08.821233+00:00"
+    },
+    "abb831ebf2df7c2d": {
+      "count": 1,
+      "text": "#eclipse #solar #lunar #totaleclipse #astronomylovers #corona",
+      "last_used": "2026-11-21T11:39:27.801285+00:00"
     }
   },
   "meta": {
-    "last_template": "sunset_vibes",
-    "last_hook": "Oh! Your brain is about to get an upgrade!",
-    "total_videos": 57
+    "last_template": "retro_vhs",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 58
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1521,6 +1544,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/01/30/audio_c0cf62ff92.mp3",
       "last_used": "2026-11-20T22:19:08.821240+00:00"
+    },
+    "a2a086fce306fb98": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/03/18/audio_55045d03b5.mp3",
+      "last_used": "2026-11-21T11:39:27.801296+00:00"
     }
   }
 }
