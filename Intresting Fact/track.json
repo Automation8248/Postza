@@ -1043,6 +1043,24 @@
       "topic": "Elephants",
       "text": "Elephants use tools such as sticks to scratch themselves.",
       "last_used": "2026-11-21T11:39:27.801261+00:00"
+    },
+    "0f95a347fe72a4de": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Snoopy is a famous cartoon beagle from Peanuts.",
+      "last_used": "2026-11-21T16:58:06.506729+00:00"
+    },
+    "267420de05b3862a": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Blue whale calves weigh about 2.7 tons at birth.",
+      "last_used": "2026-11-21T16:58:06.506760+00:00"
+    },
+    "c3d73302392f7f85": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Maine Coons can weigh up to 11 kg.",
+      "last_used": "2026-11-21T16:58:06.506773+00:00"
     }
   },
   "titles": {
@@ -1052,9 +1070,9 @@
       "last_used": "2026-11-21T11:39:27.801274+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 19,
+      "count": 20,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-20T17:59:12.819578+00:00"
+      "last_used": "2026-11-21T16:58:06.506787+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 19,
@@ -1347,12 +1365,17 @@
       "count": 1,
       "text": "#eclipse #solar #lunar #totaleclipse #astronomylovers #corona",
       "last_used": "2026-11-21T11:39:27.801285+00:00"
+    },
+    "43e1ba33700c07bc": {
+      "count": 1,
+      "text": "#earthfacts #geography #naturelovers #worldfacts #places #travel",
+      "last_used": "2026-11-21T16:58:06.506800+00:00"
     }
   },
   "meta": {
-    "last_template": "retro_vhs",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 58
+    "last_template": "neon_glow",
+    "last_hook": "Oh! Your brain is about to get an upgrade!",
+    "total_videos": 59
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1549,6 +1572,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/03/18/audio_55045d03b5.mp3",
       "last_used": "2026-11-21T11:39:27.801296+00:00"
+    },
+    "3d5db15d39b7c4c7": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/01/09/audio_3e5e867dca.mp3",
+      "last_used": "2026-11-21T16:58:06.506811+00:00"
     }
   }
 }
