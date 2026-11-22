@@ -1115,6 +1115,24 @@
       "topic": "Wolves",
       "text": "Wolves mate in January to March.",
       "last_used": "2026-11-22T17:21:46.514001+00:00"
+    },
+    "54de29f382ec36c1": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Elephant skulls have honeycomb-like bone to reduce weight.",
+      "last_used": "2026-11-22T21:09:55.213076+00:00"
+    },
+    "22294e91186f3adc": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Russia has about 40,000 wolves.",
+      "last_used": "2026-11-22T21:09:55.213103+00:00"
+    },
+    "5d8e26e06ae4d9e1": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Retrievers were bred to fetch game.",
+      "last_used": "2026-11-22T21:09:55.213111+00:00"
     }
   },
   "titles": {
@@ -1129,9 +1147,9 @@
       "last_used": "2026-11-22T17:21:46.514015+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 20,
+      "count": 21,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-21T20:59:41.074910+00:00"
+      "last_used": "2026-11-22T21:09:55.213117+00:00"
     }
   },
   "hashtags": {
@@ -1439,12 +1457,17 @@
       "count": 1,
       "text": "#spaceexploration #mars #moon #rocket #spacex #galaxy",
       "last_used": "2026-11-22T17:21:46.514028+00:00"
+    },
+    "4e7177373283cb1d": {
+      "count": 1,
+      "text": "#books #literature #authors #writinghistory #libraries #printingpress",
+      "last_used": "2026-11-22T21:09:55.213124+00:00"
     }
   },
   "meta": {
-    "last_template": "retro_vhs",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 62
+    "last_template": "noir_pop",
+    "last_hook": "Wait... you will not believe the third fact!",
+    "total_videos": 63
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1661,6 +1684,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2025/10/07/audio_ac987f41fe.mp3",
       "last_used": "2026-11-22T17:21:46.514042+00:00"
+    },
+    "8b99cab6db425f44": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/05/07/audio_cd00e08a7b.mp3",
+      "last_used": "2026-11-22T21:09:55.213130+00:00"
     }
   }
 }
