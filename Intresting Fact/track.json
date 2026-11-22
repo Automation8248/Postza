@@ -1079,13 +1079,31 @@
       "topic": "Cats",
       "text": "Black cats are considered lucky in some cultures, unlucky in others.",
       "last_used": "2026-11-21T20:59:41.074902+00:00"
+    },
+    "4b30cb0319fffd2c": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "A cat's tail has about 20 vertebrae.",
+      "last_used": "2026-11-22T11:53:14.260494+00:00"
+    },
+    "6776d0906ef43ea9": {
+      "count": 1,
+      "topic": "Snakes",
+      "text": "Carpet pythons are found in Australia.",
+      "last_used": "2026-11-22T11:53:14.260520+00:00"
+    },
+    "4a724179e70dcc6b": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Rin Tin Tin was a famous German Shepherd film star.",
+      "last_used": "2026-11-22T11:53:14.260529+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 20,
+      "count": 21,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-21T11:39:27.801274+00:00"
+      "last_used": "2026-11-22T11:53:14.260537+00:00"
     },
     "414123dcd2f39de3": {
       "count": 20,
@@ -1393,12 +1411,17 @@
       "count": 1,
       "text": "#gadgetlife #smarttech #wearables #smarthome #unboxing #techreview",
       "last_used": "2026-11-21T20:59:41.074918+00:00"
+    },
+    "4f239446d739835b": {
+      "count": 1,
+      "text": "#humanbody #psychologyfacts #mindblowing #brain #healthfacts #medical",
+      "last_used": "2026-11-22T11:53:14.260544+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 60
+    "last_template": "cinematic_gold",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 61
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1605,6 +1628,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/09/04/audio_69888221cd.mp3",
       "last_used": "2026-11-21T20:59:41.074926+00:00"
+    },
+    "38e6dbc873e9d79b": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2023/02/16/audio_134b5a3398.mp3",
+      "last_used": "2026-11-22T11:53:14.260550+00:00"
     }
   }
 }
