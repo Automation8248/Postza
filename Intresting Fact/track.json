@@ -1097,6 +1097,24 @@
       "topic": "Dogs",
       "text": "Rin Tin Tin was a famous German Shepherd film star.",
       "last_used": "2026-11-22T11:53:14.260529+00:00"
+    },
+    "12a51fa37f5bbf34": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "The belief that elephants get drunk on marula fruit is mostly a myth.",
+      "last_used": "2026-11-22T17:21:46.513941+00:00"
+    },
+    "f6a367239afcd797": {
+      "count": 1,
+      "topic": "Snakes",
+      "text": "The Egyptian cobra was likely the snake associated with Cleopatra in legend.",
+      "last_used": "2026-11-22T17:21:46.513983+00:00"
+    },
+    "a878057554c46876": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Wolves mate in January to March.",
+      "last_used": "2026-11-22T17:21:46.514001+00:00"
     }
   },
   "titles": {
@@ -1106,9 +1124,9 @@
       "last_used": "2026-11-22T11:53:14.260537+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 20,
+      "count": 21,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-21T16:58:06.506787+00:00"
+      "last_used": "2026-11-22T17:21:46.514015+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 20,
@@ -1416,12 +1434,17 @@
       "count": 1,
       "text": "#humanbody #psychologyfacts #mindblowing #brain #healthfacts #medical",
       "last_used": "2026-11-22T11:53:14.260544+00:00"
+    },
+    "c8bd3882414db095": {
+      "count": 1,
+      "text": "#spaceexploration #mars #moon #rocket #spacex #galaxy",
+      "last_used": "2026-11-22T17:21:46.514028+00:00"
     }
   },
   "meta": {
-    "last_template": "cinematic_gold",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 61
+    "last_template": "retro_vhs",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 62
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1633,6 +1656,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2023/02/16/audio_134b5a3398.mp3",
       "last_used": "2026-11-22T11:53:14.260550+00:00"
+    },
+    "db8af46fa193471f": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2025/10/07/audio_ac987f41fe.mp3",
+      "last_used": "2026-11-22T17:21:46.514042+00:00"
     }
   }
 }
