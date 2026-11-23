@@ -1133,13 +1133,31 @@
       "topic": "Dogs",
       "text": "Retrievers were bred to fetch game.",
       "last_used": "2026-11-22T21:09:55.213111+00:00"
+    },
+    "2e4314e375b58d22": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Cats shed their fur year-round.",
+      "last_used": "2026-11-23T13:32:43.759330+00:00"
+    },
+    "7efaa69581b60489": {
+      "count": 1,
+      "topic": "Elephants",
+      "text": "Lions sometimes prey on young elephants.",
+      "last_used": "2026-11-23T13:32:43.759363+00:00"
+    },
+    "7bbaf4556f109e54": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Wolves scavenge carrion in winter.",
+      "last_used": "2026-11-23T13:32:43.759374+00:00"
     }
   },
   "titles": {
     "df38001dda4f7c08": {
-      "count": 21,
+      "count": 22,
       "text": "Only 1% People Know These 3 Facts",
-      "last_used": "2026-11-22T11:53:14.260537+00:00"
+      "last_used": "2026-11-23T13:32:43.759383+00:00"
     },
     "414123dcd2f39de3": {
       "count": 21,
@@ -1462,12 +1480,17 @@
       "count": 1,
       "text": "#books #literature #authors #writinghistory #libraries #printingpress",
       "last_used": "2026-11-22T21:09:55.213124+00:00"
+    },
+    "015bf474a2ae2f82": {
+      "count": 1,
+      "text": "#coral #reef #oceanhealth #scubadiving #underwaterphotography #marineconservation",
+      "last_used": "2026-11-23T13:32:43.759393+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Wait... you will not believe the third fact!",
-    "total_videos": 63
+    "last_template": "royal_purple",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 64
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1689,6 +1712,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/05/07/audio_cd00e08a7b.mp3",
       "last_used": "2026-11-22T21:09:55.213130+00:00"
+    },
+    "298f17ad3b060442": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/09/04/audio_37ef1c88d7.mp3",
+      "last_used": "2026-11-23T13:32:43.759401+00:00"
     }
   }
 }
