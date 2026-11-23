@@ -1151,6 +1151,24 @@
       "topic": "Wolves",
       "text": "Wolves scavenge carrion in winter.",
       "last_used": "2026-11-23T13:32:43.759374+00:00"
+    },
+    "e7b59013078b9b3f": {
+      "count": 1,
+      "topic": "Wolves",
+      "text": "Werewolf legends come from European folklore.",
+      "last_used": "2026-11-23T21:38:56.234424+00:00"
+    },
+    "41d693a131ccf606": {
+      "count": 1,
+      "topic": "Dogs",
+      "text": "Dogs need vaccinations against rabies, parvovirus, and distemper.",
+      "last_used": "2026-11-23T21:38:56.234447+00:00"
+    },
+    "b510d07ed1295750": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Kittens begin losing baby teeth around 3 to 4 months of age.",
+      "last_used": "2026-11-23T21:38:56.234455+00:00"
     }
   },
   "titles": {
@@ -1160,9 +1178,9 @@
       "last_used": "2026-11-23T13:32:43.759383+00:00"
     },
     "414123dcd2f39de3": {
-      "count": 21,
+      "count": 22,
       "text": "Did You Know These 3 Crazy Facts?",
-      "last_used": "2026-11-22T17:21:46.514015+00:00"
+      "last_used": "2026-11-23T21:38:56.234462+00:00"
     },
     "d9bff887b1b38d2c": {
       "count": 21,
@@ -1485,12 +1503,17 @@
       "count": 1,
       "text": "#coral #reef #oceanhealth #scubadiving #underwaterphotography #marineconservation",
       "last_used": "2026-11-23T13:32:43.759393+00:00"
+    },
+    "a2851aafdfbd45f3": {
+      "count": 1,
+      "text": "#time #clock #albertstein #relativity #physicsfacts #dimensions",
+      "last_used": "2026-11-23T21:38:56.234468+00:00"
     }
   },
   "meta": {
-    "last_template": "royal_purple",
-    "last_hook": "Stop scrolling! These three facts will blow your mind!",
-    "total_videos": 64
+    "last_template": "noir_pop",
+    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
+    "total_videos": 65
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1717,6 +1740,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/09/04/audio_37ef1c88d7.mp3",
       "last_used": "2026-11-23T13:32:43.759401+00:00"
+    },
+    "a7cffff1dde8d2b0": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/08/17/audio_608c15810d.mp3",
+      "last_used": "2026-11-23T21:38:56.234473+00:00"
     }
   }
 }
