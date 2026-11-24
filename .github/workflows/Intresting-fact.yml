@@ -1,11 +1,6 @@
 name: Interesting Fact Video Automation
 
 on:
-  schedule:
-    # UTC time. IST = UTC + 5:30  ->  9:00 AM, 3:00 PM, 9:00 PM IST
-    - cron: "30 3 * * *"
-    - cron: "30 9 * * *"
-    - cron: "30 15 * * *"
   workflow_dispatch:        # manual "Run workflow" button
 
 permissions:
