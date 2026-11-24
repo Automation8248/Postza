@@ -1,0 +1,1000 @@
+owl | Owls can rotate their heads up to 270 degrees.
+owl | Owls have 14 neck vertebrae, double the number humans have.
+owl | Special blood vessel adaptations keep blood flowing while owls turn their heads.
+owl | Owls cannot move their eyes within their sockets.
+owl | Owl eyes are tube-shaped, not round.
+owl | Owls have forward-facing eyes that give them binocular vision.
+owl | Owls have three eyelids.
+owl | Owls blink with a nictitating membrane to clean their eyes.
+owl | Owls close their upper eyelid when they blink and the lower when they sleep.
+owl | Owl eyes make up a large part of the skull's volume.
+owl | Owls have excellent night vision.
+owl | Owls have more rod cells than humans, helping them see in dim light.
+owl | Owls cannot see well up close.
+owl | Owls have bristle-like feathers near the beak to feel objects.
+owl | Owls have asymmetrical ear openings in many species.
+owl | Asymmetrical ears help owls locate sounds in three dimensions.
+owl | Barn owls can find prey in complete darkness using sound alone.
+owl | The facial disc of an owl funnels sound to its ears.
+owl | Owls can hear a mouse's heartbeat-level sounds from far away.
+owl | Owls can hear prey moving under snow.
+owl | Owls fly almost silently.
+owl | Soft fringes on owl feathers break up turbulence.
+owl | Owl feathers have a velvety texture that muffles sound.
+owl | Silent owl flight has inspired quieter wind turbine and aircraft designs.
+owl | Owls have zygodactyl feet, with two toes forward and two back.
+owl | Owls can rotate one toe to face backward or forward.
+owl | Owl talons are very strong and sharp.
+owl | Owl feet are feathered in many species.
+owl | Owls swallow small prey whole.
+owl | Owls cough up pellets of indigestible fur and bones.
+owl | Owl pellets are studied to learn about owl diets.
+owl | A barn owl can eat 1,000 mice a year.
+owl | Owls are carnivores.
+owl | Owls eat mice, voles, insects, birds, and fish.
+owl | Some owls eat other owls.
+owl | Great horned owls eat skunks.
+owl | Great horned owls have almost no sense of smell, so skunk spray does not bother them.
+owl | Owls are mostly nocturnal.
+owl | Some owls are active during the day.
+owl | Burrowing owls live in underground burrows.
+owl | Burrowing owls often use burrows dug by prairie dogs.
+owl | Burrowing owls decorate burrow entrances with dung.
+owl | The dung attracts beetles, which they eat.
+owl | Snowy owls live in the Arctic tundra.
+owl | Snowy owls hunt during the day in the Arctic summer.
+owl | Snowy owls have thick feathers covering their feet.
+owl | Male snowy owls become whiter with age.
+owl | Snowy owls were made famous by Harry Potter's Hedwig.
+owl | Great gray owls are the longest owls.
+owl | Great gray owls can reach about 70 cm in length.
+owl | Great gray owls can hear prey under 30 cm of snow.
+owl | Great gray owls can plunge through snow crust to catch prey.
+owl | Eurasian eagle-owls are among the largest owls.
+owl | Eurasian eagle-owls have wingspans up to 1.8 meters.
+owl | Blakiston's fish owl is one of the largest owls in the world.
+owl | Blakiston's fish owl lives in Russia, Japan, and China.
+owl | Blakiston's fish owls hunt salmon.
+owl | The elf owl is the smallest owl.
+owl | Elf owls are about 12 cm long.
+owl | Elf owls weigh about 40 grams.
+owl | Elf owls nest in saguaro cactus holes.
+owl | Elf owls can play dead.
+owl | Northern saw-whet owls are small, about 20 cm.
+owl | Saw-whet owl calls sound like a saw being sharpened.
+owl | Eastern screech owls come in red and gray color morphs.
+owl | Screech owls make trilling and whinnying calls.
+owl | Barn owls have heart-shaped faces.
+owl | Barn owls are found on every continent except Antarctica.
+owl | Barn owls screech rather than hoot.
+owl | Barn owls nest in barns, tree hollows, and church towers.
+owl | Barn owls have pale, ghostly appearance.
+owl | Barred owls call "who cooks for you."
+owl | Great horned owls have feather tufts that look like horns.
+owl | Owl tufts are not ears.
+owl | Tufts help with camouflage and communication.
+owl | Long-eared owls roost in groups in winter.
+owl | Short-eared owls hunt in open fields in the daytime.
+owl | Spotted owls live in old-growth forests of the Pacific Northwest.
+owl | Northern spotted owls are threatened by habitat loss.
+owl | The spotted owl controversy affected logging policy in the 1990s.
+owl | Tawny owls give the classic "twit-twoo" call.
+owl | Actually, the "twit-twoo" is two owls calling to each other.
+owl | Male tawny owls hoot and females make "kewick" sounds.
+owl | Little owls are small European owls.
+owl | Athena's owl is the little owl in Greek myth.
+owl | The owl was a symbol of Athena, goddess of wisdom.
+owl | Owls are linked to wisdom in Western cultures.
+owl | In some cultures, owls are considered omens of death.
+owl | In India, the owl is the vahana of the goddess Lakshmi.
+owl | In Indian culture, owls can symbolize wealth.
+owl | In some Indian traditions, owls are seen as unlucky.
+owl | Many owl species are threatened by illegal trade in India.
+owl | India has over 30 species of owls.
+owl | The spotted owlet is a common owl in Indian towns.
+owl | The Indian eagle-owl is found across the Indian subcontinent.
+owl | The brown fish owl lives near water in South Asia.
+owl | The forest owlet is critically endangered.
+owl | The forest owlet was rediscovered in India in 1997.
+owl | The forest owlet had not been seen for over 100 years.
+owl | The mottled wood owl lives in Indian forests.
+owl | The collared scops owl is a small owl in Asia.
+owl | The barn owl is common in rural India.
+owl | Owls have been used in ancient cave art.
+owl | The oldest known owl art is in Chauvet Cave in France.
+owl | Owls are in the order Strigiformes.
+owl | There are about 250 species of owls.
+owl | Owls belong to two families: Strigidae and Tytonidae.
+owl | True owls are in Strigidae.
+owl | Barn owls are in Tytonidae.
+owl | Owls are found on every continent except Antarctica.
+owl | Owls live in forests, deserts, grasslands, and tundra.
+owl | A group of owls is called a parliament.
+owl | Female owls are usually larger than males.
+owl | This size difference is called reverse sexual dimorphism.
+owl | Owls often mate for life.
+owl | Owls do not build their own nests in many cases.
+owl | Owls often use old nests of other birds.
+owl | Owls lay 2 to 8 eggs depending on prey availability.
+owl | Owl eggs are round and white.
+owl | Owl eggs hatch at different times.
+owl | Owl chicks hatch asynchronously, so siblings differ in size.
+owl | In lean times, the youngest owlets may not survive.
+owl | Owlets have fluffy down feathers.
+owl | Owlets leave the nest before they can fly well.
+owl | Young owls climb trees using beak and talons.
+owl | This is called branching.
+owl | Owl parents feed chicks for weeks after fledging.
+owl | Owls can live 10 to 25 years in the wild.
+owl | Captive owls can live over 30 years.
+owl | Great horned owls are among the earliest nesters in North America.
+owl | Great horned owls can nest in winter.
+owl | Great horned owls can grip with a force of about 130 pounds.
+owl | Great horned owls can take prey larger than themselves.
+owl | Owls have powerful feet to crush prey.
+owl | Owls often use perches to hunt.
+owl | Owls hunt by sit-and-wait or quartering flight.
+owl | Owls swoop down silently on prey.
+owl | Owls can carry prey several times their own weight in some cases.
+owl | Owls swallow prey headfirst.
+owl | Owls store food in tree hollows in winter.
+owl | Pygmy owls store prey in nest boxes.
+owl | Pygmy owls hunt birds larger than themselves.
+owl | Pygmy owls have false eyes on the back of their heads.
+owl | The false eyes may deter attackers.
+owl | Boreal owls live in northern forests.
+owl | Boreal owls hunt by sound.
+owl | Hawk owls are active by day and hunt like hawks.
+owl | Northern hawk owls have long tails.
+owl | Flammulated owls eat insects.
+owl | Flammulated owls migrate to Central America.
+owl | Ferruginous pygmy owls are small, fierce hunters.
+owl | Stygian owls are dark owls of the Americas.
+owl | Mottled owls are common in South America.
+owl | Spectacled owls have white "spectacles" around their eyes.
+owl | Spectacled owl chicks are white, adults are dark.
+owl | Crested owls have long feather tufts.
+owl | Tropical owls have varied calls.
+owl | Philippine eagle-owls are large owls in the Philippines.
+owl | Sokoke scops owls live in Kenya.
+owl | Pel's fishing owl is a large owl in Africa.
+owl | Pel's fishing owl hunts fish by night.
+owl | Verreaux's eagle-owl is also called the milky eagle-owl.
+owl | Verreaux's eagle-owl has pink eyelids.
+owl | Spotted eagle-owls live in southern Africa.
+owl | White-faced owls puff up to look larger.
+owl | African wood owls call with distinctive hoots.
+owl | Madagascar red owl is a barn-owl relative.
+owl | The Maned owl has long feather tufts.
+owl | Owls in Australia include the powerful owl.
+owl | The powerful owl is Australia's largest owl.
+owl | The southern boobook is Australia's smallest and most common owl.
+owl | The masked owl is a large barn owl in Australia.
+owl | The sooty owl lives in rainforests.
+owl | The Christmas Island hawk-owl is endangered.
+owl | The ruru, or morepork, is New Zealand's native owl.
+owl | The laughing owl of New Zealand went extinct in the early 1900s.
+owl | The Eurasian eagle-owl is a top predator in Europe.
+owl | The Ural owl lives in northern forests.
+owl | The Tengmalm's owl is the boreal owl in Europe.
+owl | Little owls were introduced to England in the 1800s.
+owl | Snowy owls can have irruptions, flying far south in some winters.
+owl | Irruptions occur when lemming numbers crash.
+owl | Snowy owls eat up to 1,600 lemmings a year.
+owl | Owls are protected in many countries.
+owl | Owls are top predators that control rodent populations.
+owl | Farmers install owl boxes for natural pest control.
+owl | Barn owl boxes can reduce rodent damage.
+owl | Owls are sensitive to rodenticides.
+owl | Poisoned rodents harm owls that eat them.
+owl | Owls are hit by vehicles on roads.
+owl | Habitat loss is the main threat to owls.
+owl | Owls need large old trees for nesting.
+owl | Owls have been revered and feared across cultures.
+owl | Owls appear in books like Winnie-the-Pooh and Harry Potter.
+owl | Owls are popular symbols in logos and mascots.
+owl | Owl Prowl is a night walk to listen for owls.
+owl | Owl banding helps scientists track movements.
+owl | Owl pellet dissection is a popular school activity.
+owl | World Owl Day is celebrated on August 4.
+owl | Owls are a favorite subject for bird photographers.
+penguin | Penguins propose to their partners with a smooth pebble.
+penguin | Penguins are flightless seabirds.
+penguin | Penguins use their wings as flippers to swim.
+penguin | There are about 18 species of penguins.
+penguin | Most penguins live in the Southern Hemisphere.
+penguin | Penguins live on every continent in the Southern Hemisphere.
+penguin | Only Emperor and Adélie penguins breed on the Antarctic mainland.
+penguin | The Galápagos penguin lives near the equator.
+penguin | The Galápagos penguin is the only penguin found north of the equator.
+penguin | Penguins are not found in the Arctic.
+penguin | Emperor penguins are the largest penguins.
+penguin | Emperor penguins can stand about 1.1 meters tall.
+penguin | Emperor penguins weigh up to 45 kg.
+penguin | Emperor penguins can dive over 500 meters deep.
+penguin | Emperor penguins can hold their breath for over 20 minutes.
+penguin | Emperor penguin males incubate the egg on their feet.
+penguin | Emperor penguin males fast for about 65 to 120 days during incubation.
+penguin | Emperor penguins huddle to survive temperatures of minus 40 degrees Celsius.
+penguin | Huddling penguins rotate positions so each gets time in the warm center.
+penguin | Emperor penguins breed during the Antarctic winter.
+penguin | Emperor penguins lay a single egg.
+penguin | Emperor penguin chicks are fed by both parents.
+penguin | Emperor penguin chicks gather in groups called crèches.
+penguin | Emperor penguins can walk 100 km to reach their breeding site.
+penguin | Emperor penguins are listed as near threatened.
+penguin | Emperor penguins may be at risk of decline due to sea ice loss.
+penguin | King penguins are the second-largest penguins.
+penguin | King penguins stand about 90 cm tall.
+penguin | King penguins do not build nests.
+penguin | King penguins carry their egg on their feet like emperors.
+penguin | King penguin chicks are brown and fluffy.
+penguin | King penguin chicks were once thought to be a separate species.
+penguin | King penguins have a long breeding cycle of about 14 months.
+penguin | Adélie penguins are small and live in Antarctica.
+penguin | Adélie penguins were named by French explorer Dumont d'Urville after his wife.
+penguin | Adélie penguins build nests of pebbles.
+penguin | Adélie penguins steal pebbles from neighbors' nests.
+penguin | Adélie penguins can toboggan on their bellies.
+penguin | Chinstrap penguins have a thin black band under their chin.
+penguin | Chinstrap penguins nest on rocky slopes in huge colonies.
+penguin | Gentoo penguins are the fastest swimming penguins.
+penguin | Gentoo penguins can swim up to about 36 km/h.
+penguin | Gentoo penguins have a white patch above each eye.
+penguin | Gentoo penguins have orange-red bills.
+penguin | Gentoo penguins gift pebbles to partners.
+penguin | Macaroni penguins have bright yellow crests.
+penguin | Macaroni penguins have the largest population of any penguin.
+penguin | Royal penguins have white faces and yellow crests.
+penguin | Rockhopper penguins hop from rock to rock.
+penguin | Rockhopper penguins have spiky yellow eyebrow feathers.
+penguin | Rockhopper penguins are among the smallest crested penguins.
+penguin | Fiordland penguins live in New Zealand rainforests.
+penguin | Snares penguins nest under trees on the Snares Islands.
+penguin | Erect-crested penguins breed on New Zealand's subantarctic islands.
+penguin | Yellow-eyed penguins are among the rarest penguins.
+penguin | Yellow-eyed penguins live in New Zealand.
+penguin | Yellow-eyed penguins prefer to nest in solitary.
+penguin | Little blue penguins are the smallest penguins.
+penguin | Little blue penguins are about 33 cm tall and weigh about 1 kg.
+penguin | Little blue penguins live in Australia and New Zealand.
+penguin | Little blue penguins parade on Phillip Island each evening.
+penguin | Magellanic penguins live in South America.
+penguin | Magellanic penguins nest in burrows.
+penguin | Humboldt penguins live along the coast of Peru and Chile.
+penguin | Humboldt penguins are named for the Humboldt Current.
+penguin | African penguins live in South Africa and Namibia.
+penguin | African penguins are also called jackass penguins for their braying call.
+penguin | African penguins are critically endangered.
+penguin | African penguins nest in burrows or under bushes.
+penguin | Boulders Beach near Cape Town is famous for African penguins.
+penguin | Galápagos penguins are among the smallest and rarest penguins.
+penguin | Galápagos penguins cool off by panting and holding flippers over their feet.
+penguin | Penguins' ancestors could fly.
+penguin | Penguin fossils date back about 60 million years.
+penguin | Waimanu is one of the oldest known penguins.
+penguin | Kumimanu was a giant ancient penguin of New Zealand.
+penguin | Palaeeudyptes klekowskii may have been 2 meters tall.
+penguin | Penguins have solid, heavy bones.
+penguin | Heavy bones help penguins dive.
+penguin | Penguins have dense, waterproof feathers.
+penguin | Penguins have about 100 feathers per square inch.
+penguin | Penguins have a thick layer of fat called blubber.
+penguin | Penguins preen their feathers with oil from a gland.
+penguin | Penguins have a countershading coat: dark back and white belly.
+penguin | Countershading helps camouflage them in water.
+penguin | Penguins can swim up to 25 km/h.
+penguin | Penguins leap out of the water to breathe and avoid predators.
+penguin | This leaping is called porpoising.
+penguin | Penguins can jump up to 2 meters out of the water.
+penguin | Penguins' knees are hidden inside their bodies.
+penguin | Penguins waddle to conserve energy.
+penguin | Penguins slide on their bellies, called tobogganing.
+penguin | Penguin wings are short and stiff.
+penguin | Penguin wings have limited joints.
+penguin | Penguins "fly" underwater.
+penguin | Penguins steer with their feet and tail.
+penguin | Penguins drink seawater.
+penguin | A gland above the eye removes salt from seawater.
+penguin | Penguins sneeze out salt through their beaks.
+penguin | Penguins eat krill, fish, and squid.
+penguin | Emperor penguins eat mostly fish and squid.
+penguin | Adélie penguins eat mainly krill.
+penguin | Penguins can eat about 2 kg of food a day.
+penguin | Penguins hunt in groups.
+penguin | Penguins have spines on their tongues.
+penguin | Spines on tongues and palate help them swallow slippery fish.
+penguin | Penguins have excellent underwater vision.
+penguin | Penguins' eyes are adapted to see underwater.
+penguin | Penguins poop frequently.
+penguin | Penguin poop can be seen from space.
+penguin | Satellite images of penguin guano help locate colonies.
+penguin | Emperor penguins shoot their poop away from the nest.
+penguin | Penguin poop is pink in krill-eating species.
+penguin | Penguins have no teeth.
+penguin | Penguins are monogamous in a breeding season.
+penguin | Many penguins return to the same mate each year.
+penguin | Penguins recognize their mates by calls.
+penguin | Penguins' calls are unique.
+penguin | Penguin chicks recognize their parents' voices in colonies.
+penguin | Penguin chicks are covered in down.
+penguin | Penguin chicks cannot swim until they grow waterproof feathers.
+penguin | Penguins molt once a year.
+penguin | Penguins molt all feathers at once.
+penguin | During molt, penguins cannot swim and fast.
+penguin | Molting takes about 2 to 4 weeks.
+penguin | Penguins stand in groups to keep warm.
+penguin | Penguins' feet are cold but have special blood flow to stay warm.
+penguin | Penguins have a countercurrent heat exchange in their flippers and feet.
+penguin | Penguins' feathers are shorter and stiffer than those of flying birds.
+penguin | Penguins have predators including leopard seals.
+penguin | Leopard seals ambush penguins at the ice edge.
+penguin | Orcas hunt penguins.
+penguin | Skuas steal penguin eggs and chicks.
+penguin | Sea lions prey on penguins in South America.
+penguin | Sharks sometimes eat penguins.
+penguin | Foxes and rats can threaten penguins.
+penguin | Gulls steal eggs from penguin nests.
+penguin | Climate change is shrinking sea ice, harming penguins.
+penguin | Overfishing reduces food for penguins.
+penguin | Oil spills have killed many penguins.
+penguin | Penguins are cleaned and rehabilitated after oil spills.
+penguin | The Treasure oil spill in 2000 affected thousands of African penguins.
+penguin | Over 20,000 penguins were rescued after the Treasure spill.
+penguin | Penguin colonies can number in the hundreds of thousands.
+penguin | The largest colony of king penguins is on South Georgia.
+penguin | The Adélie penguin colony at Danger Islands has about 1.5 million birds.
+penguin | In 2018, a supercolony of Adélie penguins was discovered in Antarctica.
+penguin | Antarctica's penguin populations are monitored using drones.
+penguin | Penguin tagging helps track their movements.
+penguin | Happy Feet is an animated film about an emperor penguin.
+penguin | March of the Penguins is a documentary about emperor penguins.
+penguin | Pingu is a clay animated penguin character.
+penguin | Penguins of Madagascar is an animated series.
+penguin | Mumble is a tap-dancing penguin in Happy Feet.
+penguin | Tux is the penguin mascot of Linux.
+penguin | The Penguin is a Batman villain.
+penguin | Penguin Books has a penguin logo.
+penguin | The word penguin may come from Welsh "pen gwyn," meaning white head.
+penguin | Another theory is that penguin comes from Latin "pinguis" meaning fat.
+penguin | Great auks were originally called penguins.
+penguin | The great auk was a flightless bird of the Northern Hemisphere.
+penguin | World Penguin Day is April 25.
+penguin | Emperor penguins can dive to depths of 565 meters.
+penguin | Emperor penguins can dive for about 22 minutes.
+penguin | Emperor penguins are the only penguins breeding in winter.
+penguin | King penguin chicks are called "oakum boys."
+penguin | Humboldt penguins can live in deserts.
+penguin | Humboldt penguins nest in guano burrows.
+penguin | Magellanic penguins migrate north for the winter.
+penguin | Magellanic penguins have two black bands on the chest.
+penguin | Penguins in the Falkland Islands include rockhoppers and gentoos.
+penguin | Penguin eggs are incubated for about 30 to 65 days depending on species.
+penguin | Little penguins incubate for about 35 days.
+penguin | Gentoo penguins incubate for about 34 days.
+penguin | Adélie penguins incubate for about 36 days.
+penguin | Penguins often lay two eggs, except emperor and king penguins.
+penguin | Crested penguins lay two eggs, but the second is larger.
+penguin | The first egg of crested penguins is often discarded.
+penguin | Penguin parents take turns incubating.
+penguin | Penguin chicks are fed regurgitated food.
+penguin | Chicks "beg" by peeping and pecking at the parent's bill.
+penguin | Emperor penguin parents can produce a milky substance for chicks.
+penguin | The milky secretion comes from the esophagus.
+penguin | Penguin pairs that fail to breed often separate.
+penguin | Penguins sleep in short bursts.
+penguin | Chinstrap penguins take thousands of micro naps a day.
+penguin | Chinstrap penguins sleep about 11 hours daily in short naps.
+penguin | Penguins can sleep while standing.
+penguin | Penguins show curiosity toward humans.
+penguin | Adult penguins can weigh as little as 1 kg.
+penguin | Aptenodytes are the great penguins.
+penguin | Pygoscelis are the brush-tailed penguins.
+penguin | Eudyptes are the crested penguins.
+penguin | Spheniscus are the banded penguins.
+penguin | Eudyptula are the little penguins.
+penguin | Megadyptes is the yellow-eyed penguin genus.
+penguin | Penguins keep cool in warm climates with bare facial skin.
+penguin | Humboldt penguins have pink skin patches to dump heat.
+penguin | Penguin populations are declining in many areas.
+penguin | Artificial nests help African penguins breed.
+parrot | Some parrots can learn to say hundreds of words.
+parrot | Parrots belong to the order Psittaciformes.
+parrot | There are about 400 species of parrots.
+parrot | Parrots are found mostly in tropical and subtropical regions.
+parrot | Parrots live in Central and South America, Africa, Asia, and Australasia.
+parrot | Parrots have a curved beak.
+parrot | Parrots use their beaks as a third foot when climbing.
+parrot | Parrots have zygodactyl feet, with two toes forward and two back.
+parrot | Parrots hold food in one foot while eating.
+parrot | Most parrots are left- or right-footed.
+parrot | Parrots have strong beaks that can crack hard nuts.
+parrot | A parrot's upper beak is hinged and movable.
+parrot | Parrots have a thick, muscular tongue.
+parrot | Parrots use their tongue to shape sounds.
+parrot | Parrots do not have vocal cords.
+parrot | Parrots produce sounds with the syrinx.
+parrot | Parrots can mimic human speech.
+parrot | African grey parrots are among the best talkers.
+parrot | Alex, an African grey, could identify colors, shapes, and numbers.
+parrot | Alex had a vocabulary of over 100 words.
+parrot | Alex was studied by Irene Pepperberg for 30 years.
+parrot | Alex's last words to Pepperberg were "You be good. I love you."
+parrot | Alex reportedly understood the concept of zero.
+parrot | African greys can learn over 1,000 words in some cases.
+parrot | African greys can live 40 to 60 years.
+parrot | African grey parrots are listed as endangered.
+parrot | Congo African greys are larger than Timneh greys.
+parrot | Timneh greys have a darker maroon tail.
+parrot | Parrots can mimic household sounds like phones and microwaves.
+parrot | Parrots can imitate laughter and coughs.
+parrot | Parrots use mimicry to bond with flock members.
+parrot | Wild parrots learn calls from their flock.
+parrot | Wild parrots have regional dialects.
+parrot | Parrot flocks have unique contact calls.
+parrot | Parrots are highly intelligent.
+parrot | Some parrots show intelligence equal to a young child.
+parrot | Parrots can solve puzzles.
+parrot | New Zealand's kea can solve complex puzzles.
+parrot | Keas are known for stealing from tourists' backpacks.
+parrot | Keas are the only alpine parrots.
+parrot | Keas can open zippers and unscrew objects.
+parrot | Keas have been seen working cooperatively.
+parrot | The kākāpō is the world's heaviest parrot.
+parrot | The kākāpō can weigh up to 4 kg.
+parrot | The kākāpō is flightless and nocturnal.
+parrot | The kākāpō has an owl-like face.
+parrot | The kākāpō can live over 90 years.
+parrot | Kākāpō breed only every 2 to 4 years.
+parrot | Kākāpō males make booming sounds to attract females.
+parrot | Kākāpō males gather at lekking sites.
+parrot | The kākāpō is critically endangered.
+parrot | There are about 250 kākāpō alive.
+parrot | Kākāpō are intensively managed by New Zealand's Department of Conservation.
+parrot | The kākāpō has a musky honey-like smell.
+parrot | Macaws are large, long-tailed parrots.
+parrot | The hyacinth macaw is the largest flying parrot.
+parrot | The hyacinth macaw can reach 1 meter long.
+parrot | Hyacinth macaws have a powerful beak that can crack coconuts.
+parrot | Hyacinth macaws are vulnerable to extinction.
+parrot | Scarlet macaws have bright red, yellow, and blue feathers.
+parrot | Scarlet macaws can live 40 to 50 years.
+parrot | Blue-and-yellow macaws are common in zoos.
+parrot | Spix's macaw is extinct in the wild.
+parrot | Spix's macaw was the subject of the movie Rio.
+parrot | Spix's macaws are being reintroduced to Brazil.
+parrot | Macaws eat clay from riverbanks.
+parrot | Clay eating neutralizes toxins in their diet.
+parrot | Macaw clay licks attract hundreds of birds.
+parrot | Cockatoos have a movable crest of feathers.
+parrot | Cockatoos are native to Australia and Indonesia.
+parrot | Cockatoos can dance to music.
+parrot | Snowball the cockatoo became famous for dancing to music.
+parrot | Sulphur-crested cockatoos can open trash bins in Australia.
+parrot | Sulphur-crested cockatoos learned to open lids by watching each other.
+parrot | Palm cockatoos drum on trees with sticks.
+parrot | Palm cockatoos use tools for drumming.
+parrot | Galahs are pink and gray cockatoos.
+parrot | Major Mitchell's cockatoo has a colorful crest.
+parrot | Black cockatoos are large and rare.
+parrot | Cockatiels are small cockatoos popular as pets.
+parrot | Cockatiels have bright orange cheek patches.
+parrot | Cockatiels can whistle songs.
+parrot | Budgerigars are small parakeets from Australia.
+parrot | Wild budgies are green and yellow.
+parrot | Budgies are the third most popular pet worldwide.
+parrot | Budgies can learn to speak.
+parrot | Puck, a budgie, had a record vocabulary of 1,728 words.
+parrot | Budgies' cere color shows sex in many cases.
+parrot | Budgies live in large flocks in the wild.
+parrot | Budgies are nomadic, following rain.
+parrot | Lovebirds are small African parrots.
+parrot | Lovebirds form close pair bonds.
+parrot | Fischer's lovebirds are popular pets.
+parrot | Eclectus parrots show strong sexual dimorphism.
+parrot | Male eclectus parrots are green and females are red and purple.
+parrot | Eclectus parrots have a unique digestive system for fibrous diets.
+parrot | Rainbow lorikeets are brightly colored.
+parrot | Rainbow lorikeets feed on nectar and pollen.
+parrot | Lorikeets have brush-tipped tongues.
+parrot | Lories and lorikeets are nectar-feeding parrots.
+parrot | Ring-necked parakeets are found in India and Africa.
+parrot | Ring-necked parakeets have colonized cities in Europe.
+parrot | Ring-necked parakeets have a ring around the neck in males.
+parrot | Alexandrine parakeets are large and appear in Indian culture.
+parrot | The name Alexandrine honors Alexander the Great.
+parrot | Alexander the Great is said to have brought parrots to Europe.
+parrot | Rose-ringed parakeets are common in Indian cities.
+parrot | Indian ringnecks can mimic speech.
+parrot | Plum-headed parakeets are found in India.
+parrot | The Malabar parakeet lives in the Western Ghats.
+parrot | The parrot is the vahana of the Indian god Kama.
+parrot | The parrot is associated with goddess Meenakshi.
+parrot | Meenakshi is often shown holding a parrot.
+parrot | The Shuka Saptati is an old Indian collection of parrot stories.
+parrot | Quaker parrots build communal stick nests.
+parrot | Quaker parrots are the only parrots to build their own nests.
+parrot | Quaker parrots are also called monk parakeets.
+parrot | Monk parakeets are established in cities in the US and Europe.
+parrot | Monk parakeet nests can weigh hundreds of kilograms.
+parrot | Amazon parrots are medium-sized parrots from the Americas.
+parrot | Yellow-naped Amazons are strong talkers.
+parrot | Blue-fronted Amazons are popular pets.
+parrot | Amazons can live over 50 years.
+parrot | Conures are small to medium parrots.
+parrot | Sun conures have bright orange and yellow feathers.
+parrot | Green-cheeked conures are playful pets.
+parrot | Pionus parrots are quiet and gentle.
+parrot | Senegal parrots are smaller African parrots.
+parrot | Caiques are energetic, playful parrots.
+parrot | Poicephalus parrots are small African parrots.
+parrot | Meyer's parrot is a small African parrot.
+parrot | Vasa parrots have complex mating behavior.
+parrot | Parrotlets are tiny parrots.
+parrot | Pacific parrotlets are about 12 cm long.
+parrot | Hanging parrots sleep upside down like bats.
+parrot | The Indian hanging parrot is small and green.
+parrot | Fig parrots are among the smallest parrots.
+parrot | The buff-faced pygmy parrot is the smallest parrot.
+parrot | The buff-faced pygmy parrot is about 8 cm long.
+parrot | Pygmy parrots nest in termite mounds.
+parrot | Parrots eat seeds, nuts, fruit, and flowers.
+parrot | Some parrots eat clay to detoxify their diet.
+parrot | Many parrots eat unripe fruit.
+parrot | Some parrots are important pollinators.
+parrot | Parrot feathers have a unique pigment called psittacofulvin.
+parrot | Psittacofulvins make red, orange, and yellow feathers.
+parrot | Green feathers come from yellow pigment and blue structural color.
+parrot | Blue parrots have no blue pigment.
+parrot | Parrot feathers glow under UV light.
+parrot | Parrots can see ultraviolet light.
+parrot | Parrots have four types of color cones.
+parrot | Parrots have wide fields of vision.
+parrot | Parrots have eyes on the sides of the head.
+parrot | Parrots can see in all directions.
+parrot | Parrots bob their heads to watch things.
+parrot | Parrots preen each other as a sign of bonding.
+parrot | Allopreening strengthens pair bonds.
+parrot | Parrots often mate for life.
+parrot | Parrots nest in tree cavities.
+parrot | Parrots lay white eggs.
+parrot | Parrot chicks are born helpless.
+parrot | Parrot chicks are fed regurgitated food.
+parrot | Parrot chicks stay in the nest for weeks.
+parrot | Large parrots may stay with parents for a year.
+parrot | Cookie, a Major Mitchell's cockatoo, lived to 83 at Brookfield Zoo.
+parrot | Wild parrot flocks can number in the thousands.
+parrot | Parrot calls can reach 100 decibels.
+parrot | Parrots scream to keep contact.
+parrot | Parrots can learn categories like color and shape.
+parrot | Parrots can get bored and pluck feathers.
+parrot | Feather plucking is a sign of stress in captive parrots.
+parrot | Parrots need mental stimulation.
+parrot | Parrots enjoy toys they can chew.
+parrot | Parrots can be trained with positive reinforcement.
+parrot | Parrots can use video chat to socialize.
+parrot | Studies show pet parrots enjoy video calls with other parrots.
+parrot | Parrots can be harmed by Teflon fumes.
+parrot | Parrots are sensitive to air quality.
+parrot | Parrots should not eat chocolate or avocado.
+parrot | Avocado is toxic to parrots.
+parrot | Caffeine and alcohol are toxic to parrots.
+parrot | Parrots are among the most trafficked birds.
+parrot | Illegal wildlife trade threatens many parrot species.
+parrot | About one-third of parrot species are threatened.
+parrot | Parrots are among the most threatened bird groups.
+parrot | Habitat destruction is a major threat to parrots.
+parrot | Parrot conservation projects use nest boxes.
+parrot | The St. Vincent parrot is the national bird of St. Vincent.
+parrot | The Puerto Rican parrot is critically endangered.
+parrot | The thick-billed parrot is the only parrot native to the US interior.
+parrot | The Carolina parakeet was the only native parrot in eastern US.
+parrot | The Carolina parakeet went extinct in 1918.
+parrot | Incas was the last captive Carolina parakeet.
+parrot | Parrots appear in pirate stories as companions.
+parrot | Long John Silver's parrot Captain Flint is a famous literary parrot.
+parrot | Polly want a cracker is a common phrase for parrots.
+parrot | Iago is a parrot in Aladdin.
+parrot | Parrots were kept as pets in ancient Greece and Rome.
+parrot | Parrots have been kept as pets for thousands of years.
+parrot | International Parrot Day is on May 31.
+eagle | Eagles are large birds of prey in the family Accipitridae.
+eagle | There are about 60 species of eagles.
+eagle | Eagles are found on every continent except Antarctica.
+eagle | Eagles have exceptionally sharp eyesight.
+eagle | An eagle's vision is about four to five times sharper than a human's.
+eagle | Eagles can spot a rabbit from about 3 km away.
+eagle | Eagles have two foveae in each eye.
+eagle | Eagles can see ultraviolet light.
+eagle | Eagle eyes are almost as big as human eyes.
+eagle | Eagles have a transparent third eyelid.
+eagle | Eagles have powerful hooked beaks.
+eagle | Eagles have strong talons for grasping prey.
+eagle | An eagle's grip can be about 10 times stronger than a human's.
+eagle | The harpy eagle has talons as large as a grizzly bear's claws.
+eagle | Harpy eagle talons can reach about 13 cm.
+eagle | Eagles have hollow bones.
+eagle | Eagle skeletons make up only about 5 percent of their weight.
+eagle | Eagles have large wingspans for soaring.
+eagle | Eagles use thermals to soar without flapping.
+eagle | Golden eagles can dive at over 240 km/h.
+eagle | Eagles can fly at about 50 km/h in level flight.
+eagle | Bald eagles can reach about 70 km/h in a glide-dive.
+eagle | Eagles can fly at altitudes up to about 3,000 meters.
+eagle | Bald eagles are the national bird of the United States.
+eagle | Bald eagles are not actually bald.
+eagle | The name "bald" comes from an old word meaning white-headed.
+eagle | Bald eagles have white heads and tails when mature.
+eagle | Bald eagles take about five years to develop white heads.
+eagle | Bald eagles have wingspans of about 1.8 to 2.3 meters.
+eagle | Bald eagles weigh about 3 to 6.3 kg.
+eagle | Female bald eagles are larger than males.
+eagle | Bald eagles feed mostly on fish.
+eagle | Bald eagles steal prey from ospreys.
+eagle | Bald eagles can lift about 2 to 3 kg.
+eagle | Bald eagles can swim using an overhand stroke.
+eagle | Bald eagles have been known to drown by grabbing too heavy prey.
+eagle | Bald eagles build huge nests called aeries.
+eagle | Bald eagle nests can be 2.5 meters wide.
+eagle | A bald eagle nest in Florida weighed over 2 tonnes.
+eagle | Bald eagles reuse their nests every year.
+eagle | Bald eagles lay 1 to 3 eggs.
+eagle | Bald eagle eggs hatch after about 35 days.
+eagle | Bald eaglets fledge at about 10 to 12 weeks.
+eagle | Bald eagles can live over 20 years in the wild.
+eagle | Bald eagles nearly went extinct in the lower 48 US states.
+eagle | DDT caused eggshell thinning in bald eagles.
+eagle | Bald eagles were removed from the endangered species list in 2007.
+eagle | Bald eagles were chosen as the US emblem in 1782.
+eagle | Benjamin Franklin criticized the bald eagle's character.
+eagle | The Great Seal of the United States features a bald eagle.
+eagle | Golden eagles are the national bird of Mexico.
+eagle | Golden eagles are found across the Northern Hemisphere.
+eagle | Golden eagles have golden-brown feathers on the nape.
+eagle | Golden eagles hunt rabbits, hares, and marmots.
+eagle | Golden eagles can take prey as large as deer fawns.
+eagle | Golden eagles in Kazakhstan are used for hunting foxes.
+eagle | Eagle hunters in Mongolia train golden eagles.
+eagle | Mongolian eagle hunters are called berkutchi.
+eagle | The eagle festival in Mongolia celebrates this tradition.
+eagle | Female golden eagles are used in hunting due to larger size.
+eagle | Golden eagles can live up to 30 years.
+eagle | Golden eagles mate for life.
+eagle | Golden eagles build several nests and use them alternately.
+eagle | The harpy eagle is among the largest and most powerful eagles.
+eagle | Harpy eagles live in tropical forests of Central and South America.
+eagle | Harpy eagles hunt sloths and monkeys.
+eagle | Harpy eagles have facial discs like owls.
+eagle | Harpy eagles are the national bird of Panama.
+eagle | Harpy eagles have a wingspan of about 2 meters.
+eagle | Harpy eagles lay one egg every two to three years.
+eagle | The Philippine eagle is the national bird of the Philippines.
+eagle | The Philippine eagle is also called the monkey-eating eagle.
+eagle | The Philippine eagle is critically endangered.
+eagle | Philippine eagles have shaggy crests.
+eagle | Philippine eagles are among the largest eagles by length.
+eagle | There are fewer than 400 Philippine eagles in the wild.
+eagle | Killing a Philippine eagle is punishable by up to 12 years in prison.
+eagle | The Steller's sea eagle is one of the heaviest eagles.
+eagle | Steller's sea eagles live in Russia and Japan.
+eagle | Steller's sea eagles have huge yellow-orange bills.
+eagle | Steller's sea eagles can weigh over 9 kg.
+eagle | Steller's sea eagles have white shoulders and tails.
+eagle | The white-tailed eagle is also known as the sea eagle.
+eagle | White-tailed eagles live in Europe and Asia.
+eagle | The white-tailed eagle was reintroduced to Scotland.
+eagle | White-tailed eagles have wingspans up to 2.4 meters.
+eagle | The African fish eagle has a distinctive call.
+eagle | The African fish eagle's call is the sound of Africa.
+eagle | African fish eagles catch fish from the water's surface.
+eagle | African fish eagles are the national bird of Zambia and Zimbabwe.
+eagle | The martial eagle is Africa's largest eagle.
+eagle | Martial eagles can take small antelopes.
+eagle | Martial eagles hunt in open savanna.
+eagle | The crowned eagle is a powerful forest eagle in Africa.
+eagle | Crowned eagles hunt monkeys.
+eagle | Crowned eagles have been known to take prey three times their weight.
+eagle | Verreaux's eagle, or black eagle, lives in rocky areas.
+eagle | Verreaux's eagles specialize in hunting hyraxes.
+eagle | The Haast's eagle was the largest eagle ever.
+eagle | Haast's eagle lived in New Zealand.
+eagle | Haast's eagles went extinct about 600 years ago.
+eagle | Haast's eagles preyed on moa.
+eagle | Haast's eagle weighed up to 18 kg.
+eagle | The wedge-tailed eagle is Australia's largest bird of prey.
+eagle | Wedge-tailed eagles have a wingspan up to 2.3 meters.
+eagle | Wedge-tailed eagles eat rabbits and carrion.
+eagle | The Australian wedge-tailed eagle has a wedge-shaped tail.
+eagle | The booted eagle is a small eagle with feathered legs.
+eagle | The Bonelli's eagle lives in Mediterranean regions.
+eagle | Bonelli's eagle is a skilled hunter of birds.
+eagle | The Imperial eagle is a large, dark eagle.
+eagle | The Spanish imperial eagle is one of the rarest eagles.
+eagle | The steppe eagle migrates long distances.
+eagle | Steppe eagles have been tracked over 10,000 km.
+eagle | The lesser spotted eagle hunts small prey.
+eagle | The greater spotted eagle is endangered.
+eagle | The short-toed eagle eats mainly snakes.
+eagle | Short-toed snake eagles can eat snakes whole.
+eagle | The bateleur is an African snake eagle.
+eagle | The bateleur has a very short tail.
+eagle | Bateleurs are known for their acrobatic flight.
+eagle | The crested serpent eagle lives in India and Southeast Asia.
+eagle | The changeable hawk-eagle is found in India.
+eagle | Eagles in India include the Bonelli's eagle and the steppe eagle.
+eagle | The Himalayan golden eagle lives in high altitudes.
+eagle | The black eagle is found in the Western Ghats.
+eagle | The Indian spotted eagle is found in India.
+eagle | The tawny eagle is common in Indian plains.
+eagle | The crested hawk-eagle lives in dense forests.
+eagle | Mountain hawk-eagles live in Himalayan forests.
+eagle | Eagles are revered in Indian mythology as Garuda.
+eagle | Garuda is the vehicle of Lord Vishnu.
+eagle | Garuda is depicted as an eagle-like creature.
+eagle | Indonesia's national emblem is Garuda.
+eagle | Thailand's national emblem is also Garuda.
+eagle | Eagles appear on national flags and coats of arms.
+eagle | The eagle is a symbol of Mexico, Germany, and Poland.
+eagle | Mexico's flag shows an eagle on a cactus eating a snake.
+eagle | Germany's coat of arms features an eagle.
+eagle | The Roman legions carried an eagle standard.
+eagle | The eagle was the symbol of Jupiter in Roman mythology.
+eagle | Zeus had an eagle as his sacred bird.
+eagle | The Prometheus myth involves an eagle eating his liver.
+eagle | Eagles are symbols of strength and freedom.
+eagle | In Native American cultures, eagle feathers are sacred.
+eagle | Eagle feathers are used in headdresses.
+eagle | Only enrolled tribal members may possess eagle feathers in the US.
+eagle | Eagles are protected by the Bald and Golden Eagle Protection Act.
+eagle | Eagle nests are called aeries.
+eagle | Eagles often build nests on cliffs or tall trees.
+eagle | Eagles add material to their nests every year.
+eagle | Eagles line nests with soft materials.
+eagle | Eagles lay one to three eggs.
+eagle | Eagle chicks are called eaglets.
+eagle | Eaglets are fed by both parents.
+eagle | Older eaglets often dominate younger siblings.
+eagle | Siblicide occurs in some eagle species.
+eagle | Eaglets learn to fly at about 10 to 14 weeks.
+eagle | Eagles molt feathers gradually.
+eagle | Eagles preen with oil from the uropygial gland.
+eagle | Eagles sleep on perches.
+eagle | Eagles bathe in shallow water.
+eagle | Eagles have a strong digestive system.
+eagle | Eagles produce pellets like owls.
+eagle | Eagles can go days without food.
+eagle | Eagles eat fish, mammals, birds, and carrion.
+eagle | Eagles hunt by soaring and diving.
+eagle | Some eagles hunt in pairs.
+eagle | Eagles can kill prey larger than themselves.
+eagle | Eagles may carry prey to a nest.
+eagle | Eagles can carry about half their body weight in flight.
+eagle | Eagles defend territories.
+eagle | Eagles perform aerial displays.
+eagle | Eagle pairs lock talons and tumble through the air.
+eagle | This display is called cartwheeling.
+eagle | Eagles mate for life in most species.
+eagle | Eagles can live 20 to 30 years.
+eagle | Captive eagles may live over 40 years.
+eagle | Eagles face threats from habitat loss.
+eagle | Eagles are poisoned by lead ammunition in carcasses.
+eagle | Eagles are killed by wind turbines.
+eagle | Eagles are electrocuted on power lines.
+eagle | Eagles are hit by vehicles.
+eagle | Eagles are threatened by illegal poisoning.
+eagle | Eagle conservation includes captive breeding.
+eagle | Reintroduction programs have helped some species.
+eagle | Rehabilitation centers care for injured eagles.
+eagle | Eagles are a flagship species for conservation.
+eagle | Eagles are top predators in their ecosystems.
+eagle | Eagles keep prey populations in balance.
+eagle | Eagles scavenge carcasses, cleaning ecosystems.
+eagle | Eagle watching is a popular activity.
+eagle | Bald eagles gather in large numbers at salmon runs.
+eagle | Haines, Alaska hosts thousands of bald eagles each fall.
+eagle | Eagle cams stream live nests online.
+eagle | Eagles are among the most photographed birds.
+eagle | The Philadelphia Eagles are an NFL team.
+eagle | Eagle Scout is the highest rank in Boy Scouts.
+eagle | Apollo 11's lunar module was named Eagle.
+eagle | "The Eagle has landed" was said in 1969.
+hummingbird | Hummingbirds are the smallest birds in the world.
+hummingbird | There are about 360 species of hummingbirds.
+hummingbird | Hummingbirds are found only in the Americas.
+hummingbird | Hummingbirds range from Alaska to Tierra del Fuego.
+hummingbird | Most hummingbird species live in South America.
+hummingbird | Ecuador and Colombia have the most hummingbird species.
+hummingbird | The bee hummingbird is the smallest bird in the world.
+hummingbird | The bee hummingbird is found only in Cuba.
+hummingbird | The bee hummingbird is about 5 to 6 cm long.
+hummingbird | The bee hummingbird weighs about 2 grams.
+hummingbird | The bee hummingbird lays eggs the size of a coffee bean.
+hummingbird | The giant hummingbird is the largest hummingbird.
+hummingbird | The giant hummingbird is about 21 cm long.
+hummingbird | The giant hummingbird flaps its wings only about 10 to 15 times per second.
+hummingbird | The giant hummingbird lives in the Andes.
+hummingbird | Hummingbirds can flap their wings 50 to 80 times per second.
+hummingbird | Some small hummingbirds beat wings over 200 times per second in courtship dives.
+hummingbird | Hummingbirds are the only birds that can fly backward.
+hummingbird | Hummingbirds can hover in place.
+hummingbird | Hummingbird wings move in a figure-eight pattern.
+hummingbird | Hummingbird wings produce lift on both the upstroke and downstroke.
+hummingbird | Hummingbirds can rotate their wings in their shoulder sockets.
+hummingbird | Hummingbirds can fly sideways and upside down.
+hummingbird | Hummingbirds can fly at about 50 km/h.
+hummingbird | Hummingbirds can dive at over 90 km/h in courtship.
+hummingbird | Anna's hummingbird dives reach about 27 meters per second.
+hummingbird | Anna's hummingbird's dive is the fastest of any bird relative to body length.
+hummingbird | Hummingbirds have a very high metabolism.
+hummingbird | A hummingbird's heart can beat over 1,200 times per minute.
+hummingbird | Hummingbird breathing rate can reach 250 breaths per minute.
+hummingbird | Hummingbirds must eat every 10 to 15 minutes.
+hummingbird | Hummingbirds consume about half their body weight in sugar daily.
+hummingbird | Hummingbirds feed on nectar from flowers.
+hummingbird | Hummingbirds also eat small insects and spiders.
+hummingbird | Insects provide protein for hummingbirds.
+hummingbird | Hummingbirds drink by licking with a forked tongue.
+hummingbird | A hummingbird's tongue has a groove that traps nectar.
+hummingbird | Hummingbirds can lick 13 to 17 times per second.
+hummingbird | The tongue is shaped like a pair of tiny tubes.
+hummingbird | Hummingbird tongues work like a micro pump.
+hummingbird | Hummingbird beaks vary in length and shape.
+hummingbird | The sword-billed hummingbird has a bill longer than its body.
+hummingbird | The sword-billed hummingbird perches differently due to its long bill.
+hummingbird | The sword-billed hummingbird pollinates passion flowers.
+hummingbird | Hummingbird bills evolved with specific flowers.
+hummingbird | Hummingbirds are important pollinators.
+hummingbird | Hummingbirds see ultraviolet light.
+hummingbird | Hummingbirds are attracted to red, orange, and pink flowers.
+hummingbird | Hummingbirds have a poor sense of smell.
+hummingbird | Hummingbirds remember every flower they have visited.
+hummingbird | Hummingbirds can remember how long it takes for flowers to refill.
+hummingbird | Hummingbirds have a large brain for their size.
+hummingbird | Hummingbirds have the largest hippocampus relative to body size among birds.
+hummingbird | Hummingbirds have excellent spatial memory.
+hummingbird | Hummingbirds are territorial.
+hummingbird | Hummingbirds defend feeders aggressively.
+hummingbird | Hummingbirds chase away intruders.
+hummingbird | Hummingbirds can be aggressive despite their size.
+hummingbird | Hummingbirds sleep in a torpor state at night.
+hummingbird | In torpor, hummingbird heart rate drops to about 50 beats per minute.
+hummingbird | In torpor, body temperature can fall to about 18 degrees Celsius.
+hummingbird | Torpor saves energy during cold nights.
+hummingbird | Hummingbirds can wake up from torpor in about 20 minutes.
+hummingbird | Hummingbirds shiver to warm up.
+hummingbird | Hummingbirds have the fastest metabolism of any warm-blooded animal.
+hummingbird | Hummingbirds adapted a savory receptor to detect sweet.
+hummingbird | Hummingbirds cannot walk or hop.
+hummingbird | Hummingbirds have tiny feet used mainly for perching.
+hummingbird | Hummingbirds have the smallest feet of any bird.
+hummingbird | Hummingbirds scoot sideways on branches.
+hummingbird | Hummingbirds preen their feathers using their beaks.
+hummingbird | Hummingbirds have iridescent feathers.
+hummingbird | Hummingbird colors come from feather structure, not pigment.
+hummingbird | Iridescent feathers change color with viewing angle.
+hummingbird | Hummingbird throats are called gorgets.
+hummingbird | A male's gorget flashes brightly during displays.
+hummingbird | Ruby-throated hummingbirds have a red gorget.
+hummingbird | Male ruby-throated hummingbirds have a ruby throat.
+hummingbird | Female ruby-throated hummingbirds lack the red throat.
+hummingbird | Ruby-throated hummingbirds are the only breeding hummingbird in eastern North America.
+hummingbird | Ruby-throated hummingbirds migrate across the Gulf of Mexico.
+hummingbird | This flight is about 800 km nonstop.
+hummingbird | Ruby-throated hummingbirds double their weight before migration.
+hummingbird | Rufous hummingbirds have the longest migration relative to body size.
+hummingbird | Rufous hummingbirds travel about 6,000 km each way.
+hummingbird | Rufous hummingbirds nest as far north as Alaska.
+hummingbird | Allen's hummingbirds live in California.
+hummingbird | Costa's hummingbirds live in the desert Southwest.
+hummingbird | Black-chinned hummingbirds are common in the western US.
+hummingbird | Calliope hummingbirds are the smallest bird in the US and Canada.
+hummingbird | Broad-tailed hummingbirds make a trilling sound with their wings.
+hummingbird | Anna's hummingbirds are year-round residents in many places.
+hummingbird | Anna's hummingbirds make a chirp with their tail feathers during dives.
+hummingbird | Hummingbirds can make sounds with their tail feathers.
+hummingbird | The Costa Rican violet sabrewing is a large hummingbird.
+hummingbird | The Andean hillstar lives at high altitudes.
+hummingbird | The Andean hillstar nests in caves.
+hummingbird | The Andean hillstar goes into deep torpor.
+hummingbird | The marvelous spatuletail has racket-like tail feathers.
+hummingbird | The marvelous spatuletail is endangered.
+hummingbird | The streamertail is Jamaica's national bird.
+hummingbird | The streamertail has long tail feathers.
+hummingbird | The Rivoli's hummingbird is large and found in the Southwest US.
+hummingbird | The green violetear is a hummingbird of Central America.
+hummingbird | The purple-throated carib lives in the Caribbean.
+hummingbird | The booted racket-tail has fluffy white leg feathers.
+hummingbird | The tufted coquette is among the smallest hummingbirds.
+hummingbird | The hermit hummingbirds have long curved bills.
+hummingbird | The hummingbird's nest is tiny and cup-shaped.
+hummingbird | Nests are made of spider silk, moss, and lichen.
+hummingbird | Spider silk lets nests stretch as chicks grow.
+hummingbird | Hummingbird nests are about the size of a walnut or smaller.
+hummingbird | Hummingbirds lay two eggs.
+hummingbird | Hummingbird eggs are about the size of a pea or jellybean.
+hummingbird | Eggs are incubated for 14 to 23 days.
+hummingbird | Only females incubate and raise the chicks.
+hummingbird | Male hummingbirds do not help with parenting.
+hummingbird | Hummingbird chicks are born blind and naked.
+hummingbird | Chicks are fed by regurgitation.
+hummingbird | Chicks fledge after about 3 weeks.
+hummingbird | Hummingbirds can live 3 to 5 years in the wild.
+hummingbird | The oldest known wild hummingbird lived over 12 years.
+hummingbird | Hummingbirds have been seen at feeders for generations.
+hummingbird | Hummingbird feeders should contain sugar water.
+hummingbird | The mixture is usually 1 part sugar to 4 parts water.
+hummingbird | Red dye should not be added to feeders.
+hummingbird | Feeders should be cleaned every few days.
+hummingbird | Honey should not be used in feeders.
+hummingbird | Hummingbirds also visit native flowers like trumpet vine.
+hummingbird | Planting native flowers helps hummingbirds.
+hummingbird | Hummingbirds can be attracted to tubular flowers.
+hummingbird | Hummingbirds sip nectar from fuchsia, salvia, and bee balm.
+hummingbird | Hummingbirds can hover to drink from flowers.
+hummingbird | Hummingbirds have tiny muscles accounting for 25 to 30 percent of body weight.
+hummingbird | The flight muscles are the largest part of their body.
+hummingbird | Hummingbird skeletons have a fused breastbone.
+hummingbird | Hummingbirds have a short humerus.
+hummingbird | Hummingbird wings are stiff and slender.
+hummingbird | Hummingbird feathers are tiny but numerous.
+hummingbird | Hummingbirds have about 1,000 to 1,500 feathers.
+hummingbird | Hummingbirds have fewer feathers than most birds.
+hummingbird | Hummingbirds are among the world's smallest warm-blooded animals.
+hummingbird | Hummingbirds evolved in South America.
+hummingbird | Hummingbirds diverged from swifts about 42 million years ago.
+hummingbird | Hummingbirds' closest relatives are swifts and treeswifts.
+hummingbird | Fossil hummingbirds have been found in Europe.
+hummingbird | Hummingbird fossils from Germany are about 30 million years old.
+hummingbird | Aztecs revered hummingbirds.
+hummingbird | Huitzilopochtli means "hummingbird of the south."
+hummingbird | Huitzilopochtli was the Aztec sun god.
+hummingbird | Aztec warriors believed they became hummingbirds in the afterlife.
+hummingbird | The Nazca Lines include a hummingbird figure.
+hummingbird | The Nazca hummingbird geoglyph is about 90 meters long.
+hummingbird | Hummingbirds are symbols of joy in many cultures.
+hummingbird | The hummingbird is the national bird of Trinidad and Tobago.
+hummingbird | The doctor bird is Jamaica's national bird.
+hummingbird | Hummingbirds appear on currencies and stamps.
+hummingbird | Hummingbirds inspired drone design.
+hummingbird | Researchers study hummingbird flight for robots.
+hummingbird | Hummingbird-inspired robots can hover.
+hummingbird | Habitat loss threatens many hummingbird species.
+hummingbird | Climate change shifts hummingbird migration timing.
+hummingbird | Window collisions kill hummingbirds.
+hummingbird | Cats can threaten hummingbirds.
+hummingbird | Pesticides reduce insect food for hummingbirds.
+hummingbird | Illegal trade is a threat in some regions.
+hummingbird | In some regions, hummingbirds are used in love charms.
+hummingbird | Some hummingbirds are critically endangered.
+hummingbird | The Juan Fernández firecrown lives on one island in Chile.
+hummingbird | The Esmeraldas woodstar is endangered.
+hummingbird | Hummingbird banding helps track their movements.
+hummingbird | Hummingbirds can be banded with tiny bands.
+hummingbird | Researchers use tiny tags to track hummingbirds.
+hummingbird | Citizen science tracks hummingbird migrations.
+hummingbird | Hummingbirds arrive in spring in the US on predictable dates.
+hummingbird | Hummingbirds return to the same feeders each year.
+hummingbird | Hummingbirds may arrive before flowers bloom.
+hummingbird | Hummingbirds can eat tree sap from sapsucker wells.
+hummingbird | Hummingbirds follow sapsuckers for sap.
+hummingbird | Anna's hummingbird is named after Anna Masséna, Duchess of Rivoli.
+hummingbird | Hummingbirds can fly through light rain by shaking water off their bodies.
+hummingbird | Hummingbirds shake their heads and bodies mid-air to shed water.
+hummingbird | Hummingbirds must eat within an hour of waking up.
+hummingbird | Hummingbirds can store fat before migration, nearly doubling body weight.
+hummingbird | Male hummingbirds perform dive displays to attract females.
+hummingbird | Female hummingbirds are usually duller than males.
+hummingbird | Hummingbirds can have more than one brood in a season.
+hummingbird | Hummingbird chicks double their weight in a few days.
+hummingbird | Hummingbirds can steal insects from spider webs.
+hummingbird | Hummingbirds sometimes take sap and tiny insects from webs.
+hummingbird | Rufous hummingbirds are known for aggression at feeders.
+hummingbird | Hummingbirds learn migration routes after their first journey.
+hummingbird | The Cuban emerald is a common hummingbird in Cuba.
+hummingbird | The vervain hummingbird is the second smallest bird in the world.
+hummingbird | The vervain hummingbird lives in Jamaica and Hispaniola.
+hummingbird | The amethyst woodstar has a purple throat patch.
+hummingbird | The long-billed starthroat is a hummingbird of Mexico and Central America.
+hummingbird | The magnificent hummingbird is a large species of the southwestern US.
+hummingbird | The white-necked jacobin has a white collar and blue head.
+hummingbird | The fiery-throated hummingbird lives in Costa Rica.
