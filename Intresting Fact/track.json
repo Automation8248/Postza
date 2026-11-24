@@ -1169,6 +1169,24 @@
       "topic": "Cats",
       "text": "Kittens begin losing baby teeth around 3 to 4 months of age.",
       "last_used": "2026-11-23T21:38:56.234455+00:00"
+    },
+    "12b886ad79712f0a": {
+      "count": 1,
+      "topic": "Whales",
+      "text": "Commercial whaling was banned by the International Whaling Commission in 1986.",
+      "last_used": "2026-11-24T02:28:54.741615+00:00"
+    },
+    "72f1db6c38c4a917": {
+      "count": 1,
+      "topic": "Cats",
+      "text": "Vertical pupils help ambush predators judge distance.",
+      "last_used": "2026-11-24T02:28:54.741644+00:00"
+    },
+    "8ce1c5e429ae845a": {
+      "count": 1,
+      "topic": "Snakes",
+      "text": "Ball pythons are popular pets.",
+      "last_used": "2026-11-24T02:28:54.741654+00:00"
     }
   },
   "titles": {
@@ -1183,9 +1201,9 @@
       "last_used": "2026-11-23T21:38:56.234462+00:00"
     },
     "d9bff887b1b38d2c": {
-      "count": 21,
+      "count": 22,
       "text": "3 Mind-Blowing Facts You Never Knew!",
-      "last_used": "2026-11-22T21:09:55.213117+00:00"
+      "last_used": "2026-11-24T02:28:54.741664+00:00"
     }
   },
   "hashtags": {
@@ -1508,12 +1526,17 @@
       "count": 1,
       "text": "#time #clock #albertstein #relativity #physicsfacts #dimensions",
       "last_used": "2026-11-23T21:38:56.234468+00:00"
+    },
+    "8b9134bf83fefacc": {
+      "count": 1,
+      "text": "#weatherfacts #climate #storms #tornado #naturewonders #atmosphere",
+      "last_used": "2026-11-24T02:28:54.741672+00:00"
     }
   },
   "meta": {
-    "last_template": "noir_pop",
-    "last_hook": "Hold on! [pause 0.3] Do you really know these three facts?",
-    "total_videos": 65
+    "last_template": "glitch_tech",
+    "last_hook": "Stop scrolling! These three facts will blow your mind!",
+    "total_videos": 66
   },
   "music": {
     "d51d90d36da968c8": {
@@ -1745,6 +1768,11 @@
       "count": 1,
       "text": "https://cdn.pixabay.com/audio/2026/08/17/audio_608c15810d.mp3",
       "last_used": "2026-11-23T21:38:56.234473+00:00"
+    },
+    "ba1e07a2feb32524": {
+      "count": 1,
+      "text": "https://cdn.pixabay.com/audio/2026/08/25/audio_00b6067c37.mp3",
+      "last_used": "2026-11-24T02:28:54.741680+00:00"
     }
   }
 }
