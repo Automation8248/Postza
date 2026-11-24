@@ -4,7 +4,9 @@
 Interesting Fact Video Automation  (ENGLISH ONLY)
 -------------------------------------------------
 Folder (sab kuch "Intresting Fact" ke andar):
-  Topics/<topic>/fact.txt + link.txt   <- random 3 topics, har topic se 1 fact + 1 random image
+  Topics/<topic>/fact.txt + link.txt   <- random 3 topics, har topic se 1 fact + 1 image
+      optional TAG matching:  fact.txt -> 'owl | Owls can ...'   link.txt -> 'owl | https://...jpg'
+      tag wale fact ke liye sirf usi tag ki image aati hai (fact aur image ka match)
   hook.txt      <- 1 line = 1 hook (random, shocking voice)
   title.txt     <- 1 line = 1 title
   hashtag.txt   <- 1 line = 1 hashtag set
@@ -302,15 +304,55 @@ def discover_topics():
             if d.is_dir() and (d / "fact.txt").exists() and (d / "link.txt").exists()]
 
 
+TAG_RE = re.compile(r"^\s*([A-Za-z0-9 _\-]{1,30}?)\s*\|\s*(.+?)\s*$")
+
+
+def parse_tagged(line):
+    """'owl | text/url' -> ('owl', 'text/url').  Bina tag wali line -> (None, line)."""
+    m = TAG_RE.match(line)
+    if m:
+        return re.sub(r"\s+", " ", m.group(1).strip().lower()), m.group(2).strip()
+    return None, line.strip()
+
+
+def load_topic(d):
+    facts = [parse_tagged(l) for l in read_lines(d / "fact.txt")]
+    links = [parse_tagged(l) for l in read_lines(d / "link.txt")]
+    return facts, links
+
+
+def image_pool(tag, links):
+    """Fact ke tag ke hisaab se image URLs:
+       tag wali images -> warna bina-tag wali -> warna sab"""
+    if tag:
+        tagged = [u for t, u in links if t == tag]
+        if tagged:
+            return tagged
+    generic = [u for t, u in links if t is None]
+    return generic or [u for _, u in links]
+
+
 def pick_facts(topics, track, n, days):
     random.shuffle(topics)                      # random topic folder
     chosen = []
     for t in topics:                            # ek folder se sirf ek fact
-        avail = [f for f in read_lines(t / "fact.txt")
-                 if not in_cooldown(track["facts"].get(uid(f)), days)]
+        facts, links = load_topic(t)
+        has_tagged = any(tg for tg, _ in links)
+        avail = []
+        for tg, tx in facts:
+            if in_cooldown(track["facts"].get(uid(tx)), days):
+                continue
+            # tag wale fact ke liye us tag ki kam se kam 1 image honi chahiye
+            if tg and has_tagged and not any(lt == tg for lt, _ in links):
+                log(f"[skip fact] '{tg}' ki image link.txt me nahi hai ({t.name})")
+                continue
+            avail.append((tg, tx))
         if avail:
-            chosen.append({"topic": t.name.replace("_", " ").replace("-", " "),
-                           "dir": t, "text": random.choice(avail)})
+            tg, tx = random.choice(avail)
+            topic = t.name.replace("_", " ").replace("-", " ")
+            chosen.append({"topic": topic, "dir": t, "text": tx, "tag": tg,
+                           "label": (tg.title() if tg else topic),
+                           "pool": image_pool(tg, links)})
         else:
             log(f"[skip] {t.name}: sab facts cooldown me hain")
         if len(chosen) == n:
@@ -975,7 +1017,7 @@ def main():
     seq = [facts[0]] + facts            # hook, fact1, fact2, fact3
     for i, f in enumerate(seq):
         p = TMP_DIR / f"img{i}.jpg"
-        links = read_lines(f["dir"] / "link.txt")
+        links = f["pool"]          # fact ke tag se matched images
         f["img_url" if i else "hook_img_url"] = download_image(links, p, used)
         img_paths.append(p)
 
@@ -987,7 +1029,7 @@ def main():
         if i == len(facts) - 1:
             t += f" [pause 0.3] {CTA}"
         narr.append(dict(text=t, kind="fact", label=LABEL_FACT.format(i=i + 1, n=n),
-                         topic=f["topic"]))
+                         topic=f["label"]))
 
     lead, pad, tail = 0.15, 0.35, 0.6
     voices, Ls, token_sets = [], [], []
@@ -1042,7 +1084,7 @@ def main():
 
     # track.json update -> 100 din cooldown dobara start
     for f in facts:
-        mark_used(track["facts"], f["text"], topic=f["topic"])
+        mark_used(track["facts"], f["text"], topic=f["topic"], tag=f["tag"])
     mark_used(track["titles"], title)
     mark_used(track["hashtags"], hashtag)
     if music_url:
@@ -1067,6 +1109,7 @@ def main():
         "hook": hook,
         "music_url": music_url,
         "topics": [f["topic"] for f in facts],
+        "tags": [f["tag"] for f in facts],
         "facts": [f["text"] for f in facts],
         "created_at": now_utc().isoformat(),
     }
