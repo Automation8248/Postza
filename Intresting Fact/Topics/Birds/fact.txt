@@ -998,3 +998,2003 @@ hummingbird | The long-billed starthroat is a hummingbird of Mexico and Central 
 hummingbird | The magnificent hummingbird is a large species of the southwestern US.
 hummingbird | The white-necked jacobin has a white collar and blue head.
 hummingbird | The fiery-throated hummingbird lives in Costa Rica.
+duck | Ducks belong to the family Anatidae.
+duck | Anatidae also includes geese and swans.
+duck | There are about 120 species of ducks.
+duck | Ducks live on every continent except Antarctica.
+duck | Ducks are waterfowl.
+duck | Ducks have webbed feet for swimming.
+duck | Duck feet have no nerves or blood vessels in the webbing, so they do not feel cold easily.
+duck | Ducks have waterproof feathers.
+duck | Ducks spread oil from the preen gland over their feathers.
+duck | Duck feathers trap a layer of air for insulation.
+duck | Ducks have a layer of fluffy down under their feathers.
+duck | Duck down is used in jackets and pillows.
+duck | Eider ducks produce the finest down.
+duck | Eider down is collected from nests in Iceland and Scandinavia.
+duck | A male duck is called a drake.
+duck | A female duck is called a hen.
+duck | A baby duck is called a duckling.
+duck | A group of ducks on water is called a raft or paddling.
+duck | A group of ducks in flight is called a flock or skein.
+duck | Ducks have flat, broad bills.
+duck | Duck bills have tiny ridges called lamellae for filtering food.
+duck | Ducks have a sensitive bill with many nerve endings.
+duck | Ducks eat plants, insects, snails, small fish, and seeds.
+duck | Dabbling ducks feed at the water's surface by tipping forward.
+duck | Diving ducks plunge underwater to find food.
+duck | Mallards are dabbling ducks.
+duck | Mallards are the most common wild duck.
+duck | Male mallards have a glossy green head.
+duck | Female mallards are brown and speckled.
+duck | Mallards are the ancestors of most domestic ducks.
+duck | Mallards can fly at about 80 km/h.
+duck | Mallards live in North America, Europe, and Asia.
+duck | Mallards adapt well to cities.
+duck | Mallards can live in both fresh and brackish water.
+duck | Mallard eggs are pale green or blue-white.
+duck | A mallard hen lays 8 to 13 eggs.
+duck | Mallard eggs hatch after about 28 days.
+duck | Ducklings can swim and feed within hours of hatching.
+duck | Ducklings follow their mother, a behavior called imprinting.
+duck | Konrad Lorenz studied imprinting with goslings and ducklings.
+duck | Ducklings imprint on the first moving object they see.
+duck | Ducklings can learn the concepts of same and different.
+duck | Ducklings fledge in about 7 to 8 weeks.
+duck | Female ducks do all the nest building and incubation.
+duck | Duck nests are lined with down plucked from the hen's breast.
+duck | Duck hens camouflage their nests by covering them with down.
+duck | Ducks usually nest near water.
+duck | Ducks are monogamous for a season.
+duck | Duck pairs form in autumn or winter.
+duck | Drakes have colorful plumage during breeding season.
+duck | Drakes molt into eclipse plumage after breeding.
+duck | Eclipse plumage looks like the female's drab feathers.
+duck | Ducks molt all their flight feathers at once after breeding.
+duck | Molting ducks cannot fly for a few weeks.
+duck | Many ducks migrate long distances.
+duck | Ducks migrate in V formations.
+duck | Ducks fly in flocks to save energy.
+duck | Bar-headed geese are higher flyers than ducks.
+duck | Ducks have eyes on the sides of their heads.
+duck | Ducks sleep with one eye open when in a group.
+duck | Ducks on the edge of a group keep one eye open for predators.
+duck | Ducks have half of their brain active while sleeping on guard.
+duck | Only female mallards quack loudly.
+duck | Drakes make softer, raspier sounds.
+duck | Ducks make different calls for alarm and contact.
+duck | Ducklings peep to stay in contact with their mother.
+duck | Domestic ducks are bred for meat, eggs, and feathers.
+duck | Pekin ducks are the most common domestic duck in the US.
+duck | Pekin ducks originated in China.
+duck | Pekin ducks are white with orange bills.
+duck | Muscovy ducks originated in South America.
+duck | Muscovy ducks have red facial skin called caruncles.
+duck | Muscovy ducks can perch in trees.
+duck | Muscovy ducks are quieter than other ducks.
+duck | Indian Runner ducks stand upright like bottles.
+duck | Indian Runner ducks come from Indonesia.
+duck | Indian Runner ducks are excellent egg layers.
+duck | Khaki Campbell ducks are among the best egg layers.
+duck | A Khaki Campbell can lay over 300 eggs a year.
+duck | Rouen ducks look like large mallards.
+duck | Aylesbury ducks are an old English meat breed.
+duck | Call ducks are small and loud.
+duck | Crested ducks have a puffball of feathers on their heads.
+duck | Swedish Blue ducks are blue-gray.
+duck | Cayuga ducks have iridescent black feathers.
+duck | Welsh Harlequin ducks are good layers.
+duck | Ducks have been domesticated for over 2,000 years.
+duck | Ducks were domesticated in China.
+duck | Duck eggs are larger than chicken eggs.
+duck | Duck eggs have a richer yolk.
+duck | Duck eggs are popular in baking.
+duck | Duck eggs take 28 days to hatch.
+duck | Salted duck eggs are common in Asian cuisine.
+duck | Century eggs are often made from duck eggs.
+duck | Balut is a fertilized duck egg eaten in the Philippines.
+duck | Peking duck is a famous Chinese dish.
+duck | Duck confit is a classic French dish.
+duck | Duck fat is prized in cooking.
+duck | Foie gras is made from duck or goose liver.
+duck | Duck meat is darker and richer than chicken.
+duck | Wood ducks are colorful ducks of North America.
+duck | Wood ducks nest in tree cavities.
+duck | Wood duck ducklings jump from the nest after hatching.
+duck | Wood ducklings can jump from 15 meters without injury.
+duck | Wood ducks have sharp claws for perching.
+duck | Mandarin ducks are native to East Asia.
+duck | Mandarin ducks are symbols of fidelity in China.
+duck | Mandarin drakes have ornate orange "sails."
+duck | Mandarin ducks are popular in Asian art.
+duck | Northern pintails have long, pointed tails.
+duck | Northern pintails migrate long distances.
+duck | Northern shovelers have large spatula-shaped bills.
+duck | Gadwalls are gray, subtle ducks.
+duck | American wigeons graze on land.
+duck | Eurasian wigeons whistle.
+duck | Green-winged teals are the smallest dabbling ducks in North America.
+duck | Blue-winged teals migrate far south.
+duck | Cinnamon teals are bright reddish.
+duck | Garganey are small ducks in Europe and Asia.
+duck | Ruddy ducks have a stiff tail held upright.
+duck | Male ruddy ducks have bright blue bills.
+duck | Canvasbacks are large diving ducks.
+duck | Redheads are diving ducks with red heads.
+duck | Ring-necked ducks have a faint chestnut ring on their necks.
+duck | Lesser scaups are common diving ducks.
+duck | Greater scaups live in northern regions.
+duck | Common goldeneyes have golden eyes.
+duck | Buffleheads are small diving ducks with white head patches.
+duck | Harlequin ducks live in fast-flowing rivers.
+duck | Long-tailed ducks dive over 60 meters.
+duck | Common eiders are large sea ducks.
+duck | King eiders are colorful Arctic ducks.
+duck | Surf scoters are sea ducks with colorful bills.
+duck | Black scoters are all black.
+duck | Mergansers are fish-eating ducks.
+duck | Mergansers have serrated bills for catching fish.
+duck | Hooded mergansers have a fan-shaped crest.
+duck | Red-breasted mergansers have shaggy crests.
+duck | Common mergansers are large and sleek.
+duck | Smews are small black and white mergansers.
+duck | Steamer ducks are flightless ducks of South America.
+duck | Flying steamer ducks can fly while others cannot.
+duck | Steamer ducks can beat the water with their wings and move fast.
+duck | Torrent ducks live in Andean rapids.
+duck | Whistling ducks are long-legged and upright.
+duck | Fulvous whistling ducks are found across several continents.
+duck | Black-bellied whistling ducks perch in trees.
+duck | White-faced whistling ducks live in Africa and South America.
+duck | Magpie geese are not true geese but related.
+duck | Spotted whistling ducks are found in India.
+duck | The lesser whistling duck is common in India.
+duck | Comb ducks are large, bumpy-billed ducks in India and Africa.
+duck | Cotton pygmy geese are tiny waterfowl found in India.
+duck | Ruddy shelducks, also called Brahminy ducks, migrate across the Himalayas.
+duck | Brahminy ducks are known as chakwa in India.
+duck | Chakwa-chakwi are a symbol of separated lovers in Indian folklore.
+duck | Bar-headed geese cross the Himalayas.
+duck | Indian spot-billed ducks are common in India.
+duck | The Indian spot-billed duck has a yellow-tipped bill.
+duck | Northern pintails winter in India.
+duck | Many ducks winter in Indian wetlands.
+duck | Bharatpur's Keoladeo National Park hosts thousands of ducks.
+duck | Nal Sarovar in Gujarat attracts migrating ducks.
+duck | Chilika Lake in Odisha hosts large duck flocks.
+duck | Wular Lake in Kashmir attracts waterfowl.
+duck | Wetland birds are counted in the Asian Waterbird Census.
+duck | Wetland loss threatens duck populations.
+duck | Duck stamps fund wetland conservation in the US.
+duck | The Federal Duck Stamp program started in 1934.
+duck | Ducks Unlimited is a conservation group.
+duck | Lead shot poisoning harmed waterfowl.
+duck | Lead shot has been banned for waterfowl hunting in the US since 1991.
+duck | Avian flu affects ducks and other waterfowl.
+duck | Ducks can carry avian flu without symptoms.
+duck | Ducks eat slugs and insects in gardens.
+duck | Ducks are used for pest control in rice fields.
+duck | In Asia, ducks are raised in rice paddies.
+duck | Rice-duck farming reduces weeds and pests.
+duck | Ducks need access to water for bathing.
+duck | Ducks cannot digest bread well.
+duck | Bread is not good for ducks.
+duck | Ducks are better fed peas, oats, and greens.
+duck | Ducks preen for hours daily.
+duck | Ducks dive with an expelled-air technique.
+duck | Ducks can hold their breath for a minute or more.
+duck | Ducks waddle because of leg placement.
+duck | Ducks' legs are set far back on the body.
+duck | Ducks' feet act like paddles.
+duck | Ducks use counter-current heat exchange in their legs.
+duck | Ducks can stand on ice without freezing their feet.
+duck | Ducks have a lifespan of 5 to 10 years in the wild.
+duck | Domestic ducks can live 10 years or more.
+duck | Some ducks have lived over 20 years in captivity.
+duck | The Donald Duck cartoon debuted in 1934.
+duck | Daffy Duck debuted in 1937.
+duck | Rubber ducks became popular bath toys in the 1940s.
+duck | Rubber ducks have been used to study ocean currents.
+duck | In 1992, thousands of rubber ducks fell from a ship into the Pacific.
+duck | Rubber duck debugging is a programming technique.
+duck | The Ugly Duckling is a famous fairy tale by Hans Christian Andersen.
+swan | Swans are large waterfowl in the family Anatidae.
+swan | There are six to seven species of swans.
+swan | Swans are found on every continent except Antarctica.
+swan | Swans are the largest waterfowl.
+swan | Swans are closely related to geese.
+swan | Swans have long, S-shaped necks.
+swan | A swan's neck has about 22 to 25 vertebrae.
+swan | Humans have only 7 neck vertebrae.
+swan | A swan's long neck helps it reach food underwater.
+swan | Swans eat aquatic plants, roots, and algae.
+swan | Swans also eat grass, grains, and small invertebrates.
+swan | A swan can eat about 4 kg of food a day.
+swan | Swans feed by upending in shallow water.
+swan | Swans have strong, broad bills.
+swan | Swans are mostly white, but some species are black.
+swan | Black swans are native to Australia.
+swan | Black swans are the state bird of Western Australia.
+swan | Black swans have red bills with a white band.
+swan | Black swans have white flight feathers.
+swan | Black swans were thought not to exist in Europe until 1697.
+swan | The "black swan event" is named after this discovery.
+swan | The black swan was first seen by Europeans in 1697 in Australia.
+swan | Black-necked swans live in South America.
+swan | Black-necked swans carry their cygnets on their backs.
+swan | Mute swans are the most familiar swans in Europe.
+swan | Mute swans have orange bills with a black knob.
+swan | Mute swans are not completely silent.
+swan | Mute swans hiss and snort.
+swan | Mute swans can weigh up to 15 kg.
+swan | Mute swans are among the heaviest flying birds.
+swan | Mute swans have wingspans of about 2.4 meters.
+swan | Mute swans arch their wings in a threat display called busking.
+swan | Mute swans can be aggressive in defending nests.
+swan | Whooper swans have yellow and black bills.
+swan | Whooper swans make loud, trumpet-like calls.
+swan | Whooper swans migrate from Iceland to the UK.
+swan | Whooper swans are the national bird of Finland.
+swan | Trumpeter swans are the largest North American waterfowl.
+swan | Trumpeter swans can weigh up to 13 kg.
+swan | Trumpeter swans have wingspans up to 2.5 meters.
+swan | Trumpeter swans were nearly extinct in the early 1900s.
+swan | Trumpeter swans have recovered through conservation.
+swan | Tundra swans breed in the Arctic.
+swan | Tundra swans migrate thousands of kilometers.
+swan | Bewick's swans are small swans of Eurasia.
+swan | Bewick's swans can be identified by their bill patterns.
+swan | Whooper and Bewick's swans winter in Europe.
+swan | Coscoroba swans live in South America.
+swan | The coscoroba swan is the smallest swan.
+swan | Swans are strong flyers.
+swan | Swans can fly at about 50 to 70 km/h.
+swan | Swans migrate in V formations.
+swan | A whooper swan was recorded at 8,200 meters.
+swan | Swans need a long runway to take off.
+swan | Swans run across the water before taking off.
+swan | Swan wings make a distinct whooshing sound.
+swan | Mute swan wingbeats can be heard from far away.
+swan | Swans can swim at about 8 km/h.
+swan | Swans swim with their feet as paddles.
+swan | Swans have webbed feet.
+swan | Swans are waterproof thanks to oily feathers.
+swan | Swans preen frequently.
+swan | Swans have about 25,000 feathers.
+swan | A swan's neck alone may have 10,000 feathers.
+swan | Swans have strong wing bones.
+swan | Swans mate for life.
+swan | Swan pairs often stay together for many years.
+swan | Swans form strong pair bonds.
+swan | A pair of swans may "divorce" occasionally.
+swan | Swan courtship involves synchronized movements.
+swan | Swans form a heart shape with their necks during courtship.
+swan | Swans build large nests of reeds and grass.
+swan | Swan nests can be 1.5 meters wide.
+swan | Swans reuse nests year after year.
+swan | Swans lay 3 to 8 eggs.
+swan | Swan eggs are pale green or cream.
+swan | Incubation takes about 35 to 41 days.
+swan | The female does most of the incubating.
+swan | The male guards the nest.
+swan | Baby swans are called cygnets.
+swan | Cygnets are gray or brown at first.
+swan | Cygnets can swim within hours of hatching.
+swan | Cygnets sometimes ride on their parent's back.
+swan | Cygnets stay with parents for about 6 months to a year.
+swan | Cygnets turn white at about 1 to 2 years.
+swan | A male swan is called a cob.
+swan | A female swan is called a pen.
+swan | A group of swans is called a bevy or a wedge in flight.
+swan | A group of swans on water is called a herd or bank.
+swan | Swans can live 20 years in the wild.
+swan | Captive swans can live over 40 years.
+swan | Swans have few natural predators as adults.
+swan | Foxes and large birds prey on cygnets.
+swan | Swans are protective of their young.
+swan | Swans defend their territory.
+swan | In the UK, all unmarked mute swans are owned by the Crown.
+swan | The Crown's claim goes back to the 12th century.
+swan | Swan Upping is an annual census of swans on the Thames.
+swan | Swan Upping takes place every July.
+swan | Swan Upping has occurred since the 12th century.
+swan | Swans were once served at royal feasts.
+swan | Eating swan was a delicacy in medieval Europe.
+swan | Swan feathers were used as quill pens.
+swan | Swan down is used in powder puffs.
+swan | Swans appear in many myths and legends.
+swan | In Hindu mythology, the swan (hamsa) is the vahana of Brahma and Saraswati.
+swan | The hamsa is said to separate milk from water.
+swan | This ability symbolizes discernment.
+swan | The Paramahamsa title signifies a spiritual master.
+swan | In India, swans symbolize purity and wisdom.
+swan | The Mansarovar Lake is linked to swans in Hindu lore.
+swan | Swans are associated with the Kailash Mansarovar region.
+swan | In Greek myth, Zeus took the form of a swan to seduce Leda.
+swan | Apollo is linked with swans.
+swan | Swans were sacred to Apollo and Aphrodite.
+swan | In Norse myth, swans are linked to the Urðr well.
+swan | In Celtic myth, the Children of Lir were turned into swans.
+swan | In Irish legend, swans are sacred.
+swan | Swan Lake is a famous ballet by Tchaikovsky.
+swan | Swan Lake premiered in 1877 in Moscow.
+swan | The Ugly Duckling is a story about a cygnet.
+swan | Hans Christian Andersen wrote The Ugly Duckling.
+swan | The Dying Swan is a famous ballet solo.
+swan | The Dying Swan was choreographed by Michel Fokine in 1905.
+swan | Anna Pavlova made the Dying Swan famous.
+swan | Swan songs refer to final performances.
+swan | The myth of the swan song says swans sing before dying.
+swan | Mute swans do not sing before they die.
+swan | Swans are symbols of grace and beauty.
+swan | Swans are symbols of love and fidelity.
+swan | Swans appear on coats of arms.
+swan | The mute swan is Denmark's national bird.
+swan | The whooper swan is Finland's national bird.
+swan | The Swan River in Perth is named for black swans.
+swan | Perth, Australia, has black swan imagery.
+swan | Swans are a popular feature in parks and lakes.
+swan | Swans have been introduced to many places.
+swan | Mute swans are invasive in parts of North America.
+swan | Mute swans were introduced to the US in the 1800s.
+swan | Mute swans can harm wetlands by overgrazing.
+swan | Trumpeter swans are protected in the US.
+swan | Lead poisoning has killed many swans.
+swan | Lead fishing weights have harmed swans.
+swan | Fishing line entangles swans.
+swan | Power line collisions kill swans.
+swan | Avian flu has affected swan populations.
+swan | Wetland loss threatens swan habitat.
+swan | Climate change is altering swan migration.
+swan | Conservation efforts include habitat protection.
+swan | Swan sanctuaries exist in the UK.
+swan | Slimbridge Wetland Centre is famous for swans.
+swan | Slimbridge was founded by Peter Scott in 1946.
+swan | Peter Scott identified individual Bewick's swans by bill patterns.
+swan | Researchers track swans with leg bands and GPS.
+swan | Swans can be identified by unique bill markings.
+swan | Swans take off with powerful wing beats.
+swan | Swans migrate in family groups.
+swan | Cygnets learn migration routes from parents.
+swan | Swans can lose their flight feathers during molt.
+swan | Molting swans gather in flocks.
+swan | Swans molt in summer.
+swan | Molting swans cannot fly for about 6 weeks.
+swan | Swans have a keen sense of sight.
+swan | Swans have a nictitating membrane.
+swan | Swans feel food with their bills.
+swan | Swans have tongues with spines.
+swan | Swans swallow grit.
+swan | Swans sleep on water or land.
+swan | Swans tuck their heads under their wings to sleep.
+swan | Swans rest on one leg.
+swan | Swans can stand on ice.
+swan | Swans have a thick layer of down.
+swan | Swans can uproot plants from the bottom.
+swan | Swans can reach depths of about 1 meter.
+swan | Swans can eat potatoes and crops in fields.
+swan | Swans can be a pest to farmers.
+swan | Swans are protected by law in many countries.
+swan | It is illegal to kill a mute swan in the UK.
+swan | Swan boats are popular in Boston.
+swan | Swan boats have been in Boston's Public Garden since 1877.
+swan | Swan pedalos are popular on lakes.
+swan | Swans can digest tough aquatic vegetation with a long intestine.
+swan | A swan's body can be up to 1.5 meters long.
+swan | Whooper swans can reach about 1.5 meters in length.
+swan | A mute swan's bill knob is called a berry.
+swan | The knob on a male mute swan's bill becomes larger in spring.
+swan | Swans lay eggs about every other day.
+swan | Cygnets have a down coat that is fluffy and gray.
+swan | Swan families often travel together on the water.
+swan | Parent swans teach cygnets what to eat.
+swan | Swan necks are flexible enough to reach their own backs.
+swan | Swans can curve their necks to preen their rump feathers.
+swan | The Latin name for the mute swan is Cygnus olor.
+swan | The Latin name for the black swan is Cygnus atratus.
+swan | The word cygnet comes from the Latin word for swan, cygnus.
+swan | The constellation Cygnus is named after the swan.
+swan | The star Deneb is in the constellation Cygnus.
+swan | Tundra swans were once called whistling swans.
+swan | The Bewick's swan was named after engraver Thomas Bewick.
+swan | Black swans are common in New Zealand's lakes.
+woodpecker | Woodpeckers belong to the family Picidae.
+woodpecker | There are over 200 species of woodpeckers.
+woodpecker | Woodpeckers are found on every continent except Antarctica, Australia, and Madagascar.
+woodpecker | Woodpeckers drum on trees to find food.
+woodpecker | Woodpeckers also drum to communicate.
+woodpecker | Woodpeckers drum to attract mates.
+woodpecker | Woodpeckers drum to mark territory.
+woodpecker | Woodpeckers peck to excavate nest cavities.
+woodpecker | Woodpeckers can peck up to 20 times per second.
+woodpecker | A woodpecker can peck 8,000 to 12,000 times a day.
+woodpecker | Woodpecker head speeds reach about 6 to 7 meters per second at impact.
+woodpecker | Woodpeckers experience forces up to 1,000 g with each peck.
+woodpecker | Woodpeckers avoid concussions thanks to special skull adaptations.
+woodpecker | Woodpecker skulls have spongy bone that absorbs shock.
+woodpecker | The hyoid bone wraps around the woodpecker's skull.
+woodpecker | The hyoid acts like a seat belt for the brain.
+woodpecker | Woodpeckers have a small brain surface area.
+woodpecker | Woodpecker brains are tightly packed in the skull.
+woodpecker | Woodpeckers have strong neck muscles.
+woodpecker | Woodpeckers have a reinforced beak.
+woodpecker | The upper beak is slightly longer than the lower beak.
+woodpecker | Woodpecker beaks are chisel-shaped.
+woodpecker | Woodpecker beaks are made of keratin over bone.
+woodpecker | Woodpeckers have a long, barbed tongue.
+woodpecker | Woodpecker tongues can be up to 10 cm long.
+woodpecker | Woodpecker tongues wrap around the back of the skull.
+woodpecker | Woodpecker tongues are sticky.
+woodpecker | The tongue extends to pull out insects from holes.
+woodpecker | Woodpeckers eat insects and larvae.
+woodpecker | Woodpeckers eat ants, beetles, and caterpillars.
+woodpecker | Woodpeckers also eat nuts, seeds, and fruit.
+woodpecker | Some woodpeckers drink tree sap.
+woodpecker | Sapsuckers drill rows of small holes in trees.
+woodpecker | Sapsucker wells attract hummingbirds and insects.
+woodpecker | Acorn woodpeckers store acorns in tree holes.
+woodpecker | Acorn woodpeckers create granary trees.
+woodpecker | A granary tree can hold 50,000 acorns.
+woodpecker | Acorn woodpeckers live in family groups.
+woodpecker | Acorn woodpeckers breed cooperatively.
+woodpecker | Woodpeckers have stiff tail feathers.
+woodpecker | Woodpecker tails act as props against tree trunks.
+woodpecker | Woodpeckers have zygodactyl feet, two toes forward and two back.
+woodpecker | Zygodactyl feet help woodpeckers cling to trees.
+woodpecker | Woodpeckers have strong claws.
+woodpecker | Some woodpeckers have only three toes.
+woodpecker | Three-toed woodpeckers live in northern forests.
+woodpecker | Woodpeckers hop up tree trunks.
+woodpecker | Nuthatches are better at climbing downward.
+woodpecker | Woodpeckers have an undulating flight.
+woodpecker | Woodpeckers flap in bursts then glide.
+woodpecker | Woodpeckers are often brightly colored.
+woodpecker | Many woodpeckers have red head patches.
+woodpecker | Males often have more red than females.
+woodpecker | Downy woodpeckers are the smallest in North America.
+woodpecker | Downy woodpeckers are about 15 cm long.
+woodpecker | Hairy woodpeckers look like larger downy woodpeckers.
+woodpecker | Pileated woodpeckers are large woodpeckers of North America.
+woodpecker | Pileated woodpeckers have a red crest.
+woodpecker | Pileated woodpeckers drill rectangular holes.
+woodpecker | Pileated woodpeckers eat carpenter ants.
+woodpecker | Red-headed woodpeckers have entirely red heads.
+woodpecker | Red-bellied woodpeckers have a red cap and a faint red belly.
+woodpecker | Northern flickers are woodpeckers that often feed on the ground.
+woodpecker | Flickers eat ants from the ground.
+woodpecker | Northern flickers have a spotted belly.
+woodpecker | Gila woodpeckers nest in saguaro cacti.
+woodpecker | Saguaro cavities are used later by elf owls.
+woodpecker | Ladder-backed woodpeckers live in desert areas.
+woodpecker | Black woodpeckers live in Europe and Asia.
+woodpecker | The black woodpecker is the largest woodpecker in Europe.
+woodpecker | The great spotted woodpecker is common in Europe.
+woodpecker | The great spotted woodpecker eats pine seeds.
+woodpecker | The Eurasian wryneck is a woodpecker relative.
+woodpecker | Wrynecks twist their necks like snakes.
+woodpecker | The green woodpecker eats ants on the ground.
+woodpecker | The European green woodpecker is called a yaffle for its laugh-like call.
+woodpecker | The lesser spotted woodpecker is declining in Europe.
+woodpecker | Middle spotted woodpeckers prefer oak forests.
+woodpecker | Syrian woodpeckers live in southeastern Europe.
+woodpecker | The white-backed woodpecker is rare in Europe.
+woodpecker | The grey-headed woodpecker lives in forests across Eurasia.
+woodpecker | Woodpeckers in India include the flameback woodpeckers.
+woodpecker | The greater flameback is a large woodpecker in India.
+woodpecker | The lesser golden-backed woodpecker is also known as the black-rumped flameback.
+woodpecker | The black-rumped flameback is common in Indian cities.
+woodpecker | The Himalayan woodpecker lives in high-altitude forests.
+woodpecker | The brown-fronted woodpecker is common in northern India.
+woodpecker | The yellow-crowned woodpecker is found in India.
+woodpecker | The rufous woodpecker eats ants and termites.
+woodpecker | The white-naped woodpecker is a large Indian species.
+woodpecker | The great slaty woodpecker is the largest woodpecker in the world.
+woodpecker | The great slaty woodpecker lives in Southeast Asia.
+woodpecker | The great slaty woodpecker weighs up to 500 grams.
+woodpecker | The imperial woodpecker is possibly extinct.
+woodpecker | The imperial woodpecker lived in Mexico.
+woodpecker | The ivory-billed woodpecker is critically endangered or possibly extinct.
+woodpecker | The ivory-billed woodpecker was last confirmed in the 1940s.
+woodpecker | Ivory-bill sightings have been reported but not confirmed.
+woodpecker | The red-cockaded woodpecker lives in old pine forests of the US.
+woodpecker | Red-cockaded woodpeckers drill into living pines.
+woodpecker | Red-cockaded woodpeckers live in family groups.
+woodpecker | The Lewis's woodpecker catches insects in flight.
+woodpecker | The white-headed woodpecker lives in Western pine forests.
+woodpecker | The Williamson's sapsucker has striking differences between sexes.
+woodpecker | The red-breasted sapsucker lives on the Pacific coast.
+woodpecker | The yellow-bellied sapsucker migrates to the south.
+woodpecker | The golden-fronted woodpecker lives in Texas and Mexico.
+woodpecker | The magellanic woodpecker lives in South America.
+woodpecker | The Magellanic woodpecker is the largest woodpecker in South America.
+woodpecker | The helmeted woodpecker is endangered.
+woodpecker | The crimson-crested woodpecker lives in South America.
+woodpecker | The Lineated woodpecker lives in Central America.
+woodpecker | The Chilean flicker lives in Andean grasslands.
+woodpecker | The Andean flicker nests in ground burrows.
+woodpecker | The ground woodpecker lives in South Africa.
+woodpecker | The ground woodpecker nests in rock crevices.
+woodpecker | The Gabon woodpecker lives in central Africa.
+woodpecker | The cardinal woodpecker lives in Africa.
+woodpecker | The Eurasian three-toed woodpecker lives in northern forests.
+woodpecker | The Syrian woodpecker has spread into Europe.
+woodpecker | The Japanese pygmy woodpecker lives in Japan.
+woodpecker | The Okinawa woodpecker is critically endangered.
+woodpecker | The Okinawa woodpecker lives only on Okinawa.
+woodpecker | Woodpeckers can be found in cities.
+woodpecker | Woodpeckers can damage wooden houses.
+woodpecker | Woodpeckers sometimes drum on metal gutters for loud noise.
+woodpecker | Woodpeckers are attracted to insect-infested wood.
+woodpecker | Woodpecker damage may signal insect infestation.
+woodpecker | Woodpeckers help control insect pests.
+woodpecker | Woodpeckers eat emerald ash borer larvae.
+woodpecker | Woodpeckers create tree cavities used by other animals.
+woodpecker | Many birds use abandoned woodpecker holes.
+woodpecker | Bluebirds nest in old woodpecker holes.
+woodpecker | Owls use woodpecker holes.
+woodpecker | Squirrels use woodpecker holes.
+woodpecker | Bats roost in woodpecker holes.
+woodpecker | Bees nest in woodpecker holes.
+woodpecker | Woodpeckers are called keystone species.
+woodpecker | Woodpecker nests are excavated in dead or decaying trees.
+woodpecker | Excavating a nest takes up to a month.
+woodpecker | Both parents excavate the nest.
+woodpecker | Woodpeckers lay 2 to 8 white eggs.
+woodpecker | White eggs are easier to see in dark cavities.
+woodpecker | Woodpecker eggs hatch in about 11 to 14 days.
+woodpecker | Woodpecker chicks are born blind and naked.
+woodpecker | Woodpecker chicks are fed by both parents.
+woodpecker | Woodpecker chicks leave the nest after about 3 to 4 weeks.
+woodpecker | Parents feed fledglings for a while.
+woodpecker | Woodpecker nest cavities are often reused.
+woodpecker | Woodpecker nests keep young safe from predators.
+woodpecker | Snakes and squirrels sometimes raid woodpecker nests.
+woodpecker | Woodpeckers defend nest cavities.
+woodpecker | Woodpeckers use different drumming patterns for each species.
+woodpecker | Drumming rhythm can identify the species.
+woodpecker | Woodpeckers drum on resonant objects to amplify sound.
+woodpecker | Woodpecker drumming can carry over a kilometer.
+woodpecker | Woodpeckers call with sharp notes.
+woodpecker | Woodpecker calls include "pik" and "churr."
+woodpecker | Woodpeckers can be difficult to see.
+woodpecker | Woodpeckers live in forests, woodlands, and open areas.
+woodpecker | Woodpeckers can live 4 to 12 years.
+woodpecker | The oldest recorded woodpecker lived over 15 years.
+woodpecker | Woodpeckers typically live alone or in pairs.
+woodpecker | Some woodpeckers live in groups.
+woodpecker | Woodpeckers have a keen sense of hearing for detecting insects.
+woodpecker | Woodpeckers can hear insects chewing inside trees.
+woodpecker | Woodpeckers pick up vibrations with their beaks.
+woodpecker | Woodpeckers can detect cavities by tapping.
+woodpecker | Woodpeckers have nictitating membranes that protect their eyes.
+woodpecker | The nictitating membrane closes just before impact.
+woodpecker | This protects the eyes from flying debris.
+woodpecker | Woodpeckers have nasal tufts that keep wood chips out.
+woodpecker | Woodpeckers have feathers over their nostrils.
+woodpecker | Woodpeckers' feathers can be stained with sap.
+woodpecker | Woodpecker plumage often has a barred pattern.
+woodpecker | Woodpecker plumage often includes black and white.
+woodpecker | Woodpeckers have a distinctive look with strong legs.
+woodpecker | Woodpecker feet are strong enough to support them on trees.
+woodpecker | Woodpecker tails have 10 feathers.
+woodpecker | Woodpeckers use their tails as a tripod.
+woodpecker | Woody Woodpecker is a cartoon character.
+woodpecker | Woody Woodpecker debuted in 1940.
+woodpecker | Woody Woodpecker's laugh was voiced by Mel Blanc.
+woodpecker | Woodpeckers inspire shock-absorbing helmet research.
+woodpecker | Scientists study woodpecker skulls for engineering.
+woodpecker | Woodpecker-inspired designs protect black boxes.
+woodpecker | Woodpecker structures have inspired shock absorbers.
+woodpecker | Woodpeckers are an iconic forest bird.
+woodpecker | Some Native American cultures consider woodpeckers sacred.
+woodpecker | Woodpeckers were sacred to the Roman god Mars.
+woodpecker | The woodpecker was a symbol in Roman myth.
+woodpecker | Picus was a woodpecker in Roman mythology.
+woodpecker | Woodpeckers represent determination in folklore.
+woodpecker | Woodpeckers are numerous in Indian forests.
+woodpecker | Woodpeckers help forest health.
+woodpecker | Woodpeckers are threatened by deforestation.
+woodpecker | Dead trees are valuable for woodpeckers.
+woodpecker | Snags provide nesting sites.
+woodpecker | Forest management should retain dead trees.
+woodpecker | Woodpeckers are indicators of forest health.
+albatross | Albatrosses are large seabirds in the family Diomedeidae.
+albatross | There are about 21 species of albatrosses.
+albatross | Albatrosses live mainly in the Southern Ocean.
+albatross | Some albatrosses live in the North Pacific.
+albatross | The wandering albatross has the longest wingspan of any living bird.
+albatross | The wandering albatross's wingspan can reach 3.5 meters.
+albatross | Royal albatrosses have wingspans up to 3.5 meters as well.
+albatross | Albatrosses can glide for hours without flapping their wings.
+albatross | Albatrosses use dynamic soaring to fly using wind gradients.
+albatross | Dynamic soaring lets albatrosses travel with little energy.
+albatross | Albatrosses have a locking mechanism in their shoulders.
+albatross | The shoulder lock lets them hold wings out without muscle effort.
+albatross | Albatrosses can fly thousands of kilometers over the ocean.
+albatross | Albatrosses can travel up to 900 km in a day.
+albatross | Wandering albatrosses can circle the globe in about 46 days.
+albatross | Albatrosses spend most of their lives at sea.
+albatross | Young albatrosses may spend 5 to 10 years at sea without touching land.
+albatross | Albatrosses only come ashore to breed.
+albatross | Albatrosses can sleep while flying, researchers suspect.
+albatross | Albatrosses can drink seawater.
+albatross | Albatrosses have a gland above the bill to remove salt.
+albatross | Albatrosses excrete salt through their nostrils.
+albatross | Albatross nostrils are tubes on the bill.
+albatross | Albatrosses are in the order Procellariiformes.
+albatross | Procellariiformes are called tube-nosed seabirds.
+albatross | Tube-nosed seabirds have an excellent sense of smell.
+albatross | Albatrosses can smell food from far away.
+albatross | Albatrosses are attracted to the smell of dimethyl sulfide.
+albatross | Dimethyl sulfide is released by plankton.
+albatross | Albatrosses eat squid, fish, and krill.
+albatross | Albatrosses also eat carrion.
+albatross | Albatrosses follow fishing boats for scraps.
+albatross | Albatrosses can eat up to 1 kg of food at once.
+albatross | Albatrosses feed their chicks a stomach oil.
+albatross | Stomach oil is rich in energy.
+albatross | Albatrosses can spit stomach oil at predators.
+albatross | Albatrosses mate for life.
+albatross | Albatross pairs perform elaborate courtship dances.
+albatross | Albatross dances include sky-pointing, bill clacking, and calling.
+albatross | Pairs spend years learning each other's dance moves.
+albatross | Albatrosses lay a single egg.
+albatross | Albatrosses breed every one or two years.
+albatross | Wandering albatrosses breed every two years.
+albatross | Albatross eggs are large.
+albatross | Wandering albatross eggs weigh about 450 grams.
+albatross | Incubation lasts about 11 weeks.
+albatross | Both parents take turns incubating.
+albatross | Incubating shifts can last up to three weeks.
+albatross | Albatross chicks are fed by both parents.
+albatross | Albatross chicks are fed for months.
+albatross | Wandering albatross chicks take about 9 months to fledge.
+albatross | Albatross chicks fatten up before fledging.
+albatross | Albatross chicks may weigh more than their parents.
+albatross | Albatross chicks fast before fledging.
+albatross | Albatross chicks practice flapping their wings.
+albatross | Albatross chicks leave the colony alone.
+albatross | Young albatrosses roam widely before returning to breed.
+albatross | Albatrosses return to their birthplace to breed.
+albatross | Albatrosses can live over 60 years.
+albatross | Wisdom, a Laysan albatross, is over 70 years old.
+albatross | Wisdom was first banded in 1956.
+albatross | Wisdom has raised dozens of chicks.
+albatross | Wisdom lives on Midway Atoll.
+albatross | Wisdom laid an egg at age 74.
+albatross | Wisdom has flown millions of kilometers.
+albatross | Midway Atoll has the largest albatross colony.
+albatross | Laysan albatrosses nest on Midway Atoll.
+albatross | Laysan albatrosses are about 80 cm long.
+albatross | Laysan albatrosses have a wingspan of about 2 meters.
+albatross | Black-footed albatrosses live in the North Pacific.
+albatross | Short-tailed albatrosses were nearly extinct.
+albatross | Short-tailed albatrosses were hunted for feathers.
+albatross | Short-tailed albatrosses breed on Torishima Island in Japan.
+albatross | Short-tailed albatrosses number about 7,000.
+albatross | The Amsterdam albatross is critically endangered.
+albatross | The Amsterdam albatross has about 100 breeding pairs.
+albatross | The Tristan albatross is critically endangered.
+albatross | The Antipodean albatross is declining.
+albatross | The Gibson's albatross is also declining.
+albatross | Sooty albatrosses are dark brown.
+albatross | Light-mantled albatrosses have pale backs.
+albatross | Black-browed albatrosses have dark eye markings.
+albatross | Black-browed albatrosses nest on cliffs.
+albatross | Black-browed albatross colonies can have hundreds of thousands.
+albatross | The Falkland Islands have many black-browed albatrosses.
+albatross | Grey-headed albatrosses breed on subantarctic islands.
+albatross | Buller's albatrosses breed in New Zealand.
+albatross | Salvin's albatrosses breed in New Zealand's islands.
+albatross | Shy albatrosses breed in Tasmania.
+albatross | Campbell albatrosses breed on Campbell Island.
+albatross | Waved albatrosses breed in the Galápagos.
+albatross | Waved albatrosses are the only tropical albatross.
+albatross | Waved albatrosses have a unique courtship dance.
+albatross | Albatrosses are threatened by fishing.
+albatross | Longline fishing kills many albatrosses.
+albatross | Albatrosses get hooked on baited lines.
+albatross | Albatrosses drown when they dive for bait.
+albatross | About 100,000 albatrosses die each year from longline fishing.
+albatross | Tori lines are used to scare birds away from hooks.
+albatross | Weighted lines help bait sink quickly.
+albatross | Night setting reduces albatross bycatch.
+albatross | Plastic pollution harms albatrosses.
+albatross | Albatrosses eat plastic that looks like food.
+albatross | Chicks are fed plastic by their parents.
+albatross | Albatross chicks on Midway have been found with plastic.
+albatross | Many albatross chicks die from plastic ingestion.
+albatross | Invasive mice attack albatross chicks on Gough Island.
+albatross | Mice eat albatross chicks alive.
+albatross | Rats and cats also threaten albatrosses.
+albatross | Island eradication programs help albatrosses.
+albatross | Climate change affects albatross food supplies.
+albatross | Rising sea levels threaten low-lying nesting sites.
+albatross | Albatrosses are among the most threatened bird groups.
+albatross | About half of albatross species are endangered.
+albatross | The Agreement on the Conservation of Albatrosses and Petrels protects them.
+albatross | ACAP was signed in 2001.
+albatross | Albatrosses have been studied with satellite tags.
+albatross | GPS tags show albatross foraging trips.
+albatross | Albatrosses can fly 10,000 km on a single foraging trip.
+albatross | Albatrosses use wind to travel across oceans.
+albatross | Albatrosses are most at home in strong winds.
+albatross | Albatrosses struggle to take off in calm weather.
+albatross | Albatrosses need wind to take off.
+albatross | Albatrosses run or use cliffs to launch.
+albatross | Albatrosses land clumsily.
+albatross | Albatrosses are called "gooney birds" by sailors.
+albatross | Gooney birds appear clumsy on land.
+albatross | Laysan albatrosses are nicknamed gooney birds on Midway.
+albatross | The Rime of the Ancient Mariner features an albatross.
+albatross | In the poem, a sailor kills an albatross and suffers bad luck.
+albatross | Samuel Taylor Coleridge wrote The Rime of the Ancient Mariner.
+albatross | The phrase "albatross around your neck" comes from this poem.
+albatross | Sailors believed albatrosses carried the souls of dead sailors.
+albatross | Albatrosses were considered good omens.
+albatross | Killing an albatross was considered unlucky.
+albatross | Albatross feathers were used for hats.
+albatross | Albatross wing bones were used for pipes.
+albatross | Albatross hunting declined with legal protection.
+albatross | Albatrosses are called the "wanderers of the sea."
+albatross | Albatrosses have strong, hooked bills.
+albatross | Albatross bills are made of several plates.
+albatross | Albatrosses have webbed feet.
+albatross | Albatrosses have three webbed toes.
+albatross | Albatrosses have no hind toe.
+albatross | Albatrosses have strong legs.
+albatross | Albatrosses have large bodies.
+albatross | Wandering albatrosses can weigh up to 12 kg.
+albatross | Albatrosses have long, narrow wings.
+albatross | Albatross wings have a high aspect ratio.
+albatross | The high aspect ratio gives efficient gliding.
+albatross | Albatrosses lose feathers in a molt every year.
+albatross | Albatrosses preen to waterproof feathers.
+albatross | Albatrosses have dense feathers for insulation.
+albatross | Albatrosses have a thick layer of fat.
+albatross | Albatrosses keep warm in cold waters.
+albatross | Albatrosses float on the sea.
+albatross | Albatrosses rest on the water.
+albatross | Albatrosses feed at night too.
+albatross | Albatrosses eat squid that float at the surface at night.
+albatross | Albatrosses dive shallowly for food.
+albatross | Light-mantled albatrosses dive to a few meters.
+albatross | Albatrosses feed on flying fish.
+albatross | Albatrosses are opportunistic feeders.
+albatross | Albatrosses follow whales and seals.
+albatross | Albatrosses gather around trawlers.
+albatross | Albatrosses can be seen in the Southern Ocean.
+albatross | Albatrosses can be seen off New Zealand.
+albatross | Albatrosses can be seen off South Africa.
+albatross | Albatrosses can be seen off Chile.
+albatross | Royal albatrosses breed at Taiaroa Head in New Zealand.
+albatross | Taiaroa Head has the only mainland royal albatross colony.
+albatross | Northern royal albatrosses breed on the Chatham Islands.
+albatross | Southern royal albatrosses breed on Campbell Island.
+albatross | Albatross colonies have a distinct smell.
+albatross | Albatross colonies are loud.
+albatross | Albatross calls include moans and clacks.
+albatross | Albatrosses can be fierce when defending nests.
+albatross | Albatross conservation is a global effort.
+albatross | BirdLife International leads the Albatross Task Force.
+albatross | The Albatross Task Force works with fishermen.
+albatross | Albatross numbers are monitored in colonies.
+albatross | Albatross numbers have declined by about 40 percent in some places.
+albatross | Albatrosses are a symbol of freedom.
+albatross | Albatrosses have inspired poets and writers.
+albatross | Albatross flight inspired glider designs.
+albatross | Early aviators studied albatross flight.
+albatross | Albatross gliding is used in drone research.
+albatross | Albatross-inspired drones can soar with little power.
+albatross | Albatross chicks hatch with a covering of soft gray down.
+albatross | Albatrosses have a heart rate that rises sharply during flapping flight.
+albatross | Albatrosses use less energy gliding than sitting on the nest, according to heart-rate studies.
+albatross | Albatross nests are mounds of mud, grass, and feathers.
+albatross | Some albatrosses make nests as simple as a scrape in the ground.
+albatross | Albatrosses can drink fresh water when it is available.
+albatross | The wandering albatross has the largest wingspan, but royal albatrosses are close.
+albatross | The Atlantic yellow-nosed albatross breeds on Tristan da Cunha.
+albatross | The Indian yellow-nosed albatross breeds on Indian Ocean islands.
+albatross | Albatross species are divided into four groups: great, mollymawks, sooty, and North Pacific.
+albatross | Mollymawks are the smaller Southern Hemisphere albatrosses.
+albatross | The great albatrosses include the wandering and royal albatrosses.
+falcon | Falcons are birds of prey in the family Falconidae.
+falcon | There are about 40 species of falcons.
+falcon | Falcons are found on every continent except Antarctica.
+falcon | Falcons have pointed wings built for speed.
+falcon | Falcons have long tails for steering.
+falcon | Falcons have a notch on the upper beak called a tomial tooth.
+falcon | The tomial tooth is used to sever the spinal cord of prey.
+falcon | Falcons have dark eyes.
+falcon | Falcons have large eyes relative to their heads.
+falcon | Falcons have excellent vision.
+falcon | A falcon can spot prey from over 1 km away.
+falcon | Falcons have two foveae in each eye.
+falcon | Falcons have a nictitating membrane.
+falcon | Falcons have strong feet with sharp talons.
+falcon | Falcons have a hind talon that helps strike prey.
+falcon | Falcons hunt birds in flight.
+falcon | Falcons also hunt insects, bats, and small mammals.
+falcon | Falcons hunt by stooping, a high-speed dive.
+falcon | The peregrine falcon is the fastest animal on Earth.
+falcon | Peregrines have been clocked at over 320 km/h in a dive.
+falcon | The peregrine's top diving speed is about 389 km/h in tests.
+falcon | Peregrines usually dive at about 200 to 240 km/h when hunting.
+falcon | Peregrines have small bony cones in their nostrils.
+falcon | The nostril cones regulate air pressure during dives.
+falcon | Peregrines fly at about 60 km/h in level flight.
+falcon | Peregrines are found on every continent except Antarctica.
+falcon | The peregrine falcon's name means "wanderer."
+falcon | Peregrine falcons nest on cliffs.
+falcon | Peregrines nest on skyscrapers and bridges in cities.
+falcon | Peregrines eat mostly pigeons in cities.
+falcon | Peregrines pair for life.
+falcon | Peregrines lay 3 to 4 eggs.
+falcon | Peregrine eggs hatch after about 33 days.
+falcon | Peregrine chicks fledge in about 6 weeks.
+falcon | Female peregrines are larger than males.
+falcon | Male falcons are called tiercels.
+falcon | The word tiercel means one-third.
+falcon | Female falcons are about one-third larger than males.
+falcon | Peregrine populations crashed due to DDT.
+falcon | DDT thinned peregrine eggshells.
+falcon | Peregrines were nearly extinct in North America in the 1960s.
+falcon | Peregrines were removed from the endangered list in 1999.
+falcon | Captive breeding helped peregrine recovery.
+falcon | Peregrines now thrive in many cities.
+falcon | Peregrines have been used for bird control at airports.
+falcon | Falconry is the practice of hunting with trained falcons.
+falcon | Falconry is an ancient art.
+falcon | Falconry began in Mesopotamia about 4,000 years ago.
+falcon | Falconry is practiced in the Middle East.
+falcon | Falconry is a UNESCO intangible cultural heritage.
+falcon | In the UAE, falcons are national symbols.
+falcon | Falcons have their own passports in the UAE.
+falcon | Falcons can travel on commercial flights in the UAE.
+falcon | Falcon hospitals exist in Abu Dhabi.
+falcon | The Abu Dhabi Falcon Hospital treats thousands of birds a year.
+falcon | Saker falcons are popular in falconry.
+falcon | Saker falcons are native to Central Asia.
+falcon | Saker falcons are endangered.
+falcon | Gyrfalcons are the largest falcons.
+falcon | Gyrfalcons live in the Arctic.
+falcon | Gyrfalcons can be white, gray, or dark.
+falcon | White gyrfalcons are prized by falconers.
+falcon | Gyrfalcons weigh up to 2 kg.
+falcon | Gyrfalcons can dive at over 100 km/h.
+falcon | Lanner falcons live in Africa and southern Europe.
+falcon | Laggar falcons are found across the Indian subcontinent.
+falcon | Shaheen falcons are found in India and the Middle East.
+falcon | The shaheen falcon is a subspecies of the peregrine.
+falcon | Red-necked falcons are found in India.
+falcon | Red-headed falcons are known as turumti in India.
+falcon | The red-headed falcon hunts at dusk.
+falcon | Amur falcons migrate from Siberia to Africa.
+falcon | Amur falcons stop over in Nagaland, India.
+falcon | Amur falcons fly about 22,000 km each year.
+falcon | Amur falcons travel over the Indian Ocean.
+falcon | Doyang Lake in Nagaland hosts Amur falcons.
+falcon | Locals in Nagaland once hunted Amur falcons.
+falcon | Conservation efforts in Nagaland stopped the hunting.
+falcon | Nagaland is called the Falcon Capital of the World.
+falcon | Amur falcons gather in the hundreds of thousands.
+falcon | Amur falcons feed on termites at Doyang.
+falcon | Amur falcons weigh about 150 grams.
+falcon | Eurasian hobbies catch dragonflies in flight.
+falcon | The hobby falcon catches swallows.
+falcon | Merlins are small falcons.
+falcon | Merlins hunt small birds.
+falcon | Merlins nest in old crow nests.
+falcon | American kestrels are the smallest falcons in North America.
+falcon | American kestrels are colorful.
+falcon | Kestrels hover while hunting.
+falcon | Kestrels can see ultraviolet light.
+falcon | Kestrels detect vole urine trails by UV vision.
+falcon | Common kestrels are found in Europe, Asia, and Africa.
+falcon | Common kestrels hover in the wind.
+falcon | Lesser kestrels are colonial nesters.
+falcon | Lesser kestrels migrate to Africa.
+falcon | Eurasian kestrels live in India in winter.
+falcon | Falconets are tiny falcons.
+falcon | Pygmy falcons are the smallest falcons.
+falcon | The spot-winged falconet lives in Asia.
+falcon | The collared falconet lives in India and Southeast Asia.
+falcon | Collared falconets are among the smallest raptors.
+falcon | Aplomado falcons hunt in groups.
+falcon | Bat falcons hunt at dusk.
+falcon | Orange-breasted falcons are rare tropical falcons.
+falcon | Forest falcons are different from true falcons.
+falcon | Caracaras are in the falcon family.
+falcon | Crested caracaras are scavengers.
+falcon | Striated caracaras are bold birds of the Falklands.
+falcon | Laughing falcons eat snakes.
+falcon | Laughing falcons have a distinctive call.
+falcon | Falcons are not closely related to hawks and eagles.
+falcon | Falcons are more closely related to parrots and passerines.
+falcon | DNA studies show falcons are related to parrots.
+falcon | Falcons and hawks evolved similar traits through convergent evolution.
+falcon | Falcons have strong chest muscles.
+falcon | Falcons have a large keel on the breastbone.
+falcon | Falcon wings are narrow and pointed.
+falcon | Falcon wings beat rapidly.
+falcon | Falcons take prey on the wing.
+falcon | Falcons grab prey with their feet.
+falcon | Falcons often strike with a closed foot.
+falcon | Falcons knock prey out of the air.
+falcon | Falcons carry prey to a perch.
+falcon | Falcons pluck feathers before eating.
+falcon | Falcons eat the flesh of the prey.
+falcon | Falcons cast pellets.
+falcon | Falcons regurgitate indigestible parts.
+falcon | Falcons eat about 10 to 20 percent of body weight daily.
+falcon | Falcons can go days without eating.
+falcon | Falcons do not build nests.
+falcon | Falcons lay eggs in scrapes on cliffs.
+falcon | Falcons use old nests of other birds.
+falcon | Falcon eggs are reddish-brown.
+falcon | Falcon chicks are covered in white down.
+falcon | Falcon parents feed chicks small bits of meat.
+falcon | Falcon chicks grow quickly.
+falcon | Falcon chicks are fed by the female at first.
+falcon | Male falcons hunt for the family.
+falcon | Males pass food to females in mid-air.
+falcon | Falcon pairs perform aerial courtship displays.
+falcon | Falcon courtship includes food exchanges.
+falcon | Falcons defend their nests fiercely.
+falcon | Falcons dive at intruders.
+falcon | Falcons can be aggressive to humans near nests.
+falcon | Falcons are territorial.
+falcon | Falcons use cliffs for nesting.
+falcon | Falcons use human-made structures.
+falcon | Falcons nest on ledges of tall buildings.
+falcon | Falcon nest boxes are placed on skyscrapers.
+falcon | Peregrine cams show nests online.
+falcon | Peregrines nest on bridges like the Golden Gate Bridge.
+falcon | Falcons help control urban pigeons.
+falcon | Falcons are used to scare birds at landfills.
+falcon | Falcons are used at airports to scare birds from runways.
+falcon | Falcon training uses a lure.
+falcon | Falcons are trained with hoods.
+falcon | Falconry hoods calm falcons.
+falcon | Falconers wear heavy gloves.
+falcon | Falcons wear bells and jesses.
+falcon | Falconry birds are weighed daily.
+falcon | Falconry requires a license in many countries.
+falcon | Falconers form strong bonds with birds.
+falcon | Falconry is practiced in India.
+falcon | Falconry was practiced by Mughal emperors.
+falcon | Falcons were prized in ancient Egypt.
+falcon | The Egyptian god Horus was a falcon.
+falcon | Horus is depicted with a falcon head.
+falcon | The Eye of Horus is a falcon symbol.
+falcon | Falcons were sacred in ancient Egypt.
+falcon | Falcon mummies have been found in Egyptian tombs.
+falcon | Falcons appear on Egyptian hieroglyphs.
+falcon | The Millennium Falcon is a ship in Star Wars.
+falcon | Falcons are mascots for many teams.
+falcon | The Atlanta Falcons are an NFL team.
+falcon | The Maltese Falcon is a famous novel and film.
+falcon | The Maltese Falcon was a statuette.
+falcon | SpaceX's Falcon 9 is a rocket.
+falcon | Falcon Heavy is a SpaceX rocket.
+falcon | The falcon is the national bird of the UAE.
+falcon | The falcon is the national bird of Qatar.
+falcon | The falcon is the national bird of Saudi Arabia.
+falcon | The falcon appears on the UAE coat of arms.
+falcon | The falcon is symbol of speed and precision.
+falcon | Falcon feathers are stiff and tightly packed, which reduces drag.
+falcon | Peregrine falcons have a heart rate of about 600 beats per minute during dives.
+falcon | Peregrines tuck their wings to reduce drag in a stoop.
+falcon | A peregrine's eyes have a clear third eyelid that sweeps moisture across them in a dive.
+falcon | Peregrine females weigh about 900 to 1,500 grams, males about 600 to 900 grams.
+falcon | Peregrine falcon wingspans range from about 74 to 120 cm.
+falcon | Peregrines can live 15 to 20 years in the wild.
+falcon | The Cooper's hawk and the peregrine are both bird-hunters, but only the peregrine is a falcon.
+falcon | The prairie falcon lives in open country in western North America.
+falcon | The Eleonora's falcon breeds late in summer to feed chicks on migrating songbirds.
+falcon | The Eleonora's falcon breeds on Mediterranean islands.
+falcon | The sooty falcon breeds in the Middle East and migrates to Madagascar.
+falcon | The grey falcon is one of the rarest falcons in Australia.
+falcon | The brown falcon is common in Australia.
+falcon | The New Zealand falcon, called kārearea, is the country's only native falcon.
+falcon | The black falcon is a dark-plumaged Australian falcon.
+crow | Crows belong to the genus Corvus in the family Corvidae.
+crow | The Corvidae family includes crows, ravens, jays, magpies, and rooks.
+crow | There are about 40 species of crows and ravens.
+crow | Crows are found on every continent except Antarctica and South America.
+crow | Crows are among the most intelligent birds.
+crow | Crows have a brain-to-body ratio similar to that of some great apes.
+crow | Crows can use tools.
+crow | New Caledonian crows make hooked tools from twigs.
+crow | New Caledonian crows craft tools from leaves.
+crow | New Caledonian crows can solve multi-step puzzles.
+crow | Betty, a New Caledonian crow, bent wire into a hook to get food.
+crow | Crows have been seen dropping nuts on roads for cars to crack.
+crow | Crows in Japan drop nuts at crosswalks and wait for traffic lights.
+crow | Crows drop shellfish from heights to break them open.
+crow | Crows can count up to about five or more.
+crow | Crows can understand water displacement, like in Aesop's fable.
+crow | Crows can recognize individual human faces.
+crow | Crows remember faces for years.
+crow | Crows teach other crows about dangerous people.
+crow | Crows have been shown to hold grudges.
+crow | Crows may scold or dive-bomb people they dislike.
+crow | Researchers wearing masks were mobbed by crows years later.
+crow | Crows can learn to mimic human speech.
+crow | Crows can imitate other sounds like car alarms.
+crow | Crows have a wide variety of calls.
+crow | The caw is the best-known crow call.
+crow | Crows have regional dialects.
+crow | Crows use calls to warn of danger.
+crow | Crows can distinguish between different human voices.
+crow | Crows hold "funerals" around dead crows.
+crow | Crows gather around dead crows to learn about danger.
+crow | Crows are social birds.
+crow | Crows live in family groups.
+crow | Crow families can include offspring from previous years.
+crow | Young crows help raise siblings.
+crow | This is called cooperative breeding.
+crow | Crows often mate for life.
+crow | Crows build large stick nests.
+crow | Crow nests are lined with grass and hair.
+crow | Crows lay 3 to 9 eggs.
+crow | Crow eggs are blue-green with brown spots.
+crow | Crow eggs hatch after about 18 days.
+crow | Crow chicks leave the nest after about 4 to 5 weeks.
+crow | Young crows stay with parents for a few years.
+crow | Crows can live 7 to 14 years in the wild.
+crow | Captive crows can live over 20 years.
+crow | The oldest known wild American crow lived about 17 years.
+crow | Crows are omnivores.
+crow | Crows eat insects, seeds, fruits, grains, eggs, and carrion.
+crow | Crows scavenge in urban areas.
+crow | Crows eat roadkill.
+crow | Crows hide food for later.
+crow | Crows remember where they cached food.
+crow | Crows steal food from other crows.
+crow | Crows fake caching to fool watchers.
+crow | Crows play and slide on snow.
+crow | Crows have been seen sledding on roofs.
+crow | Crows play with objects.
+crow | Crows can show curiosity.
+crow | Crows are wary of unfamiliar objects.
+crow | Crows are often seen in flocks.
+crow | Crows roost together at night in huge numbers.
+crow | Crow roosts can contain thousands of birds.
+crow | Winter crow roosts can reach over a million birds.
+crow | Roosting crows share information about food.
+crow | A group of crows is called a murder.
+crow | Crows are black due to melanin.
+crow | Crow feathers show iridescence.
+crow | American crows are about 40 to 50 cm long.
+crow | American crows weigh about 450 grams.
+crow | American crows live across North America.
+crow | American crows are affected by West Nile virus.
+crow | West Nile virus has killed many American crows.
+crow | Fish crows look like American crows but have a different call.
+crow | The northwestern crow lives on the Pacific coast.
+crow | The hooded crow is gray and black.
+crow | The hooded crow lives in Europe and western Asia.
+crow | The carrion crow is found across Europe and Asia.
+crow | The house crow is found in South Asia and has spread worldwide.
+crow | House crows are common in Indian cities.
+crow | House crows have a gray neck and nape.
+crow | The jungle crow is large and widespread in Asia.
+crow | The large-billed crow is common in Japan and Asia.
+crow | Jungle crows in India nest in tall trees.
+crow | Crows in India are associated with ancestors.
+crow | In Hindu tradition, crows are offered food during Shraddha rituals.
+crow | Feeding crows is believed to honor ancestors.
+crow | Crows are the vahana of Lord Shani.
+crow | The crow is a symbol in Hindu mythology.
+crow | Kakbhushundi is a legendary crow in Indian lore.
+crow | In Ramayana, the crow Kakasura attacked Sita.
+crow | Crows were used in ancient India as omen birds.
+crow | Crows are common in Indian proverbs.
+crow | "Crow's nest" is a lookout on a ship.
+crow | The phrase "as the crow flies" means in a straight line.
+crow | Crows appear in Aesop's fables.
+crow | The Crow and the Pitcher is a famous fable.
+crow | The Fox and the Crow is another well-known fable.
+crow | In Norse myth, Odin had two ravens, Huginn and Muninn.
+crow | In Native American stories, crows are tricksters.
+crow | In Celtic myth, the Morrígan took the form of a crow.
+crow | In Greek myth, Apollo's crow was turned black.
+crow | In Japan, the three-legged crow Yatagarasu is a guide.
+crow | Yatagarasu is the symbol of the Japan Football Association.
+crow | In Chinese myth, a three-legged crow lives in the sun.
+crow | In Australia, crows are common as Torresian crows.
+crow | Little ravens, forest ravens, and Australian ravens are in Australia.
+crow | The Hawaiian crow, or 'alalā, is extinct in the wild.
+crow | The 'alalā are being reintroduced to Hawaii.
+crow | The Mariana crow is critically endangered.
+crow | The Florida crow-like fish crow is a coastal bird.
+crow | Ravens are larger than crows.
+crow | Ravens have a wedge-shaped tail.
+crow | Crows have a fan-shaped tail.
+crow | Ravens have a deeper croak.
+crow | Ravens are often solitary or in pairs.
+crow | The common raven is the largest passerine bird.
+crow | The Tower of London keeps ravens.
+crow | A legend says the kingdom will fall if the ravens leave.
+crow | The Tower of London has at least six ravens at all times.
+crow | Jackdaws are small members of the crow family.
+crow | Jackdaws have pale eyes.
+crow | Jackdaws can recognize human gaze.
+crow | Rooks are crow relatives with bare faces.
+crow | Rooks nest in colonies called rookeries.
+crow | Rooks can use tools in lab tests.
+crow | Magpies are in the crow family.
+crow | Magpies can recognize themselves in mirrors.
+crow | Eurasian magpies have black and white plumage.
+crow | Magpies are known for collecting shiny objects, though this is mostly a myth.
+crow | Blue jays are in the crow family.
+crow | Blue jays can mimic hawks.
+crow | Steller's jays are crested jays in western North America.
+crow | Eurasian jays can plant thousands of acorns.
+crow | Clark's nutcrackers store tens of thousands of pine seeds.
+crow | Clark's nutcrackers remember thousands of cache sites.
+crow | Crows have excellent memory.
+crow | Crows are sensitive to threats.
+crow | Crows mob hawks and owls.
+crow | Mobbing helps protect nests.
+crow | Crows can be aggressive during nesting season.
+crow | Crows can attack humans who come near nests.
+crow | Crows can use "anting," rubbing ants on feathers.
+crow | Crows bathe in water frequently.
+crow | Crows sunbathe with spread wings.
+crow | Crows can learn from watching others.
+crow | Crows can plan for the future.
+crow | Crows can understand analogies in lab experiments.
+crow | Crows can learn to use vending machines in experiments.
+crow | A crow in Sweden was trained to collect cigarette butts for treats.
+crow | Crows can solve puzzles faster than some young children.
+crow | Crows are urban adapters.
+crow | Crows thrive in cities.
+crow | Crows use human-made materials for nests.
+crow | Crows have been seen using wire hangers for nests.
+crow | Crows tear apart trash bags.
+crow | Crows can open bins.
+crow | Crows can eat dog food left outdoors.
+crow | Crows eat grain from fields, which farmers may dislike.
+crow | Crows also eat insect pests, which helps farmers.
+crow | Crows spread seeds.
+crow | Crows clean up carcasses.
+crow | Crows are important scavengers.
+crow | Crows in Delhi gather in large flocks.
+crow | Crow numbers have grown in many cities.
+crow | Crows can be hunted in some areas.
+crow | Crows are protected by the Migratory Bird Treaty Act in the US.
+crow | Crow pest control involves scare devices.
+crow | Crows can learn to ignore scarecrows.
+crow | Crows are used in studies of animal cognition.
+crow | Researchers study crows in the lab and in the wild.
+crow | Crows have a long fossil history.
+crow | The corvid family originated in Australasia.
+crow | Corvids spread to other continents about 17 million years ago.
+crow | Corvids are passerine birds.
+crow | Corvids have strong beaks and legs.
+crow | Corvids have nasal bristles over their nostrils.
+crow | Corvids have large brains with a dense forebrain.
+crow | Crow brains have a high number of neurons in the pallium.
+crow | Crow brains pack neurons densely.
+crow | Crows have about 1.5 billion neurons in the forebrain.
+crow | Crow cognition rivals that of primates in some tests.
+crow | Crows show self-control in tasks.
+crow | Crows can wait for a better reward.
+crow | Crows can make predictions.
+crow | Crows use gestures in communication.
+crow | Crows may have a type of culture in tool use.
+crow | Tool techniques spread among crow populations.
+crow | Crows pass tool-making knowledge to young.
+crow | Crow chicks learn from parents.
+crow | Crows rarely harm humans.
+crow | Crows have been revered and feared.
+crow | Crows appear in Edgar Allan Poe's work.
+crow | Poe's "The Raven" features a raven.
+crow | Crows are depicted in Hitchcock's The Birds.
+crow | Crows appear in Disney's Dumbo.
+crow | Crows are popular in Halloween decorations.
+crow | Crows are said to bring good luck in some cultures.
+crow | Seeing a crow can mean different things in different cultures.
+crow | Crows can be seen strolling through parks looking for food.
+peacock | Peacocks are male peafowl.
+peacock | Females are called peahens.
+peacock | Baby peafowl are called peachicks.
+peacock | A group of peafowl is called a muster or an ostentation.
+peacock | Peafowl belong to the pheasant family.
+peacock | There are three species of peafowl.
+peacock | The three species are Indian, green, and Congo peafowl.
+peacock | The Indian peafowl is the national bird of India.
+peacock | India declared the peacock its national bird in 1963.
+peacock | The Indian peafowl is also called the blue peafowl.
+peacock | Indian peafowl are native to India and Sri Lanka.
+peacock | The green peafowl lives in Southeast Asia.
+peacock | The green peafowl is endangered.
+peacock | The Congo peafowl is found in the Democratic Republic of the Congo.
+peacock | The Congo peafowl was discovered by science in 1936.
+peacock | Peacocks have a long train of feathers.
+peacock | The train is made of elongated upper tail covert feathers.
+peacock | The train can be up to 1.5 meters long.
+peacock | The train makes up about 60 percent of a peacock's body length.
+peacock | A peacock's train has about 150 feathers.
+peacock | Each train feather has an eye-like spot called an ocellus.
+peacock | Peacock feathers show iridescent colors.
+peacock | The colors come from microscopic structures, not pigments.
+peacock | Peacock feather barbules are arranged in crystal-like lattices.
+peacock | Brown is the only true pigment in peacock feathers.
+peacock | The blue and green colors are structural colors.
+peacock | Peacocks fan their train in a courtship display.
+peacock | The display is called train rattling.
+peacock | Peacocks shake their feathers to produce a rustling sound.
+peacock | The rustling includes infrasound.
+peacock | Peahens choose mates based on train quality.
+peacock | Peahens prefer males with more eyespots.
+peacock | Males with symmetrical trains are preferred.
+peacock | Darwin was troubled by the peacock's tail.
+peacock | Darwin wrote that the sight of a feather made him sick.
+peacock | The peacock's tail helped inspire the theory of sexual selection.
+peacock | Peacocks lose their train after breeding season.
+peacock | Peacocks regrow the train every year.
+peacock | The molt happens in late summer.
+peacock | Peacocks can fly short distances.
+peacock | Peacocks fly up to roost in trees at night.
+peacock | Peafowl are strong runners.
+peacock | Peafowl are omnivores.
+peacock | Peafowl eat insects, seeds, fruits, and small reptiles.
+peacock | Peafowl eat snakes.
+peacock | Peafowl can kill small snakes.
+peacock | Peafowl forage on the ground.
+peacock | Peafowl are loud.
+peacock | Peacocks make a loud call that sounds like "pe-ow."
+peacock | Peacock calls can be heard from long distances.
+peacock | Peafowl screams may be a sign of rain, according to folklore.
+peacock | Peafowl call at dawn and dusk.
+peacock | Peafowl roost in tall trees.
+peacock | Peafowl nests are shallow scrapes on the ground.
+peacock | Peahens lay 3 to 8 eggs.
+peacock | Peafowl eggs are cream or buff colored.
+peacock | Incubation lasts about 28 days.
+peacock | Only peahens incubate eggs.
+peacock | Peachicks are precocial.
+peacock | Peachicks can walk soon after hatching.
+peacock | Peachicks can fly short distances within a week.
+peacock | Young peachicks roost with their mother.
+peacock | Peachicks look like small brown chicks.
+peacock | Male peachicks develop full trains at about 3 years.
+peacock | Peafowl can live 15 to 20 years.
+peacock | Captive peafowl can live about 20 years.
+peacock | Peafowl are polygynous.
+peacock | A peacock may mate with multiple peahens.
+peacock | Males gather in groups called leks.
+peacock | Peahens visit leks to choose mates.
+peacock | Peafowl can also be white.
+peacock | White peafowl are not albinos.
+peacock | White peafowl lack pigment but have dark eyes.
+peacock | White peacocks have a recessive gene for leucism.
+peacock | Black-shouldered peafowl have a darker mutation.
+peacock | Peafowl come in many color mutations.
+peacock | Peafowl are kept in parks and farms.
+peacock | Peafowl have been kept as ornamental birds for thousands of years.
+peacock | Alexander the Great introduced peafowl to Europe, according to stories.
+peacock | Peafowl were prized in ancient Rome.
+peacock | Peacock meat was served at Roman feasts.
+peacock | Peafowl were kept at Persian courts.
+peacock | The Peacock Throne was a famous seat of Mughal emperors.
+peacock | The Peacock Throne was commissioned by Shah Jahan.
+peacock | The Peacock Throne was decorated with jewels.
+peacock | It was carried away by Nadir Shah in 1739.
+peacock | Peacocks are sacred in Hinduism.
+peacock | The peacock is the vahana of Lord Kartikeya, also called Murugan.
+peacock | The peacock feather adorns Lord Krishna's crown.
+peacock | Peacocks are associated with Goddess Saraswati.
+peacock | Peacocks are symbols of beauty and grace in Indian culture.
+peacock | In Buddhism, peacocks represent wisdom.
+peacock | In ancient Greece, peacocks were linked to Hera.
+peacock | Hera placed Argus's eyes on the peacock's tail, in myth.
+peacock | In Christianity, the peacock symbolizes immortality.
+peacock | In Persian art, peacocks appear frequently.
+peacock | In China, peacocks symbolize dignity and beauty.
+peacock | Peacocks appear on Indian coins and stamps.
+peacock | Peacock feathers are used in handicrafts and decor.
+peacock | Peacock feathers are traditionally used in Indian religious ceremonies.
+peacock | Peacock feathers can be collected after natural molting.
+peacock | Killing a peacock is illegal in India.
+peacock | Peafowl are protected under the Wildlife Protection Act of 1972.
+peacock | Peacock feather trade is regulated in India.
+peacock | Peacocks are considered pests in some farming areas.
+peacock | Peafowl can damage crops.
+peacock | Peafowl eat seeds and grains.
+peacock | Peafowl are common in villages in Rajasthan and Gujarat.
+peacock | Peacock dancing at the arrival of monsoon is celebrated in Indian poetry.
+peacock | Peacocks are said to dance when it rains.
+peacock | Peacocks display more when females are nearby.
+peacock | Peacocks do not dance only in rain.
+peacock | Peacock dancing is mating display.
+peacock | Peacocks are territorial during breeding.
+peacock | Peacocks may attack their reflections.
+peacock | Peacocks may attack cars with shiny surfaces.
+peacock | Peafowl have good eyesight.
+peacock | Peafowl can see ultraviolet light.
+peacock | Peafowl have excellent hearing.
+peacock | Peafowl are alert to predators like tigers and leopards.
+peacock | Peafowl warn other animals of predators.
+peacock | Langurs and deer respond to peafowl alarm calls.
+peacock | Peafowl's main predators include leopards, jackals, and eagles.
+peacock | Peahens are brown and camouflaged.
+peacock | Peahens have a short crest and brown body.
+peacock | Peahens lack a long train.
+peacock | Peahens have a crown crest.
+peacock | Peacocks have a fan-shaped crest of 20 feathers.
+peacock | Peacock crest is a fan of 20 to 24 feathers.
+peacock | Peacock neck is bright iridescent blue.
+peacock | Peacock body color is blue-green.
+peacock | Peacock wings are barred with black and white.
+peacock | Peafowl have strong legs with spurs in males.
+peacock | Male peafowl have spurs on their legs.
+peacock | Spurs help in fights.
+peacock | Peacocks weigh about 4 to 6 kg.
+peacock | Peahens weigh about 2.75 to 4 kg.
+peacock | Peacocks measure about 100 to 115 cm without the train.
+peacock | With the train, total length can reach 2 meters.
+peacock | Peafowl are large for pheasants.
+peacock | Peafowl can be bred in captivity.
+peacock | Peafowl farms sell feathers.
+peacock | Peafowl are kept in zoos worldwide.
+peacock | Peafowl roam freely in some towns.
+peacock | In Indian villages, peacocks roam freely.
+peacock | Peacock sanctuaries exist in India.
+peacock | Tamil Nadu has the Peacock Sanctuary at Viralimalai.
+peacock | Viralimalai in Tamil Nadu is known for wild peacocks.
+peacock | Rajasthan's Bharatpur is also known for peafowl.
+peacock | Peafowl are seen in Madhya Pradesh forests.
+peacock | Peafowl are common in Indian wildlife parks.
+peacock | Peacocks can be spotted in Gir forest.
+peacock | Peacocks are often seen in Indian farms.
+peacock | Peafowl can be domesticated.
+peacock | Peafowl adapt well to human presence.
+peacock | Peafowl can live in feral colonies.
+peacock | Feral peafowl live in parts of Florida and California.
+peacock | Feral peafowl populations exist in Australia and Hawaii.
+peacock | Peafowl have been introduced to many countries.
+peacock | Peafowl are popular on estates and farms.
+peacock | Peafowl feathers are used in fashion.
+peacock | Peafowl feathers are used in fans.
+peacock | Peafowl feathers are used in dance costumes.
+peacock | Peacock dance is a classical Indian folk dance.
+peacock | The peacock dance appears in Kathak and Bharatanatyam.
+peacock | NBC's logo is a peacock.
+peacock | The peacock is the national bird of Myanmar (green peafowl).
+peacock | The green peafowl is Myanmar's national bird.
+peacock | Peacock designs are popular in textiles.
+peacock | Peacock motifs appear in Indian paintings.
+peacock | Peacock Alley is a famous Waldorf Astoria hallway.
+peacock | "Proud as a peacock" is a common phrase.
+peacock | The phrase "to peacock" means to strut.
+peacock | The word peacock comes from Latin "pavo."
+peacock | The word "pea" in peafowl comes from Old English "pawa."
+peacock | The scientific name of the Indian peafowl is Pavo cristatus.
+peacock | Pavo muticus is the green peafowl.
+peacock | Afropavo congensis is the Congo peafowl.
+peacock | Peafowl are galliform birds.
+peacock | Galliformes include chickens, turkeys, and quail.
+peacock | Peafowl are related to pheasants and junglefowl.
+peacock | Peafowl evolved in Asia.
+peacock | Peafowl have been bred for white, pied, and other colors.
+peacock | Peafowl feather eyes are used to study color.
+peacock | Scientists study peacock feather structure for optics research.
+peacock | Peacock-inspired colors are used in photonics.
+peacock | Peacock feathers have inspired color-changing materials.
+peacock | Researchers have created lasers using peacock feathers.
+peacock | Peacock feathers can emit laser light when dyed.
+peacock | Peacock feathers are about 1.5 meters long at maximum.
+peacock | Peacocks raise their train feathers using specialized muscles at the base.
+peacock | Peafowl are among the heaviest flying birds in the pheasant family.
+peacock | Peacock trains can have more than 200 feathers in older males.
+peacock | The eyespots on a peacock's train are tiny crystals arranged in patterns.
+peacock | Peahens also have iridescent green neck feathers.
+peacock | Peafowl chicks can eat insects within hours of hatching.
+peacock | Peafowl are sometimes called "pavo" in Spanish and Latin.
+peacock | The Congo peafowl is the only peafowl species native to Africa.
+peacock | Peafowl can eat a wide variety of plant matter, including flowers and buds.
+peacock | Peacocks sometimes display to other males as well as to females.
+flamingo | Flamingos are wading birds known for their pink feathers.
+flamingo | Flamingos belong to the family Phoenicopteridae.
+flamingo | There are six species of flamingos.
+flamingo | The six species are greater, lesser, Chilean, Andean, James's, and American flamingo.
+flamingo | The greater flamingo is the largest flamingo species.
+flamingo | Greater flamingos can stand about 1.5 meters tall.
+flamingo | The lesser flamingo is the smallest species.
+flamingo | The lesser flamingo is the most numerous flamingo.
+flamingo | Andean flamingos are the rarest flamingos.
+flamingo | James's flamingos live in high-altitude lakes.
+flamingo | Flamingos are found in Africa, Asia, Europe, and the Americas.
+flamingo | Flamingos live in shallow salty lakes and lagoons.
+flamingo | Flamingos are not pink when they hatch.
+flamingo | Flamingo chicks are gray or white.
+flamingo | Flamingos get their pink color from carotenoids in their food.
+flamingo | Carotenoids come from algae and small crustaceans.
+flamingo | Brine shrimp are a key flamingo food.
+flamingo | Flamingos turn white if they lack carotenoids.
+flamingo | Zoos feed flamingos carotenoid supplements to keep their color.
+flamingo | Flamingo color intensity can signal health.
+flamingo | Flamingos eat with their heads upside down.
+flamingo | Flamingos filter food using their bills.
+flamingo | Flamingo bills have comb-like plates called lamellae.
+flamingo | Lamellae strain algae and small animals from water.
+flamingo | Flamingos stir mud with their feet to find food.
+flamingo | Flamingos can pump water through their bills.
+flamingo | Flamingos use their tongues like pistons.
+flamingo | A flamingo tongue can pump about 4 times per second.
+flamingo | Flamingos have a uniquely bent beak.
+flamingo | Flamingos stand on one leg.
+flamingo | Standing on one leg conserves body heat.
+flamingo | Flamingos can sleep standing on one leg.
+flamingo | Flamingos have a locking mechanism in their legs.
+flamingo | Flamingos need very little muscular effort to stand on one leg.
+flamingo | Flamingo knees are actually ankles.
+flamingo | The backward-bending joint is the ankle.
+flamingo | Flamingos have webbed feet.
+flamingo | Flamingo legs can be 1 meter long.
+flamingo | Flamingos are excellent swimmers.
+flamingo | Flamingos fly with their necks and legs stretched out.
+flamingo | Flamingos fly at speeds up to about 60 km/h.
+flamingo | Flamingos migrate at night.
+flamingo | Flamingos need to run to take off.
+flamingo | Flamingos fly long distances to find food and water.
+flamingo | Flamingos live in large flocks.
+flamingo | A flamingo flock is called a flamboyance.
+flamingo | Flocks can number in the hundreds of thousands.
+flamingo | Lake Nakuru in Kenya hosts huge numbers of flamingos.
+flamingo | Lake Natron in Tanzania is the main breeding site for lesser flamingos.
+flamingo | Lake Natron is very salty and alkaline.
+flamingo | Flamingos are adapted to survive in harsh alkaline water.
+flamingo | Flamingos have tough skin on their legs to withstand caustic water.
+flamingo | Flamingos drink hot water at geysers.
+flamingo | Flamingos in the Andes live at about 4,000 meters.
+flamingo | Flamingos in India breed in the Rann of Kutch.
+flamingo | Rann of Kutch is a major flamingo breeding ground in India.
+flamingo | Flamingo City is a famous breeding site in the Rann of Kutch.
+flamingo | Sambhar Lake in Rajasthan attracts flamingos.
+flamingo | Pulicat Lake in Andhra Pradesh and Tamil Nadu attracts flamingos.
+flamingo | Sewri in Mumbai is famous for flamingos.
+flamingo | Thane Creek Flamingo Sanctuary is in Maharashtra.
+flamingo | Mumbai's flamingo population has grown in recent years.
+flamingo | Nalsarovar in Gujarat hosts flamingos.
+flamingo | Flamingos in India include greater and lesser flamingos.
+flamingo | The state bird of Gujarat is the greater flamingo.
+flamingo | Flamingos are seen in the Kutch Desert wildlife area.
+flamingo | Flamingos in Mumbai arrive in winter.
+flamingo | Flamingos breed in colonies.
+flamingo | Flamingos nest on mud mounds.
+flamingo | Flamingo nest mounds can be 30 cm high.
+flamingo | Flamingos lay a single egg.
+flamingo | Flamingos incubate their egg for about 28 to 31 days.
+flamingo | Both parents incubate the egg.
+flamingo | Flamingo chicks hatch with straight bills.
+flamingo | Flamingo chick bills curve as they grow.
+flamingo | Flamingo chicks are fed "crop milk."
+flamingo | Crop milk is a red liquid.
+flamingo | Both male and female flamingos produce crop milk.
+flamingo | Crop milk contains fat and protein.
+flamingo | Crop milk is red because of carotenoids.
+flamingo | Parent flamingos turn pale while feeding chicks.
+flamingo | Flamingo chicks form crèches.
+flamingo | Crèches can have thousands of chicks.
+flamingo | Flamingo parents find their chicks by voice.
+flamingo | Chicks fledge at about 10 to 12 weeks.
+flamingo | Flamingos mature at about 3 to 6 years.
+flamingo | Flamingos can live 20 to 30 years in the wild.
+flamingo | Captive flamingos can live over 50 years.
+flamingo | The oldest flamingo lived to over 80 years in Adelaide Zoo.
+flamingo | The flamingo named Greater lived to about 83.
+flamingo | Flamingos are monogamous in breeding seasons.
+flamingo | Flamingos perform group dances.
+flamingo | Flamingo group displays include head-flagging and marching.
+flamingo | Head flagging is when flamingos turn their heads side to side.
+flamingo | Marching is a synchronized walk.
+flamingo | Wing salute is a display where flamingos spread wings.
+flamingo | Flamingos synchronize dance moves to find mates.
+flamingo | Flamingos honk like geese.
+flamingo | Flamingos communicate with grunts and honks.
+flamingo | Flamingos have excellent hearing.
+flamingo | Flamingos have good eyesight.
+flamingo | Flamingos have a small sense of smell.
+flamingo | Flamingos feather colors vary from pale pink to deep red.
+flamingo | Chilean flamingos have grayish-pink feathers.
+flamingo | Caribbean (American) flamingos are the reddest.
+flamingo | American flamingos are bright pink to red.
+flamingo | Greater flamingos are paler pink.
+flamingo | Lesser flamingos have deeper pink and dark bills.
+flamingo | Flamingo wings have black flight feathers.
+flamingo | The black feathers are visible only in flight.
+flamingo | Flamingos preen using oil.
+flamingo | Flamingo preening oil may contain carotenoids.
+flamingo | Flamingo preening helps maintain color.
+flamingo | Flamingos spend hours feeding.
+flamingo | Flamingos eat about 10 percent of body weight per day.
+flamingo | Flamingos eat algae, diatoms, and crustaceans.
+flamingo | Flamingos eat shrimp, insects, and mollusks.
+flamingo | Flamingos eat blue-green algae.
+flamingo | Algae blooms can affect flamingo health.
+flamingo | Flamingos can be poisoned by cyanobacteria.
+flamingo | Flamingos are threatened by habitat loss.
+flamingo | Flamingos are threatened by pollution.
+flamingo | Flamingos suffer from disturbance at breeding sites.
+flamingo | Flamingos are threatened by mining of soda ash.
+flamingo | Lake Natron could be harmed by a soda ash plant.
+flamingo | Flamingos are sensitive to water level changes.
+flamingo | Droughts affect flamingo breeding.
+flamingo | Climate change affects wetlands used by flamingos.
+flamingo | Flamingos are protected by international agreements.
+flamingo | Flamingos are protected in India under the Wildlife Protection Act.
+flamingo | Greater flamingos are classified as Least Concern.
+flamingo | Lesser flamingos are Near Threatened.
+flamingo | Andean flamingos are Vulnerable.
+flamingo | Flamingos have existed for millions of years.
+flamingo | Flamingo fossils date back about 30 million years.
+flamingo | Flamingos are related to grebes.
+flamingo | Flamingos and grebes are in the clade Mirandornithes.
+flamingo | Flamingos are not related to storks despite appearance.
+flamingo | Flamingos were once classified with storks.
+flamingo | The flamingo was sacred in ancient Egypt.
+flamingo | The Egyptian hieroglyph for red is a flamingo.
+flamingo | The word flamingo comes from Spanish or Portuguese "flamengo."
+flamingo | Flamengo means flame-colored.
+flamingo | The Latin word for flame is "flamma."
+flamingo | Flamingos are the national bird of the Bahamas.
+flamingo | The Bahamas have a large colony of American flamingos.
+flamingo | Great Inagua National Park in the Bahamas has the largest flamingo breeding colony in the Western Hemisphere.
+flamingo | Flamingos are the symbol of Miami and Florida in pop culture.
+flamingo | Plastic pink flamingos are lawn ornaments.
+flamingo | The plastic pink flamingo was created by Don Featherstone in 1957.
+flamingo | Pink flamingos is also a 1972 John Waters film.
+flamingo | Flamingos appear in Alice in Wonderland as croquet mallets.
+flamingo | Flamingos in larger groups breed more successfully.
+flamingo | Flamingos in zoos may need a minimum flock size to breed.
+flamingo | Flamingos need minerals in their diet to maintain health.
+flamingo | Flamingo bones are thin and light.
+flamingo | Flamingos have a long S-shaped neck.
+flamingo | Flamingo necks have 19 vertebrae.
+flamingo | Flamingo necks are flexible.
+flamingo | Flamingo necks can bend to reach their feet.
+flamingo | Flamingos can swim in deep water.
+flamingo | Flamingos can float with their feet up.
+flamingo | Flamingos can walk across mud flats.
+flamingo | Flamingos are active during the day and night.
+flamingo | Flamingos are nomadic, moving in response to water conditions.
+flamingo | Flamingos use thermal columns to fly.
+flamingo | Flamingos flock in thousands in East African lakes.
+flamingo | Millions of flamingos congregate at Lake Bogoria.
+flamingo | Lake Bogoria in Kenya has hot springs.
+flamingo | Flamingos at Lake Bogoria are a major tourist attraction.
+flamingo | Flamingos can be seen at Walvis Bay in Namibia.
+flamingo | Flamingos are common in the Camargue in France.
+flamingo | The Camargue in France hosts greater flamingos.
+flamingo | Flamingos breed in Spain's Fuente de Piedra lagoon.
+flamingo | Flamingos in Turkey gather at Lake Tuz.
+flamingo | Flamingos have been recorded in the Persian Gulf.
+flamingo | Flamingos are found in the Middle East and Pakistan.
+flamingo | Flamingos are found in the Karachi coast.
+flamingo | Flamingos migrate to India from Central Asia.
+flamingo | Flamingos in Mumbai feed on algae in mudflats.
+flamingo | Flamingos are an indicator species for wetland health.
+flamingo | Flamingos' pink color can fade in captivity without proper diet.
+flamingo | Flamingos have a dense layer of feathers that keeps them warm.
+flamingo | A flamingo's upper bill is smaller than the lower bill and moves little while feeding.
+flamingo | Flamingos have about 20 vertebrae in the neck, more than most birds their size.
+flamingo | The greater flamingo weighs about 2 to 4 kg.
+flamingo | The lesser flamingo weighs about 1.5 to 2 kg.
+flamingo | Flamingo eggs are chalky white.
+flamingo | Flamingo chicks are covered in gray down for the first weeks.
+flamingo | Flamingo chicks start to develop pink feathers after a few months.
+flamingo | Flamingo colonies can be disturbed by low-flying aircraft.
+flamingo | Flamingos in Africa follow rain to find fresh feeding areas.
+flamingo | Flamingos can travel over 500 km in one night.
+flamingo | Flamingo parents feed chicks for up to two months.
+flamingo | The Chilean flamingo has pink knees and gray legs.
+flamingo | The Andean flamingo has yellow legs.
+flamingo | James's flamingo has a bright red-pink neck and legs.
+flamingo | The greater flamingo's scientific name is Phoenicopterus roseus.
+flamingo | The lesser flamingo's scientific name is Phoeniconaias minor.
+flamingo | Flamingos have been seen feeding at night as well as during the day.
+ostrich | Ostriches are the largest living birds.
+ostrich | Ostriches are native to Africa.
+ostrich | Ostriches are flightless birds.
+ostrich | Ostriches belong to the ratite group.
+ostrich | Ratites have flat breastbones without a keel.
+ostrich | Other ratites include emus, rheas, cassowaries, and kiwis.
+ostrich | The scientific name of the common ostrich is Struthio camelus.
+ostrich | There are two ostrich species: common and Somali.
+ostrich | The Somali ostrich has blue-gray skin.
+ostrich | The common ostrich has pinkish skin.
+ostrich | Ostriches can grow up to 2.8 meters tall.
+ostrich | Adult ostriches weigh 100 to 150 kg.
+ostrich | Male ostriches have black and white feathers.
+ostrich | Female ostriches have gray-brown feathers.
+ostrich | Ostrich chicks have fluffy, spotted down.
+ostrich | Ostriches have long, bare legs.
+ostrich | Ostriches have only two toes on each foot.
+ostrich | Ostriches are the only birds with two toes.
+ostrich | The larger toe has a hoof-like nail.
+ostrich | Ostriches can run up to 70 km/h.
+ostrich | Ostriches are the fastest birds on land.
+ostrich | Ostriches can maintain 50 km/h for about 30 minutes.
+ostrich | An ostrich stride can be 3 to 5 meters long.
+ostrich | Ostriches use their wings for balance when running.
+ostrich | Ostrich wings can span about 2 meters.
+ostrich | Ostriches use wings in courtship displays.
+ostrich | Ostriches use wings for shade for chicks.
+ostrich | An ostrich kick can kill a lion.
+ostrich | Ostrich kicks are powerful enough to injure humans.
+ostrich | Ostriches can kick forward.
+ostrich | Ostriches defend themselves by kicking.
+ostrich | Ostriches have large eyes.
+ostrich | Ostrich eyes are the largest of any land vertebrate.
+ostrich | An ostrich eye is about 5 cm across.
+ostrich | An ostrich's eye is bigger than its brain.
+ostrich | Ostriches have long eyelashes.
+ostrich | Ostriches have excellent eyesight.
+ostrich | Ostriches can spot predators from far away.
+ostrich | Ostriches have good hearing.
+ostrich | Ostriches have a small head and flat beak.
+ostrich | Ostriches have a long neck for scanning the horizon.
+ostrich | Ostriches do not bury their heads in sand.
+ostrich | The myth comes from ostriches lowering their heads to the ground.
+ostrich | Ostriches lower their heads to eat or tend eggs.
+ostrich | Ostriches turn eggs in nests using their beaks.
+ostrich | Ostriches have the largest eggs of any living bird.
+ostrich | An ostrich egg weighs about 1.4 kg.
+ostrich | An ostrich egg is about 15 cm long.
+ostrich | One ostrich egg equals about 24 chicken eggs.
+ostrich | Ostrich eggs have thick shells.
+ostrich | An ostrich eggshell can support a person's weight.
+ostrich | Ostrich eggs take about 42 to 46 days to hatch.
+ostrich | Ostrich eggs are cooked and eaten.
+ostrich | An ostrich egg takes about 1 hour to hard boil.
+ostrich | Ostrich eggshells were used as containers by ancient humans.
+ostrich | Engraved ostrich eggshells found in South Africa are about 60,000 years old.
+ostrich | Ostrich eggshell beads are about 40,000 years old.
+ostrich | Ostrich eggshells are used as water containers by the San people.
+ostrich | Male ostriches dig the nest.
+ostrich | Several females lay eggs in the same nest.
+ostrich | The dominant female's eggs are placed in the center.
+ostrich | A communal nest can have 20 to 60 eggs.
+ostrich | Males incubate eggs at night.
+ostrich | Females incubate eggs during the day.
+ostrich | Female ostriches blend with the sand during the day.
+ostrich | Male ostriches blend with the darkness at night.
+ostrich | Ostrich chicks can run within a few hours of hatching.
+ostrich | Ostrich chicks grow about 30 cm per month.
+ostrich | Ostrich chicks reach adult size at about one year.
+ostrich | Ostrich chicks are cared for by a male and a female.
+ostrich | Ostrich chicks may join other families.
+ostrich | Ostriches reach maturity at 2 to 4 years.
+ostrich | Ostriches can live 30 to 40 years.
+ostrich | Ostriches in captivity may live 50 years.
+ostrich | Ostriches live in savannas and deserts.
+ostrich | Ostriches live in groups called flocks.
+ostrich | Flocks have about 5 to 50 ostriches.
+ostrich | Ostriches often live with zebras and antelopes.
+ostrich | Ostriches and zebras benefit from each other's alertness.
+ostrich | Ostriches see far, while zebras hear and smell well.
+ostrich | Ostriches eat plants, seeds, roots, and insects.
+ostrich | Ostriches swallow pebbles to help grind food.
+ostrich | Ostriches have a large digestive system.
+ostrich | Ostriches have a long intestinal tract.
+ostrich | Ostriches can eat about 3.5 kg of food a day.
+ostrich | Ostriches need little water.
+ostrich | Ostriches can go days without drinking.
+ostrich | Ostriches get water from plants.
+ostrich | Ostriches can drink brackish water.
+ostrich | Ostriches don't sweat.
+ostrich | Ostriches regulate their heat by panting.
+ostrich | Ostriches keep cool with exposed skin on their legs and neck.
+ostrich | Ostriches raise wings to release heat.
+ostrich | Ostriches can survive in temperature ranges from -10 to 50 degrees Celsius.
+ostrich | Ostriches have a cooling system in the nose.
+ostrich | Ostriches have an extra eyelid.
+ostrich | Ostriches have fluffy feathers without barbs.
+ostrich | Ostrich feathers are soft and fluffy.
+ostrich | Ostrich feathers are used in feather dusters.
+ostrich | Ostrich feathers were used in fashion in the 1800s.
+ostrich | Ostrich feathers were popular in hats.
+ostrich | Ostrich feather demand drove an economic boom in South Africa.
+ostrich | South Africa's Oudtshoorn is known as the ostrich capital.
+ostrich | Ostrich farming began in the 1860s.
+ostrich | Ostriches are farmed for meat, leather, and feathers.
+ostrich | Ostrich meat is lean and red.
+ostrich | Ostrich meat is similar to beef.
+ostrich | Ostrich leather is used in fashion.
+ostrich | Ostrich leather has a distinctive quill pattern.
+ostrich | Ostrich oil is used in cosmetics.
+ostrich | Ostrich farms exist in many countries.
+ostrich | Ostrich farms are found in India too.
+ostrich | Ostrich farming in India is small but growing.
+ostrich | Ostrich races are held in some places.
+ostrich | Ostrich riding is practiced as a tourist attraction.
+ostrich | Ostriches are aggressive in the breeding season.
+ostrich | Male ostriches roar like lions.
+ostrich | Ostrich booming can be heard from far away.
+ostrich | The booming call comes from the neck.
+ostrich | Ostriches make hissing sounds.
+ostrich | Ostriches make low-frequency booming sounds.
+ostrich | Ostriches communicate with body language.
+ostrich | Ostriches have mating dances.
+ostrich | Males dance by swaying wings.
+ostrich | Males kneel and sway in courtship.
+ostrich | Male ostriches have a bright red or pink neck in mating season.
+ostrich | The Somali ostrich's neck turns blue in breeding.
+ostrich | The beak of male ostriches turns bright during the breeding season.
+ostrich | Ostriches have predators like lions, cheetahs, and hyenas.
+ostrich | Ostriches run in a zigzag to escape predators.
+ostrich | Ostriches may lie flat to hide.
+ostrich | Ostriches use camouflage.
+ostrich | Ostrich chicks freeze to hide from predators.
+ostrich | Ostriches are a symbol of speed.
+ostrich | Ostriches are sometimes called camel birds.
+ostrich | In Persian and Arabic, ostrich means camel bird.
+ostrich | Ostriches were kept by Romans.
+ostrich | Roman emperors served ostrich dishes.
+ostrich | Ostriches appear in Egyptian art.
+ostrich | The Egyptian goddess Ma'at is depicted with an ostrich feather.
+ostrich | In ancient Egypt, the feather of truth was an ostrich feather.
+ostrich | Ostrich feathers were weighed against the heart in the afterlife.
+ostrich | Ostriches were hunted for feathers, meat, and eggs.
+ostrich | The Arabian ostrich went extinct in the 1960s.
+ostrich | Ostriches have lived for millions of years.
+ostrich | Fossil ostriches are found in Asia.
+ostrich | Ostriches are the sole living members of Struthionidae.
+ostrich | Ostriches are related to emu and rhea.
+ostrich | Ostrich populations are stable in many areas.
+ostrich | Ostriches are classified as Least Concern.
+ostrich | The Somali ostrich is Vulnerable.
+ostrich | Wild ostriches live in East and southern Africa.
+ostrich | Ostrich numbers have declined in West Africa.
+ostrich | North African ostrich subspecies are endangered.
+ostrich | Ostrich reintroduction occurs in Niger.
+ostrich | Ostriches are important seed dispersers.
+ostrich | Ostriches help control insect pests.
+ostrich | Egyptian vultures drop stones on ostrich eggs to break them.
+ostrich | Egyptian vultures use stones as tools.
+ostrich | Ostriches are popular in zoos.
+ostrich | Ostriches have two functioning toes, which helps them run fast.
+ostrich | An ostrich's thigh muscles are powerful and make up a large part of its body.
+ostrich | The ostrich's long legs make up about half of its height.
+ostrich | Ostriches have the longest legs of any bird relative to body size among large birds.
+ostrich | Ostrich legs are covered with scaly skin.
+ostrich | Ostriches can change direction while running at speed.
+ostrich | Ostriches can run at high speed because of efficient tendons in their legs.
+ostrich | Ostrich bones are strong and relatively heavy.
+ostrich | Ostriches have a pelvis that is fused but open, unusual for birds.
+ostrich | Ostrich hens lay about one egg every two days.
+ostrich | A hen can lay 40 to 100 eggs in a year in captivity.
+ostrich | Ostrich eggs are cream-colored with tiny pores.
+ostrich | Ostrich egg shells are about 2 mm thick.
+ostrich | Ostrich egg shell pores let gases pass during incubation.
+ostrich | Ostrich chicks use a special egg tooth-like bump to break out of the shell.
+ostrich | Newly hatched ostrich chicks weigh about 1 kg.
+ostrich | Newly hatched chicks are about 25 cm tall.
+ostrich | Ostrich chicks have stripes on their necks.
+ostrich | Ostrich chicks eat insects and small plants.
+ostrich | Young ostriches have high mortality in the wild.
+ostrich | Only a small fraction of ostrich chicks survive to adulthood.
+ostrich | Ostrich pairs defend chicks aggressively.
+ostrich | Ostrich males show fake injuries to lure predators from chicks.
+ostrich | This is called a distraction display.
+ostrich | Ostriches lie flat with necks stretched on the ground when threatened.
+ostrich | From afar, a lying ostrich looks like a mound of earth.
+ostrich | Ostriches can be found in Etosha National Park in Namibia.
+ostrich | Ostriches are common in Kruger National Park.
+ostrich | Ostriches roam across the Serengeti.
+ostrich | Ostriches in the Kalahari go long periods without water.
+ostrich | Ostriches can be seen at Tsavo National Park in Kenya.
+ostrich | The Masai ostrich is a subspecies found in East Africa.
+ostrich | The South African ostrich is a subspecies found in southern Africa.
+ostrich | The Namibian ostrich is another recognized subspecies.
+ostrich | Ostriches feed mostly in the morning and late afternoon.
+ostrich | Ostriches rest during the heat of the day.
+ostrich | Ostriches are diurnal.
+ostrich | Ostriches sleep lying down.
+ostrich | Ostriches sleep in short bouts, often with one eye open.
+ostrich | Ostriches are the heaviest living birds.
+pigeon | Pigeons and doves belong to the family Columbidae.
+pigeon | There are about 350 species of pigeons and doves.
+pigeon | The terms pigeon and dove are used interchangeably.
+pigeon | Pigeons are found on every continent except Antarctica.
+pigeon | The rock dove is the common city pigeon.
+pigeon | City pigeons descend from wild rock doves.
+pigeon | Rock doves originally nested on sea cliffs.
+pigeon | Buildings resemble cliff ledges for pigeons.
+pigeon | Pigeons were domesticated over 5,000 years ago.
+pigeon | Pigeons are one of the oldest domesticated birds.
+pigeon | Domestic pigeons were first kept in Mesopotamia.
+pigeon | Pigeons are known for their homing ability.
+pigeon | Pigeons can find their way home from hundreds of kilometers away.
+pigeon | Homing pigeons can fly 600 to 1,000 km in a day.
+pigeon | Racing pigeons can reach speeds of about 90 km/h.
+pigeon | Pigeons use the Earth's magnetic field to navigate.
+pigeon | Pigeons use the sun's position to navigate.
+pigeon | Pigeons use landmarks like roads and rivers.
+pigeon | Pigeons may use smell to help navigate.
+pigeon | Pigeons have a magnetic sense in their beak, according to some studies.
+pigeon | Pigeons have good vision.
+pigeon | Pigeons can see ultraviolet light.
+pigeon | Pigeons can distinguish colors better than humans in some ranges.
+pigeon | Pigeons can recognize human faces.
+pigeon | Pigeons can tell different people apart.
+pigeon | Pigeons can distinguish between paintings by Monet and Picasso.
+pigeon | Pigeons can recognize all 26 letters of the alphabet in tests.
+pigeon | Pigeons can learn to recognize words.
+pigeon | Pigeons can recognize themselves in mirrors after training.
+pigeon | Pigeons can understand simple math concepts.
+pigeon | Pigeons can count to some degree.
+pigeon | Pigeons can learn to categorize objects.
+pigeon | Pigeons can detect cancer in medical images after training.
+pigeon | Pigeons have been trained to find people lost at sea.
+pigeon | The US Coast Guard trained pigeons in Project Sea Hunt.
+pigeon | Pigeons were better than humans at spotting orange life jackets in those tests.
+pigeon | B. F. Skinner trained pigeons for a missile guidance project.
+pigeon | Project Pigeon was a WWII experiment.
+pigeon | Pigeons were used to carry messages for thousands of years.
+pigeon | Pigeon post was used in ancient Egypt and Persia.
+pigeon | Pigeons carried messages in the Greek Olympic Games.
+pigeon | Genghis Khan used pigeon post.
+pigeon | Reuters used pigeons to carry stock prices in the 1850s.
+pigeon | Pigeons carried messages in both World Wars.
+pigeon | Cher Ami was a pigeon in WWI.
+pigeon | Cher Ami saved nearly 200 soldiers.
+pigeon | Cher Ami was awarded the French Croix de Guerre.
+pigeon | G.I. Joe was a pigeon in WWII.
+pigeon | G.I. Joe saved over 1,000 British soldiers.
+pigeon | Pigeons received the Dickin Medal during WWII.
+pigeon | The Dickin Medal is an animal bravery award.
+pigeon | 32 pigeons received the Dickin Medal.
+pigeon | The Indian Army used pigeons for communication.
+pigeon | Odisha Police used pigeon post until 2008.
+pigeon | Odisha Police pigeon service was one of the last in the world.
+pigeon | Pigeons are common in Indian cities.
+pigeon | Pigeons gather at temples and monuments in India.
+pigeon | Feeding pigeons is a common practice in India.
+pigeon | Kabutar Khana are pigeon feeding places in Mumbai.
+pigeon | Dadar Kabutar Khana is a landmark in Mumbai.
+pigeon | Pigeon feeding has been restricted in some places.
+pigeon | Pigeon droppings can carry diseases.
+pigeon | Pigeon droppings can corrode buildings.
+pigeon | Pigeon droppings can carry histoplasmosis.
+pigeon | Pigeons can carry bacteria and fungi.
+pigeon | Pigeons are not a major disease risk to healthy people.
+pigeon | Pigeons cause damage to buildings and statues.
+pigeon | Cities use spikes and nets to deter pigeons.
+pigeon | Pigeons are fed by tourists at famous squares.
+pigeon | St. Mark's Square in Venice is famous for pigeons.
+pigeon | Trafalgar Square once had pigeon feeding.
+pigeon | Feeding pigeons was banned in Trafalgar Square in 2003.
+pigeon | Pigeons are monogamous.
+pigeon | Pigeon pairs mate for life.
+pigeon | Pigeons breed throughout the year.
+pigeon | Pigeons lay one or two eggs.
+pigeon | Pigeon eggs are white.
+pigeon | Pigeons incubate eggs for about 17 to 19 days.
+pigeon | Both parents incubate eggs.
+pigeon | Pigeon chicks are called squabs.
+pigeon | Squabs are fed pigeon milk.
+pigeon | Pigeon milk is a secretion from the crop.
+pigeon | Both male and female pigeons produce crop milk.
+pigeon | Pigeon milk is rich in protein and fat.
+pigeon | Squabs grow very fast.
+pigeon | Squabs leave the nest after about 4 weeks.
+pigeon | Squab is eaten as a delicacy in some countries.
+pigeon | Pigeons can live 3 to 5 years in the wild.
+pigeon | Pigeons can live 15 years or more in captivity.
+pigeon | Pigeons nest on ledges and in cavities.
+pigeon | Pigeon nests are loose platforms of twigs.
+pigeon | Pigeons build nests quickly.
+pigeon | Pigeons eat seeds, grains, and fruits.
+pigeon | Pigeons drink by sucking water.
+pigeon | Pigeons can drink without tilting their heads back.
+pigeon | Most birds scoop and tilt, but pigeons suck.
+pigeon | Pigeons bob their heads when walking.
+pigeon | Head bobbing helps stabilize their vision.
+pigeon | Pigeons hold their heads still while their bodies move forward.
+pigeon | Pigeons have a thick layer of feathers.
+pigeon | Pigeons have powder down.
+pigeon | Pigeons have strong flight muscles.
+pigeon | Pigeons can fly at 50 to 80 km/h.
+pigeon | Pigeons have wing-clapping sounds during takeoff.
+pigeon | Pigeon wings make a whistling sound in flight.
+pigeon | Pigeons can take off vertically.
+pigeon | Pigeons have a keen sense of direction.
+pigeon | Pigeons have been trained to carry cameras.
+pigeon | Julius Neubronner used pigeons to take aerial photographs.
+pigeon | Pigeon photography began in 1907.
+pigeon | Pigeons are used in scientific research.
+pigeon | Pigeons helped Darwin develop evolutionary ideas.
+pigeon | Darwin bred pigeons to study variation.
+pigeon | Darwin discussed pigeon breeds in "On the Origin of Species."
+pigeon | There are over 800 pigeon breeds.
+pigeon | Fancy pigeons are bred for show.
+pigeon | Fantail pigeons have fan-shaped tails.
+pigeon | Pouter pigeons inflate their crops.
+pigeon | Tumbler pigeons somersault in the air.
+pigeon | Roller pigeons tumble backward.
+pigeon | Jacobin pigeons have a hood of feathers.
+pigeon | Racing homers are bred for speed.
+pigeon | Carrier pigeons are an old breed.
+pigeon | Archangel pigeons have metallic coloration.
+pigeon | Lahore pigeons are an old Indian breed.
+pigeon | Indian pigeon fanciers fly pigeons in competitions.
+pigeon | Kabootar Baazi is pigeon flying in India.
+pigeon | Kabootar Baazi is popular in Delhi and Lucknow.
+pigeon | Pigeon racing is a sport.
+pigeon | Pigeon racing is popular in Belgium and the UK.
+pigeon | The most expensive pigeon, Armando, sold for over 1 million euros.
+pigeon | Pigeon racing champions can sell for huge prices.
+pigeon | In 2020, a racing pigeon named New Kim sold for 1.9 million euros.
+pigeon | Pigeons are symbols of peace.
+pigeon | Doves are symbols of peace and love.
+pigeon | In the Bible, a dove brought an olive branch to Noah.
+pigeon | The Holy Spirit is depicted as a dove in Christianity.
+pigeon | Doves are released at weddings and ceremonies.
+pigeon | Picasso designed the Dove of Peace.
+pigeon | The white dove is a symbol of purity.
+pigeon | Doves are associated with Aphrodite and Venus.
+pigeon | Pigeons appear in the Mahabharata and Jataka tales.
+pigeon | The Shibi Jataka features a pigeon and a hawk.
+pigeon | King Shibi gave his flesh to save a pigeon.
+pigeon | Mourning doves have a mournful cooing call.
+pigeon | Mourning doves are common in North America.
+pigeon | Mourning doves can fly at 88 km/h.
+pigeon | Mourning doves feed on seeds.
+pigeon | Mourning doves nest in trees and shrubs.
+pigeon | Mourning doves are hunted as game birds.
+pigeon | Eurasian collared doves have spread rapidly in Europe and North America.
+pigeon | Collared doves were first recorded in the UK in 1955.
+pigeon | Spotted doves are common in Asia.
+pigeon | Laughing doves have a distinctive call.
+pigeon | Rock pigeons are common in cities worldwide.
+pigeon | Wood pigeons are common in Europe.
+pigeon | Wood pigeons are larger than rock pigeons.
+pigeon | Wood pigeons have a white neck patch.
+pigeon | Band-tailed pigeons live in western North America.
+pigeon | Victoria crowned pigeons are the largest pigeons.
+pigeon | Victoria crowned pigeons live in New Guinea.
+pigeon | Victoria crowned pigeons have lacy crests.
+pigeon | Nicobar pigeons have iridescent feathers.
+pigeon | Nicobar pigeons are the closest living relatives of the dodo.
+pigeon | The dodo was a giant flightless pigeon.
+pigeon | The dodo lived on Mauritius.
+pigeon | The dodo went extinct in the 1600s.
+pigeon | The Rodrigues solitaire was a flightless pigeon.
+pigeon | The passenger pigeon once numbered billions.
+pigeon | Passenger pigeon flocks darkened the sky for days.
+pigeon | The last passenger pigeon, Martha, died in 1914.
+pigeon | Passenger pigeons were hunted to extinction.
+pigeon | The thick-billed fruit dove lives in the Pacific.
+pigeon | Fruit doves are brightly colored.
+pigeon | Green pigeons live in Asia.
+pigeon | The Yellow-footed green pigeon is the state bird of Maharashtra.
+pigeon | The Orange-breasted green pigeon is found in Southeast Asia.
+pigeon | The Imperial pigeons are large fruit-eating pigeons.
+pigeon | Imperial pigeons disperse seeds.
+pigeon | Pied imperial pigeons live in the Nicobar and Andaman islands.
+pigeon | Pigeons are found in India's Andaman and Nicobar Islands.
+pigeon | Many pigeons are fruit eaters in tropical forests.
+pigeon | Fruit pigeons are important seed dispersers.
+pigeon | Crowned pigeons live in New Guinea.
+pigeon | The Pink pigeon is endangered.
+pigeon | The Pink pigeon lives in Mauritius.
+pigeon | The Pink pigeon was saved from extinction by conservation.
+pigeon | The Mauritius pink pigeon numbers around 400 now.
+pigeon | The Socorro dove is extinct in the wild.
+pigeon | The Socorro dove survives in captivity.
+pigeon | Pigeons are among the most successful urban birds.
+pigeon | Pigeons adapt well to cities.
+pigeon | Urban pigeons have varied plumage.
+pigeon | Feral pigeons have different color morphs.
+pigeon | Blue-bar is the most common pigeon pattern.
+pigeon | Checker and red variants are common.
+pigeon | White pigeons are bred for release.
+pigeon | Pigeons form large flocks.
+pigeon | Pigeon flocks can contain hundreds of birds.
+pigeon | Pigeon flocks fly in coordinated patterns.
